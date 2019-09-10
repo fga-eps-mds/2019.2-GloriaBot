@@ -1,0 +1,79 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Gloria Bot\n\n\nSobre o Produto\n\n\nIntrodu\u00e7\u00e3o\n\n\nGl\u00f3ria \u00e9 um \nChatBot\n que principal fun\u00e7\u00e3o \u00e9 o aux\u00edlio de mulheres v\u00edtimas de abuso dom\u00e9stico que buscam sair de sua situa\u00e7\u00e3o de risco.\n\n\nProblema\n\n\nPara mulheres v\u00edtimas de abuso dom\u00e9stico existem muitas dificuldades e impeditivos para denunciar tais abusos, sejam estes impeditivos psicol\u00f3gicos ou f\u00edsicos.\n\n\nObjetivo\n\n\nO \nChatBot\n Gl\u00f3ria pretende ajudar mulheres em situa\u00e7\u00f5es de abuso dom\u00e9stico, facilitando acesso a informa\u00e7\u00e3o de medidas cab\u00edveis, meios para den\u00fancia e amparo pessoal, a v\u00edtima pode sofrer de medo ou vergonha para realizar a den\u00fancia presencialmente e \u00e9 a\u00ed que entra Gl\u00f3ria, que tem a finalidade de estender a m\u00e3o a mulheres que precisem de ajuda.\n\n\nPrincipais funcionalidades\n\n\n\n\n\n\nIndicar quais as delegacias mais pr\u00f3ximas a v\u00edtima procurando socorro.\n\n\n\n\n\n\nDar explica\u00e7\u00f5es jur\u00eddicas a v\u00edtima, podendo assim informar sobre quais as melhores medidas a serem tomadas.\n\n\n\n\n\n\nInformar o que fazer caso esteja sofrendo abuso dom\u00e9stico, explicar quais s\u00e3o os direitos da v\u00edtima e usar de gr\u00e1ficos e dados para que seja poss\u00edvel encorajar a v\u00edtima a buscar ajuda.\n\n\n\n\n\n\nDetectar uso de palavras-chave e cruzar informa\u00e7\u00f5es para determinar o grau de abuso sofrido, no primeiro contato com a v\u00edtima ser\u00e1 pedido um apelido para que a conversa possa ser continuada em outras ocasi\u00f5es se necess\u00e1rio. \n\n\n\n\n\n\nPlataforma\n\n\nO \nChatBot\n Gl\u00f3ria poder\u00e1 ser acessado via \nTelegram\n, sendo necess\u00e1rio o aplicativo ou sua vers\u00e3o \nweb\n, acesso a internet e um cadastro na plataforma.\n\n\nLicenciamento\n\n\nA Gl\u00f3ria ser\u00e1 distribu\u00edda sob a licen\u00e7a MIT para softwares livres, que d\u00e1 liberdade para todos que a adquirirem de modificar, distribuir, sublicenciar, vender e contribuir para o software.\n\n\nRestri\u00e7\u00f5es do produto\n\n\n\n\n\n\nO sistema ser\u00e1 implementado utilizando as tecnologias --- para o banco de dados e framework Rasa, que utiliza a linguagem Python.\n\n\n\n\n\n\nO sistema deve ser feito em uma interface de f\u00e1cil usabilidade, ou seja, uma interface intuitiva para o usu\u00e1rio.\n\n\n\n\n\n\nPara utiliza\u00e7\u00e3o do Gl\u00f3ria, o usu\u00e1rio necessita de uma conex\u00e3o com a internet e conta no Telegram.\n\n\n\n\n\n\nO sistema ter\u00e1 uma cobertura de testes de no m\u00ednimo 90% do sistema.\n\n\n\n\n\n\nRiscos\n\n\n\n\n\n\nInexperi\u00eancia e o curto per\u00edodo de tempo podem se tornar grandes riscos para o desenvolvimento do produto.\n\n\n\n\n\n\nSe adaptar aos m\u00e9todos de desenvolvimento pode se provar algo dif\u00edcil para alguns membros da equipe.\n\n\n\n\n\n\nDiverg\u00eancia de hor\u00e1rios da equipe pode dificultar a fluidez de desenvolvimento.\n\n\n\n\n\n\nProblemas de equipamentos ou falta deles pode atrasar desenvolvimento do produto.\n\n\n\n\n\n\nFaixas de qualidade\n\n\nToda da intera\u00e7\u00e3o com o software deve ocorrer na forma de uma conversa natural. Deve ser f\u00e1cil entender como se usar todos os recursos do ChatBot apenas interagindo com ele. O software oferecer\u00e1 consistent\u00eancia e confiabilidade, considerando que problemas na plataforma de uso escolhida podem afetar o funcionamento desse servi\u00e7o.",
+            "title": "Home"
+        },
+        {
+            "location": "/#gloria-bot",
+            "text": "",
+            "title": "Gloria Bot"
+        },
+        {
+            "location": "/#sobre-o-produto",
+            "text": "",
+            "title": "Sobre o Produto"
+        },
+        {
+            "location": "/#introducao",
+            "text": "Gl\u00f3ria \u00e9 um  ChatBot  que principal fun\u00e7\u00e3o \u00e9 o aux\u00edlio de mulheres v\u00edtimas de abuso dom\u00e9stico que buscam sair de sua situa\u00e7\u00e3o de risco.",
+            "title": "Introdu\u00e7\u00e3o"
+        },
+        {
+            "location": "/#problema",
+            "text": "Para mulheres v\u00edtimas de abuso dom\u00e9stico existem muitas dificuldades e impeditivos para denunciar tais abusos, sejam estes impeditivos psicol\u00f3gicos ou f\u00edsicos.",
+            "title": "Problema"
+        },
+        {
+            "location": "/#objetivo",
+            "text": "O  ChatBot  Gl\u00f3ria pretende ajudar mulheres em situa\u00e7\u00f5es de abuso dom\u00e9stico, facilitando acesso a informa\u00e7\u00e3o de medidas cab\u00edveis, meios para den\u00fancia e amparo pessoal, a v\u00edtima pode sofrer de medo ou vergonha para realizar a den\u00fancia presencialmente e \u00e9 a\u00ed que entra Gl\u00f3ria, que tem a finalidade de estender a m\u00e3o a mulheres que precisem de ajuda.",
+            "title": "Objetivo"
+        },
+        {
+            "location": "/#principais-funcionalidades",
+            "text": "Indicar quais as delegacias mais pr\u00f3ximas a v\u00edtima procurando socorro.    Dar explica\u00e7\u00f5es jur\u00eddicas a v\u00edtima, podendo assim informar sobre quais as melhores medidas a serem tomadas.    Informar o que fazer caso esteja sofrendo abuso dom\u00e9stico, explicar quais s\u00e3o os direitos da v\u00edtima e usar de gr\u00e1ficos e dados para que seja poss\u00edvel encorajar a v\u00edtima a buscar ajuda.    Detectar uso de palavras-chave e cruzar informa\u00e7\u00f5es para determinar o grau de abuso sofrido, no primeiro contato com a v\u00edtima ser\u00e1 pedido um apelido para que a conversa possa ser continuada em outras ocasi\u00f5es se necess\u00e1rio.",
+            "title": "Principais funcionalidades"
+        },
+        {
+            "location": "/#plataforma",
+            "text": "O  ChatBot  Gl\u00f3ria poder\u00e1 ser acessado via  Telegram , sendo necess\u00e1rio o aplicativo ou sua vers\u00e3o  web , acesso a internet e um cadastro na plataforma.",
+            "title": "Plataforma"
+        },
+        {
+            "location": "/#licenciamento",
+            "text": "A Gl\u00f3ria ser\u00e1 distribu\u00edda sob a licen\u00e7a MIT para softwares livres, que d\u00e1 liberdade para todos que a adquirirem de modificar, distribuir, sublicenciar, vender e contribuir para o software.",
+            "title": "Licenciamento"
+        },
+        {
+            "location": "/#restricoes-do-produto",
+            "text": "O sistema ser\u00e1 implementado utilizando as tecnologias --- para o banco de dados e framework Rasa, que utiliza a linguagem Python.    O sistema deve ser feito em uma interface de f\u00e1cil usabilidade, ou seja, uma interface intuitiva para o usu\u00e1rio.    Para utiliza\u00e7\u00e3o do Gl\u00f3ria, o usu\u00e1rio necessita de uma conex\u00e3o com a internet e conta no Telegram.    O sistema ter\u00e1 uma cobertura de testes de no m\u00ednimo 90% do sistema.",
+            "title": "Restri\u00e7\u00f5es do produto"
+        },
+        {
+            "location": "/#riscos",
+            "text": "Inexperi\u00eancia e o curto per\u00edodo de tempo podem se tornar grandes riscos para o desenvolvimento do produto.    Se adaptar aos m\u00e9todos de desenvolvimento pode se provar algo dif\u00edcil para alguns membros da equipe.    Diverg\u00eancia de hor\u00e1rios da equipe pode dificultar a fluidez de desenvolvimento.    Problemas de equipamentos ou falta deles pode atrasar desenvolvimento do produto.",
+            "title": "Riscos"
+        },
+        {
+            "location": "/#faixas-de-qualidade",
+            "text": "Toda da intera\u00e7\u00e3o com o software deve ocorrer na forma de uma conversa natural. Deve ser f\u00e1cil entender como se usar todos os recursos do ChatBot apenas interagindo com ele. O software oferecer\u00e1 consistent\u00eancia e confiabilidade, considerando que problemas na plataforma de uso escolhida podem afetar o funcionamento desse servi\u00e7o.",
+            "title": "Faixas de qualidade"
+        },
+        {
+            "location": "/projeto/",
+            "text": "Sobre o projeto\n\n\nEquipe\n\n\nEquipe\n\n\n\n\n\n\n\n\nIntegrante\n\n\nGithub\n\n\nFun\u00e7\u00e3o\n\n\n\n\n\n\n\n\n\n\nGabriel Hussein\n\n\n@GabrielHussein\n\n\nProduct Owner\n\n\n\n\n\n\nRafael Ribeiro\n\n\n@rafaelflarrn\n\n\nScrum master\n\n\n\n\n\n\nVictor Amaral\n\n\n@VictorAmaralC\n\n\nDesenvolvedor\n\n\n\n\n\n\nIago Theophilo\n\n\n@IagoTheophilo\n\n\nDesenvolvedor\n\n\n\n\n\n\nItallo Gravina\n\n\n@itallogravina\n\n\nDesenvolvedor\n\n\n\n\n\n\nJ\u00falio C\u00e9sar\n\n\n@jschneiderm98\n\n\nDesenvolvedor\n\n\n\n\n\n\n\n\nA equipe \u00e9 formada por graduandos em Engenharia de Software da Universidade de Bras\u00edlia, cursando a disciplina M\u00e9todos de Desenvolvimento de Software. Al\u00e9m da equipe de desenvolvimento o Professor Jo\u00eanio Costa da Universidade de Bras\u00edlia agir\u00e1 como orientador e avaliador do projeto.",
+            "title": "Projeto"
+        },
+        {
+            "location": "/projeto/#sobre-o-projeto",
+            "text": "",
+            "title": "Sobre o projeto"
+        },
+        {
+            "location": "/projeto/#equipe",
+            "text": "Equipe     Integrante  Github  Fun\u00e7\u00e3o      Gabriel Hussein  @GabrielHussein  Product Owner    Rafael Ribeiro  @rafaelflarrn  Scrum master    Victor Amaral  @VictorAmaralC  Desenvolvedor    Iago Theophilo  @IagoTheophilo  Desenvolvedor    Itallo Gravina  @itallogravina  Desenvolvedor    J\u00falio C\u00e9sar  @jschneiderm98  Desenvolvedor     A equipe \u00e9 formada por graduandos em Engenharia de Software da Universidade de Bras\u00edlia, cursando a disciplina M\u00e9todos de Desenvolvimento de Software. Al\u00e9m da equipe de desenvolvimento o Professor Jo\u00eanio Costa da Universidade de Bras\u00edlia agir\u00e1 como orientador e avaliador do projeto.",
+            "title": "Equipe"
+        }
+    ]
+}
