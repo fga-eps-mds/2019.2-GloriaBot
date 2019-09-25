@@ -1,23 +1,13 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-
 ## intent:affirm
 - yes
 - indeed
 - of course
 - that sounds good
 - correct
+
+## intent:delegacia
+- Encontrar Delegacia Especializada
+- delegacia
 
 ## intent:deny
 - no
@@ -26,6 +16,22 @@
 - don't like that
 - no way
 - not really
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- oi
+- Oi
 
 ## intent:mood_great
 - perfect
@@ -48,3 +54,11 @@
 - not very good
 - extremely sad
 - so sad
+
+## intent:orientacao
+- orientação
+- Orientação sobre direitos
+- direitos
+
+## intent:start
+- /start

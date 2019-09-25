@@ -1,31 +1,40 @@
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- start
+- delegacia
+- orientacao
+templates:
+  utter_delegacia:
+  - text: "Para mais informções lique: 180 \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  utter_orientacao:
+  - text: "Quem agride e quem é agredido?\n Quais as manifestações da violência conjugal?\n\
+      \ Por que as mulheres aguentam por tanto tempo uma relação violenta?\n Dez mitos\
+      \ sobre a violência Doméstica.\n Origens da violência ?\n É possível antecipar\
+      \ sinais da violência ?\n É possível medir a gravidade do risco?\n"
+  utter_greet:
+  - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
+      \ em:\n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
+      \ sobre os direitos da mulher\n"
+    buttons:
+    - title: Delegacia
+      payload: Encontrar Delegacia Especializada
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_did_that_help:
+  - text: Em que eu posso te ajudar?
+  utter_happy:
+  - text: Que legal!
+  utter_goodbye:
+  - text: Tchau:)
 actions:
 - utter_greet
-- utter_cheer_up
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
-
-templates:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
+- utter_delegacia
+- utter_orientacao

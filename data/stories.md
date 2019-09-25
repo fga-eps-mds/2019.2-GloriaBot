@@ -1,27 +1,40 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+## New Story1
+* start
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
 
-## sad path 1
+## New Story2
 * greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
 
-## sad path 2
+## New Story
+
 * greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
 
-## say goodbye
-* goodbye
-  - utter_goodbye
+## New Story
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
