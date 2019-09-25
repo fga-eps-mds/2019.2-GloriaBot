@@ -1,64 +1,73 @@
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent: delegacia
+- Encontrar [Delegacia](delegacia) Especializada
+- [delegacias](delegacia)
+- [delegacia](delegacia)
+- encontrar delegacias
+- delegacia da mulher
+- atendimento a mulher
 
-## intent:delegacia
-- Encontrar Delegacia Especializada
-- delegacia
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-- oi
-- Oi
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:orientacao
-- orientação
-- Orientação sobre direitos
+## intent: orientacao
+- [Orientação](utter_orientacao) sobre [direitos](utter_orientacao)
+- orientacao
+- orientações
+- orintação
+- direito
 - direitos
 
-## intent:start
-- /start
+## intent:greet
+- Oi
+- Ola
+- Eae
+- bom dia
+- boa noite
+- como vai
+
+## intent:goodbye
+- tchau
+- adeus
+- ate mais
+- falou
+- flw
+
+## intent:affirm
+- sim
+- de fato
+- claro
+- isso soa bem
+- correto
+
+## intent:deny
+- nao
+- nunca
+- Acho que nao
+- não gosto disso
+- de jeito nenhum
+- Na verdade não
+
+## intent:mood_great
+- perfeito
+- muito bom
+- otimo 
+- surpreendente
+- Maravilhoso
+- estou me sentindo muito bem
+- Estou estou otimo
+- Eu estou bem
+
+## intent:mood_unhappy
+- triste
+- muito triste
+- infeliz
+- ruim
+- muito mal
+- horrivel
+- terrivel
+- nao muito bom
+- extremamente triste
+- tao triste
+
+## intent:bot_challenge
+- Voce e um robô?
+- Voce e um humano?
+- estou falando com um bot?
+- estou falando com um humano?
