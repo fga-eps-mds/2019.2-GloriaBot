@@ -1,0 +1,49 @@
+version : '3.7'
+services :
+  rasa_run :
+    image : rasa/rasa:1.2.9
+    container_name: rasa_run
+    ports:
+      - 5005:5005
+      - 5002:5002
+   
+    volumes :
+      - ./:/app
+    command :
+      - run 
+  tr:
+    image : rasa/rasa:1.2.9
+    container_name: rasa_train
+    volumes :
+      - ./:/app
+    command :
+      - train
+      
+  shell:
+    image : rasa/rasa:1.2.9
+    container_name: rasa_train
+    volumes :
+      - ./:/app
+    command :
+      - shell
+  inter:
+    image : rasa/rasa:1.2.9
+    container_name: rasa_train
+    volumes :
+      - ./:/app
+    command :
+      - interactive
+  vis:
+    image : rasa/rasa:1.2.9
+    container_name: rasa_train
+    volumes :
+      - ./:/app
+    command :
+      - visualize
+  x:
+    image : rasa/rasa:1.2.9
+    container_name: rasa_train
+    volumes :
+      - ./:/app
+    command :
+      - x
