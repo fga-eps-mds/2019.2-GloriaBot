@@ -8,7 +8,37 @@ intents:
 - start
 - delegacia
 - orientacao
+- bot_challenge
+- quem_agride_quem_agredido_1
+- agrideAgredidoQuemPodeSofrer
 templates:
+  utter_agrideAgredidoINICIO:
+  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima?
+  utter_agrideAgredidoInicioResposta:
+  - text: "Na sua forma mais típica, a violência conjugal é uma expressão de desejo\
+      \ de uma pessoa controlar e dominar a outra.\n Quer saber como isso se demonstra?"
+  utter_agrideAgredidoRespostaAfirm:
+  - text: "A violência doméstica envolve atos repetitivos, que vão se agravando, em\
+      \ frequêcia e intensidade\n coerção, cerceamento, humilhação, ameaça\n agressão\
+      \ físicas e sexuais variadas\n Além do medo permanemte, esse tipo de violência\
+      \ pode resultar em danos físicos e psicológicos duradouros"
+  utter_agrideAgredidoQuemPodeSofrer:
+  - text: "Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
+      \ a violência contra a mulher é mais frequênte\n Quer saber mais?"
+  utter_agrideAgredidoQuemPodeSofrerAfirm:
+  - text: "A Convenção Interamericana para Prevenir, Punir e Erradicar a Violência\
+      \ Contra a Mulher (Convenção de Belém do Pará, 1994) define a violência contra\
+      \ a mulher como 'qualquer ato ou conduta baseada no gênero, que cause morte,\
+      \ dano ou sofrimento físico, sexual ou psicológico à mulher, tanto na esfera\
+      \ pública como na esfera privada: \na) ocorrida no âmbito da família ou unidade\
+      \ doméstica ou em qualquer relação interpessoal, quer o agressor compartilhe,\
+      \ tenha compartilhado ou não a sua residência, incluindo-se, entre outras formas,\
+      \ o estupro, maus-tratos e abuso sexual; \nb) ocorrida na comunidade e cometida\
+      \ por qualquer pessoa, incluindo, entre outras formas, o estupro, abuso sexual,\
+      \ tortura, tráfico de mulheres, prostituição forçada, seqüestro e assédio sexual\
+      \ no local de trabalho, bem como em instituições educacionais, serviços de saúde\
+      \ ou qualquer outro local; e \nc) perpetrada ou tolerada pelo Estado ou seus\
+      \ agentes, onde quer que ocorra.'"
   utter_delegacia:
   - text: "Para mais informções lique: 180 \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
@@ -38,3 +68,8 @@ actions:
 - utter_goodbye
 - utter_delegacia
 - utter_orientacao
+- utter_agrideAgredidoINICIO
+- utter_agrideAgredidoInicioResposta
+- utter_agrideAgredidoRespostaAfirm
+- utter_agrideAgredidoQuemPodeSofrer
+- utter_agrideAgredidoQuemPodeSofrerAfirm
