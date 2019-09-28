@@ -1,27 +1,198 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+## New Story1
+* start
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
 
-## sad path 1
+## New Story2
 * greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
 
-## sad path 2
+## New Story3
+
 * greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## New Story4
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me1
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me2
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me3
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me4
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me5
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me6
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me7
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me8
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me9
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me10
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me11
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me12
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me13
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me14
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## Chat with me15
+
+* greet
+    - utter_greet
+* delegacia
+    - utter_delegacia
+* orientacao
+    - utter_orientacao
+
+## New Story5
+
+* start
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* quem_agride_quem_agredido_1
+    - utter_agrideAgredidoINICIO
 * deny
-  - utter_goodbye
+    - utter_agrideAgredidoInicioResposta
+* affirm
+    - utter_agrideAgredidoRespostaAfirm
 
-## say goodbye
-* goodbye
-  - utter_goodbye
+## New Story6
+
+* start
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* agrideAgredidoQuemPodeSofrer
+    - utter_agrideAgredidoQuemPodeSofrer
+* affirm
+    - utter_agrideAgredidoQuemPodeSofrerAfirm

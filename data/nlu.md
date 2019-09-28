@@ -1,50 +1,93 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-
 ## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+- sim
+- de fato
+- claro
+- isso soa bem
+- correto
+
+## intent:agrideAgredidoQuemPodeSofrer
+- quem pode sofre violência domestica
+- quem pode sofrer
+- homem também sofre violência
+- sofrer quem pode
+- quem pode sofre violência domestica?
+
+## intent:bot_challenge
+- Voce e um robô?
+- Voce e um humano?
+- estou falando com um bot?
+- estou falando com um humano?
+
+## intent:delegacia
+- Encontrar Delegacia Especializada
+- delegacias
+- delegacia
+- encontrar delegacias
+- delegacia da mulher
+- atendimento a mulher
 
 ## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+- nao
+- nunca
+- Acho que nao
+- não gosto disso
+- de jeito nenhum
+- Na verdade não
+- não
+
+## intent:goodbye
+- tchau
+- adeus
+- ate mais
+- falou
+- flw
+
+## intent:greet
+- Oi
+- Ola
+- Eae
+- bom dia
+- boa noite
+- como vai
 
 ## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+- perfeito
+- muito bom
+- otimo
+- surpreendente
+- Maravilhoso
+- estou me sentindo muito bem
+- Estou estou otimo
+- Eu estou bem
 
 ## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+- triste
+- muito triste
+- infeliz
+- ruim
+- muito mal
+- horrivel
+- terrivel
+- nao muito bom
+- extremamente triste
+- tao triste
+
+## intent:orientacao
+- Orientação sobre direitos
+- orientacao
+- orientações
+- orintação
+- direito
+- direitos
+
+## intent:quem_agride_quem_agredido_1
+- violencia conjugal
+- quem agride
+- quem agredido
+- violencia entre casal
+- formas tipicas da violencia
+- violencia domestica
+- violencia contra mulher
+
+## intent:start
+- /start
