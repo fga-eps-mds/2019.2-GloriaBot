@@ -12,6 +12,13 @@
 - sofrer quem pode
 - quem pode sofre violência domestica?
 
+## intent:anteciparSinais
+- antecipar sinal
+- antecipar sinais
+- antecipar
+- sinais
+- sinal
+
 ## intent:bot_challenge
 - Voce e um robô?
 - Voce e um humano?

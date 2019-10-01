@@ -27,7 +27,15 @@ intents:
 - m8
 - m9
 - m10
+- anteciparSinais
 templates:
+  utter_anteciparSinais:
+  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
+      \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
+      \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
+      \ - Mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
+      \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
+      \ e grosseira\n - Negação de abusos cometidos no passado\n"
   utter_mitos:
   - text: "/m1 - A VIOLÊNCIA DOMÉSTICA OCORRE MUITO ESPORADICAMENTE\n /m2 - A VIOLÊNCIA\
       \ DOMÉSTICA É UM PROBLEMA EXCLUSIVAMENTE FAMILIAR\n /m3 - A VIOLÊNCIA SÓ ACONTECE\
@@ -199,3 +207,4 @@ actions:
 - utter_m6
 - utter_m8
 - utter_m10
+- utter_anteciparSinais

@@ -299,3 +299,12 @@
     - utter_m5_9_Afirm
 * m10
     - utter_m10
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* anteciparSinais
+    - utter_anteciparSinais
