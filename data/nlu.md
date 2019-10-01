@@ -57,6 +57,36 @@
 - oi
 - o que você pode me ajudar
 
+## intent:m1
+- /m1
+
+## intent:m10
+- /m10
+
+## intent:m2
+- /m2
+
+## intent:m3
+- /m3
+
+## intent:m4
+- /m4
+
+## intent:m5
+- /m5
+
+## intent:m6
+- /m6
+
+## intent:m7
+- /m7
+
+## intent:m8
+- /m8
+
+## intent:m9
+- /m9
+
 ## intent:manifestacaoDaViolencia
 - quais são as manifestações da violencia
 - quais são as manifestações da violencia conjugal?
@@ -67,6 +97,12 @@
 - manifestações da violência conjugal
 - manifestação da violencia
 - manifestação violência
+
+## intent:mitosViolencia
+- 10 mitos
+- mitos
+- mitos violencia
+- mitos sobre a violência Doméstica
 
 ## intent:mood_great
 - perfeito

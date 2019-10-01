@@ -266,3 +266,36 @@
     - utter_manifestacaoDaViolencia
 * cicloViolencia
     - utter_cicloViolencia
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* mitosViolencia
+    - utter_mitos
+* m1
+    - utter_m1
+* m2
+    - utter_m2
+* m3
+    - utter_m3
+* m4
+    - utter_m4
+* affirm
+    - utter_m4_7_Afirm
+* m5
+    - utter_m5
+* affirm
+    - utter_m5_9_Afirm
+* m6
+    - utter_m6
+* m7
+    - utter_m4_7_Afirm
+* m8
+    - utter_m8
+* m9
+    - utter_m5_9_Afirm
+* m10
+    - utter_m10
