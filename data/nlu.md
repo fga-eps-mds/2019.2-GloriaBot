@@ -18,6 +18,10 @@
 - estou falando com um bot?
 - estou falando com um humano?
 
+## intent:cicloViolencia
+- /vCiclo
+- ciclo da violencia
+
 ## intent:delegacia
 - Encontrar Delegacia Especializada
 - delegacias
@@ -25,6 +29,7 @@
 - encontrar delegacias
 - delegacia da mulher
 - atendimento a mulher
+- Delegacia
 
 ## intent:deny
 - nao
@@ -49,6 +54,19 @@
 - bom dia
 - boa noite
 - como vai
+- oi
+- o que você pode me ajudar
+
+## intent:manifestacaoDaViolencia
+- quais são as manifestações da violencia
+- quais são as manifestações da violencia conjugal?
+- tipos de violencia
+- quais são as violencias
+- quais são as manifestações da violencia conjugal?
+- violencia conjugal
+- manifestações da violência conjugal
+- manifestação da violencia
+- manifestação violência
 
 ## intent:mood_great
 - perfeito
@@ -79,15 +97,34 @@
 - orintação
 - direito
 - direitos
+- Orientação
+- orientação
+- Orientações sobre os direitos da mulher
+- Orientações sobre os direitos
 
 ## intent:quem_agride_quem_agredido_1
-- violencia conjugal
 - quem agride
 - quem agredido
 - violencia entre casal
 - formas tipicas da violencia
 - violencia domestica
 - violencia contra mulher
+- agride
+- Quem agride e quem é agredido?
 
 ## intent:start
 - /start
+
+## intent:violenciaEmocinal
+- /vEmocional
+- violencia Emocional
+
+## intent:violenciaFisica
+- Violencia Fisica
+- fisica
+- /vFisica
+- violencia fisicas
+
+## intent:violenciaSexual
+- /vSexual
+- violencia Sexual

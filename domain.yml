@@ -1,4 +1,5 @@
 intents:
+- manifestacaoDaViolencia
 - greet
 - goodbye
 - affirm
@@ -11,7 +12,34 @@ intents:
 - bot_challenge
 - quem_agride_quem_agredido_1
 - agrideAgredidoQuemPodeSofrer
+- violenciaFisica
+- violenciaEmocinal
+- violenciaSexual
+- cicloViolencia
 templates:
+  utter_manifestacaoDaViolencia:
+  - text: "/vFisica - Violência Física\n /vEmocional - Violência Emocional\n /vSexual\
+      \ - Violência Sexual\n /vCiclo - Ciclo da Violẽncia"
+  utter_violenciaFisica:
+  - text: "A violência física não é só bater!\n Empura, atirar objetos, sacudir\n\
+      \ Estrangular, chutar violêntamente,\n torcer os braços, queimar, perfurar,\n\
+      \ mutilar e torturar\n também são violências físicas"
+  utter_violenciaEmocional:
+  - text: "A violência emocial vai muito além da ameaça!\n Intimidar, Diminuir a pessoa,\
+      \ xingar,\n fazer a pessoa pensar que está louca,\n provocar confusão mental,\n\
+      \ humilhar, usar os filhos para fazer chantagem\n isolar a vítima dos amigos\
+      \ e parentes\n e muitos outros."
+  utter_violenciaSexual:
+  - text: "A violência sexual não é só o estupro cometido por um desconhecido.\n Força\
+      \ relações sexuais,\n força a prática de atos que causam desconforto ou repulsa,\n\
+      \ obrigar à ver imagens pornográgicas,\n obrigar a vitíma a fazer sexo com outras\
+      \ pessoas."
+  utter_cicloViolencia:
+  - text: "1ªFase: A construção da tensão no relacionamento\n Agressões verbais, crises\
+      \ de ciúmes, ameaças, destruição de objetos.\n 2ªFase: A explosão da violência\
+      \ -Descontrole.\n Agressões agudas, a relação se torna inadministravel\n 3ªFase:\
+      \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
+      \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
   utter_agrideAgredidoINICIO:
   - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima?
   utter_agrideAgredidoInicioResposta:
@@ -73,3 +101,8 @@ actions:
 - utter_agrideAgredidoRespostaAfirm
 - utter_agrideAgredidoQuemPodeSofrer
 - utter_agrideAgredidoQuemPodeSofrerAfirm
+- utter_manifestacaoDaViolencia
+- utter_violenciaFisica
+- utter_violenciaEmocional
+- utter_violenciaSexual
+- utter_cicloViolencia

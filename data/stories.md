@@ -196,3 +196,73 @@
     - utter_agrideAgredidoQuemPodeSofrer
 * affirm
     - utter_agrideAgredidoQuemPodeSofrerAfirm
+
+## New Story
+
+* start
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* manifestacaoDaViolencia
+    - utter_manifestacaoDaViolencia
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* manifestacaoDaViolencia
+    - utter_manifestacaoDaViolencia
+* violenciaFisica
+    - utter_violenciaFisica
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* manifestacaoDaViolencia
+    - utter_manifestacaoDaViolencia
+* violenciaFisica
+    - utter_violenciaFisica
+* violenciaEmocinal
+    - utter_violenciaEmocional
+* violenciaSexual
+    - utter_violenciaSexual
+* cicloViolencia
+    - utter_cicloViolencia
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* manifestacaoDaViolencia
+    - utter_manifestacaoDaViolencia
+* violenciaEmocinal
+    - utter_violenciaEmocional
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* manifestacaoDaViolencia
+    - utter_manifestacaoDaViolencia
+* violenciaSexual
+    - utter_violenciaSexual
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* manifestacaoDaViolencia
+    - utter_manifestacaoDaViolencia
+* cicloViolencia
+    - utter_cicloViolencia
