@@ -28,7 +28,47 @@ intents:
 - m9
 - m10
 - anteciparSinais
+- planoProtecao
+- horaAtaque
+- depoisAtaque
 templates:
+  utter_planoProtecao:
+  - text: "/horaAtaque - Na Hora o Ataque\n /depoisAtaque- Depois do Ataque"
+  utter_horaAtaque:
+  - text: "Na Hora do ATAQUE\n - Evitar Locais pequenos com objetos perigosos ou superfícies\
+      \ cortantes\n - Evitar locais onde haja armas\n - Se a violência for inevitável:\
+      \ corra para um canto e agache-se com o rosto protegido e os braços em volta\
+      \ de cada lado da cabeça, com os dedos entrelaçados\n - Não corra para lugares\
+      \ onde pessoas indefesas estejam. Elas podem acabar sendo também agredidas\n\
+      \ - Evite fugir sem as crianças. Elas poderão ser usadas como objeto de chantagem.\n\
+      \ - Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
+      \ violência.\n"
+    buttons:
+    - title: Depois do Ataque
+      payload: /depoisAtaque
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_depoisAtaque:
+  - text: "Depois do Ataque\n - Sempre ter os números de emergência guardados em lugar\
+      \ de fácil acesso. Procure o telefone mais próximo.\n - Procure uma delegacia\
+      \ da mulher, um centro de atendimento ou alguma pessoa ou instituição em que\
+      \ você confie.\n - Verifique se há locais seguros por perto, onde você pode\
+      \ ficar até conseguir ajuda.\n - Se estiver ferida, procure um hospital ou um\
+      \ posto de atendimento e revele o que aconteceu.\n - Se você esconder que foi\
+      \ vítima de violência, ninguém vai poder ajudá-la\n - Separe um pacode contendo\
+      \ objetos de primeira necessidade. Guarde com alguém próximo no caso de ter\
+      \ que abandonar a casa.\n - Guarde cópias de documentos importantes em local\
+      \ seguro\n - Registrar todos os episódios de violência física, psicológica ou\
+      \ sexual que você esteja sofrendo. Isso é útil na hora de pedir ajuda as autoridades\n\
+      \ - Deixar pessoas de confiança a par da situação. Planeje com elas um esquema\
+      \ de proteção e combine algumas formas de sinalizar que você está em perigo\n\
+      \ - Se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
+      \ deixando-o abastecido e na posição de saída, de forma a evitar manobras\n"
+    buttons:
+    - title: Hora do Ataque
+      payload: /horaAtaque
+    - title: Orientação
+      payload: Orientação sobre direitos
   utter_anteciparSinais:
   - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
       \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
@@ -162,7 +202,7 @@ templates:
   utter_orientacao:
   - text: "Quem agride e quem é agredido?\n Quais as manifestações da violência conjugal?\n\
       \ Por que as mulheres aguentam por tanto tempo uma relação violenta?\n Dez mitos\
-      \ sobre a violência Doméstica.\n Origens da violência ?\n É possível antecipar\
+      \ sobre a violência Doméstica.\n Como CONSTRUIR um PLANO DE PROTEÇÃO ?\n.Origens da violência ?\n É possível antecipar\
       \ sinais da violência ?\n É possível medir a gravidade do risco?\n"
   utter_greet:
   - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
@@ -208,3 +248,6 @@ actions:
 - utter_m8
 - utter_m10
 - utter_anteciparSinais
+- utter_planoProtecao
+- utter_horaAtaque
+- utter_depoisAtaque

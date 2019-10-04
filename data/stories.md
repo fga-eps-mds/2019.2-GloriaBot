@@ -308,3 +308,24 @@
     - utter_orientacao
 * anteciparSinais
     - utter_anteciparSinais
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* planoProtecao
+    - utter_planoProtecao
+* horaAtaque
+    - utter_horaAtaque
+* orientacao
+    - utter_orientacao
+* planoProtecao
+    - utter_planoProtecao
+* horaAtaque
+    - utter_horaAtaque
+* depoisAtaque
+    - utter_depoisAtaque
+* orientacao
+    - utter_orientacao

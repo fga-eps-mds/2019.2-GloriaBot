@@ -47,6 +47,9 @@
 - Na verdade não
 - não
 
+## intent:depoisAtaque
+- /depoisAtaque
+
 ## intent:goodbye
 - tchau
 - adeus
@@ -63,6 +66,9 @@
 - como vai
 - oi
 - o que você pode me ajudar
+
+## intent:horaAtaque
+- /horaAtaque
 
 ## intent:m1
 - /m1
@@ -144,6 +150,13 @@
 - orientação
 - Orientações sobre os direitos da mulher
 - Orientações sobre os direitos
+
+## intent:planoProtecao
+- como construir um plano de proteção
+- plano proteção
+- plano
+- proteção plano
+- como construir um plano de proteção
 
 ## intent:quem_agride_quem_agredido_1
 - quem agride
