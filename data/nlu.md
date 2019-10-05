@@ -1,3 +1,4 @@
+
 ## intent:affirm
 - sim
 - de fato
@@ -218,3 +219,4 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+

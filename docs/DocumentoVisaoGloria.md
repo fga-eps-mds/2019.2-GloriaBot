@@ -13,7 +13,7 @@ funcionalidades juntas, formam o escopo do software.
 principais.
 Essas
 O bot terá como primeira funcionalidade indicar a localização de delegacias
-próximas, onde o usuário poderá informar qualquer localidade do mundo e
+próximas, onde o usuário poderá informar qualquer localidade do distrito federal e
 assim obter informações á respeito das delegacias deste.
 A segunda funcionalidade do Chatbot será dar explicações jurídicas. Portanto,
 com base nas dúvidas ou situações apresentadas, ele ajudará com
