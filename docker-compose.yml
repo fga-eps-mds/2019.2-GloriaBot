@@ -1,4 +1,4 @@
-version : '3.7'
+version : '3.5'
 services :
   rasa_run :
     image : rasa/rasa:1.2.9
