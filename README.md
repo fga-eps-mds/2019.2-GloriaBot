@@ -59,12 +59,12 @@ Toda da interação com o software deve ocorrer na forma de uma conversa natural
 
 ### Equipe
 
-**Integrante** | **Github** | **Função**
----------------|------------|-----------
-Gabriel Hussein| @GabrielHussein | Product Owner
-Rafael Ribeiro| @rafaelflarrn | Scrum Master
-Victor Amaral | @VictorAmaralC | Developer
-Iago Theophilo | @IagoTheophilo | Developer
-Itallo Gravina | @itallogravina | Developer
+**Integrante** | **Github** | **Função** | **email** 
+---------------|------------|------------|-----------
+Gabriel Hussein| @GabrielHussein | Product Owner | gabrielhussein83@gmail.com
+Rafael Ribeiro| @rafaelflarrn | Scrum Master | rafaelflarrn@gmail.com
+Victor Amaral | @VictorAmaralC | Developer | victorchubaka@gmail.com
+Iago Theophilo | @IagoTheophilo | Developer | iagotheophilolim@gmail.com
+Itallo Gravina | @itallogravina | Developer | itallo.gravina@gmail.com
 
 A equipe é formada por graduandos em Engenharia de Software da Universidade de Brasília, cursando a disciplina Métodos de Desenvolvimento de Software. Além da equipe de desenvolvimento o Professor Joênio Costa da Universidade de Brasília agirá como orientador e avaliador do projeto.
