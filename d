@@ -35,7 +35,7 @@ Date:   Thu Sep 12 10:59:47 2019 -0300
     Ajustes no readme
 
 [33mcommit 7cba32b086f2c9e68e41538d17e39a11d7c7d314[m
-Author: Rafael <ra>
+Author: Rafael <rafaelflarrn@gmail.com>
 Date:   Thu Sep 12 10:57:11 2019 -0300
 
     Informações no readme
