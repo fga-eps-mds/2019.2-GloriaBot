@@ -349,3 +349,57 @@
     - utter_origemViolencia
 * affirm
     - utter_origemViolenciaSIM
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* riscoRomp
+    - utter_riscoRomp
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* vergonhaMedo
+    - utter_vergonhaMedo
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* esperanca
+    - utter_esperanca
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* isolamento
+    - utter_isolamento
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* negacao
+    - utter_negacao
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* barreiras
+    - utter_barreiras
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* dependencia
+    - utter_dependencia
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* deixar
+    - utter_deixar
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* relacaoViolenta
+    - utter_aguentamRelacaoViolenta
+* riscoRomp
+    - utter_riscoRomp
+* orientacao
+    - utter_orientacao

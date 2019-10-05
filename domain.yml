@@ -32,7 +32,103 @@ intents:
 - horaAtaque
 - depoisAtaque
 - origemViolencia
+- aguentamRelacaoViolenta
+- riscoRomp
+- negacao
+- vergonhaMedo
+- isolamento
+- dependencia
+- deixar
+- esperanca
+- relacaoViolenta
+- barreiras
 templates:
+  utter_aguentamRelacaoViolenta:
+  - text: "/riscoRomp - Risco de rompimento\n /vergonhaMedo - Vergonha e medo\n /esperanca\
+      \ - Esperança de que o marido mude o comportamento\n /isolamento- Isolamento\n\
+      \ /negacao - Negação social\n /barreiras - Barreiras que impedem o rompimento\n\
+      \ /dependencia - Dependência econômica\n /deixar - Deixar a relação é um longo\
+      \ processo\n"
+  utter_riscoRomp:
+  - text: "A violência e as ameaças contra a vida da mulheres dos filhos se tornam\
+      \ mais intensas no período da separação. O homem violento percebe que perdeu\
+      \ o controle sobre sua parceira. Por isso assim que fizer isso deve buscar ajuda\n"
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_vergonhaMedo:
+  - text: As mulheres normalmente têm medo de denunciar seus maridos devia a dependência
+      tanto emocional quanto dependência financeira, pois ai vem o medo de perder
+      o que tem ou de acontecer algo pior
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_esperanca:
+  - text: "Homens que apresentam tal comportamento sempre pedem perdão e falam que\
+      \ vão mudar e buscar ajuda. Ele pode demonstrar o amor, admitir seus erros e\
+      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\
+      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado.\n"
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_isolamento:
+  - text: As mulheres em situação de violência perdem seus laços familiares e sociais.
+      Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.
+      Querem saber onde ela foi, com quem falou ao telefone, o que disse, porque usou
+      tal roupa, para quem olhou na rua etc.
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_negacao:
+  - text: Quando pedem ajuda, às vítimas de violência se defrontam com pessoas despreparadas
+      e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico,um
+      psicólogo, um líder religioso, um policial ou um advogado as trata com indiferença,
+      desconfiança e desprezo, contribuem para aumentar a violência.
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_barreiras:
+  - text: 'Ao ver que a mulher está disposta a sair da relação violenta, o agressor
+      recorre a todo tipo de chantagem e ameaça: requisita a custódia dos filhos,
+      nega pensão alimentícia, interfere no trabalho da esposa, difama-a, mata a mulher
+      e os filhos, se mataetc. São muitas as dificuldades e são poucos os recursos
+      disponíveis em nossa sociedade. Essa Mulher precisa de apoio e de pessoas dispostas
+      a ajudá-la a ser capaz de vencer as barreiras. '
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_dependencia:
+  - text: Muitas mulheres em situação de abuso não têm capacitação profissional para
+      iniciar uma vida no mercado de trabalho ou para estabelecer novas relações de
+      trabalho em outra cidade ou estado, onde poderiam encontrar as condições ideais
+      de segurança.
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_deixar:
+  - text: 'Ao perceber a necessidade de escapar da relação violenta, a mulher tem
+      um longo caminho a seguir: preparar-se afetivamente para o desenlace;preparar-se
+      com segurança para a fuga, preparar-se economicamente. Essas iniciativas podem
+      levar anos, principalmente se a mulher não contar com nenhum apoio.'
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
   utter_planoProtecao:
   - text: "/horaAtaque - Na Hora o Ataque\n /depoisAtaque- Depois do Ataque"
   utter_horaAtaque:
@@ -222,16 +318,15 @@ templates:
       \ abusos sofridos na infância ou o uso abusivo de substâncias químicas (plano\
       \ individual), podem ou não favorecer a violência, dependendo da qualidade das\
       \ relações familiares e de amizade,  o tipo de suporte dado pela família e pela\
-      \ rede de relações próximas faz toda a diferença (plano relacional).\n 
-      - Resumindo,a natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
+      \ rede de relações próximas faz toda a diferença (plano relacional).\n - Resumindo,a\
+      \ natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
       \ vezes os fatores cruciais para a origem do seu comportamento violento,  a\
       \ natureza dos vínculos que ligam uma pessoa ao seu entorno (vizinhos, ambiente\
       \ de trabalho, amigos, grupo de igreja ou associações) pode abrir ou fechar\
-      \ as portas para a violência.\n
-      - Só pra lembrar que esse é apenas um modelo para\
-      \ ajudar a entender melhor as raízes da violência. Não é uma regra ou uma profecia.\
-      \ É perfeitamente possível que alguém viva sob condições de risco em todos esses\
-      \ planos e jamais apresente comportamento violento.\n"
+      \ as portas para a violência.\n - Só pra lembrar que esse é apenas um modelo\
+      \ para ajudar a entender melhor as raízes da violência. Não é uma regra ou uma\
+      \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
+      \ em todos esses planos e jamais apresente comportamento violento.\n"
   utter_greet:
   - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
       \ em:\n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
@@ -281,3 +376,12 @@ actions:
 - utter_depoisAtaque
 - utter_origemViolencia
 - utter_origemViolenciaSIM
+- utter_aguentamRelacaoViolenta
+- utter_riscoRomp
+- utter_vergonhaMedo
+- utter_esperanca
+- utter_isolamento
+- utter_negacao
+- utter_barreiras
+- utter_dependencia
+- utter_deixar

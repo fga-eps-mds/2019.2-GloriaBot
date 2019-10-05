@@ -19,6 +19,9 @@
 - sinais
 - sinal
 
+## intent:barreiras
+- /barreiras
+
 ## intent:bot_challenge
 - Voce e um robô?
 - Voce e um humano?
@@ -28,6 +31,9 @@
 ## intent:cicloViolencia
 - /vCiclo
 - ciclo da violencia
+
+## intent:deixar
+- /deixar
 
 ## intent:delegacia
 - Encontrar Delegacia Especializada
@@ -47,8 +53,14 @@
 - Na verdade não
 - não
 
+## intent:dependencia
+- /dependencia
+
 ## intent:depoisAtaque
 - /depoisAtaque
+
+## intent:esperanca
+- /esperanca
 
 ## intent:goodbye
 - tchau
@@ -69,6 +81,9 @@
 
 ## intent:horaAtaque
 - /horaAtaque
+
+## intent:isolamento
+- /isolamento
 
 ## intent:m1
 - /m1
@@ -139,6 +154,9 @@
 - extremamente triste
 - tao triste
 
+## intent:negacao
+- /negacao
+
 ## intent:orientacao
 - Orientação sobre direitos
 - orientacao
@@ -174,8 +192,18 @@
 - agride
 - Quem agride e quem é agredido?
 
+## intent:relacaoViolenta
+- /relacaoViolenta
+- Por que as mulheres aguentam por tanto tempo uma relação violenta?
+
+## intent:riscoRomp
+- /riscoRomp
+
 ## intent:start
 - /start
+
+## intent:vergonhaMedo
+- /vergonhaMedo
 
 ## intent:violenciaEmocinal
 - /vEmocional
