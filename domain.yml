@@ -31,6 +31,7 @@ intents:
 - planoProtecao
 - horaAtaque
 - depoisAtaque
+- origemViolencia
 templates:
   utter_planoProtecao:
   - text: "/horaAtaque - Na Hora o Ataque\n /depoisAtaque- Depois do Ataque"
@@ -202,8 +203,35 @@ templates:
   utter_orientacao:
   - text: "Quem agride e quem é agredido?\n Quais as manifestações da violência conjugal?\n\
       \ Por que as mulheres aguentam por tanto tempo uma relação violenta?\n Dez mitos\
-      \ sobre a violência Doméstica.\n Como CONSTRUIR um PLANO DE PROTEÇÃO ?\n.Origens da violência ?\n É possível antecipar\
-      \ sinais da violência ?\n É possível medir a gravidade do risco?\n"
+      \ sobre a violência Doméstica.\n Como CONSTRUIR um PLANO DE PROTEÇÃO ?\n.Origem\
+      \ da violência ?\n É possível antecipar sinais da violência ?\n É possível medir\
+      \ a gravidade do risco?\n"
+  utter_origemViolencia:
+  - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
+      \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
+      \ ou porque a violência ocorre mais em algumas comunidades do que em outras.”.\n\
+      \ Na maioria dos casos a violência está associada a camadas da vivência do agressor,\
+      \ um modelo psicológico foi criado para mapear as prováveis causas que levariam\
+      \ um agressor a cometer a agressão.\n Quer saber como funciona?"
+    image: https://i.imgur.com/LIHnEaX.png
+  utter_origemViolenciaSIM:
+  - text: "- Observe que, segundo esse modelo, a violência estaria relacionada à interação\
+      \ de quatro planos: o individual, o relacional, o comunitário e o social. Cada\
+      \ um desses planos engloba o anterior, tanto para reforçar, quanto para prevenir\
+      \ os elementos de risco. Por exemplo: fatores biológicos, pessoais, como a impulsividade,\
+      \ abusos sofridos na infância ou o uso abusivo de substâncias químicas (plano\
+      \ individual), podem ou não favorecer a violência, dependendo da qualidade das\
+      \ relações familiares e de amizade,  o tipo de suporte dado pela família e pela\
+      \ rede de relações próximas faz toda a diferença (plano relacional).\n 
+      - Resumindo,a natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
+      \ vezes os fatores cruciais para a origem do seu comportamento violento,  a\
+      \ natureza dos vínculos que ligam uma pessoa ao seu entorno (vizinhos, ambiente\
+      \ de trabalho, amigos, grupo de igreja ou associações) pode abrir ou fechar\
+      \ as portas para a violência.\n
+      - Só pra lembrar que esse é apenas um modelo para\
+      \ ajudar a entender melhor as raízes da violência. Não é uma regra ou uma profecia.\
+      \ É perfeitamente possível que alguém viva sob condições de risco em todos esses\
+      \ planos e jamais apresente comportamento violento.\n"
   utter_greet:
   - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
       \ em:\n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
@@ -251,3 +279,5 @@ actions:
 - utter_planoProtecao
 - utter_horaAtaque
 - utter_depoisAtaque
+- utter_origemViolencia
+- utter_origemViolenciaSIM

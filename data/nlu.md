@@ -151,6 +151,12 @@
 - Orientações sobre os direitos da mulher
 - Orientações sobre os direitos
 
+## intent:origemViolencia
+- /origemViolencia
+- origem da violencia
+- origem
+- inicio da violência
+
 ## intent:planoProtecao
 - como construir um plano de proteção
 - plano proteção

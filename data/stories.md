@@ -329,3 +329,23 @@
     - utter_depoisAtaque
 * orientacao
     - utter_orientacao
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* origemViolencia
+    - utter_origemViolencia
+
+## New Story
+
+* greet
+    - utter_greet
+* orientacao
+    - utter_orientacao
+* origemViolencia
+    - utter_origemViolencia
+* affirm
+    - utter_origemViolenciaSIM
