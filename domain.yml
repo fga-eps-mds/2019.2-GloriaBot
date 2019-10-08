@@ -1,4 +1,5 @@
 intents:
+- manifestacaoDaViolencia
 - greet
 - goodbye
 - affirm
@@ -11,7 +12,261 @@ intents:
 - bot_challenge
 - quem_agride_quem_agredido_1
 - agrideAgredidoQuemPodeSofrer
+- violenciaFisica
+- violenciaEmocinal
+- violenciaSexual
+- cicloViolencia
+- mitosViolencia
+- m1
+- m2
+- m3
+- m4
+- m5
+- m6
+- m7
+- m8
+- m9
+- m10
+- anteciparSinais
+- planoProtecao
+- horaAtaque
+- depoisAtaque
+- origemViolencia
+- aguentamRelacaoViolenta
+- riscoRomp
+- negacao
+- vergonhaMedo
+- isolamento
+- dependencia
+- deixar
+- esperanca
+- relacaoViolenta
+- barreiras
 templates:
+  utter_aguentamRelacaoViolenta:
+  - text: "/riscoRomp - Risco de rompimento\n /vergonhaMedo - Vergonha e medo\n /esperanca\
+      \ - Esperança de que o marido mude o comportamento\n /isolamento- Isolamento\n\
+      \ /negacao - Negação social\n /barreiras - Barreiras que impedem o rompimento\n\
+      \ /dependencia - Dependência econômica\n /deixar - Deixar a relação é um longo\
+      \ processo\n"
+  utter_riscoRomp:
+  - text: "A violência e as ameaças contra a vida da mulheres dos filhos se tornam\
+      \ mais intensas no período da separação. O homem violento percebe que perdeu\
+      \ o controle sobre sua parceira. Por isso assim que fizer isso deve buscar ajuda\n"
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_vergonhaMedo:
+  - text: As mulheres normalmente têm medo de denunciar seus maridos devia a dependência
+      tanto emocional quanto dependência financeira, pois ai vem o medo de perder
+      o que tem ou de acontecer algo pior
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_esperanca:
+  - text: "Homens que apresentam tal comportamento sempre pedem perdão e falam que\
+      \ vão mudar e buscar ajuda. Ele pode demonstrar o amor, admitir seus erros e\
+      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\
+      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado.\n"
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_isolamento:
+  - text: As mulheres em situação de violência perdem seus laços familiares e sociais.
+      Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.
+      Querem saber onde ela foi, com quem falou ao telefone, o que disse, porque usou
+      tal roupa, para quem olhou na rua etc.
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_negacao:
+  - text: Quando pedem ajuda, às vítimas de violência se defrontam com pessoas despreparadas
+      e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico,um
+      psicólogo, um líder religioso, um policial ou um advogado as trata com indiferença,
+      desconfiança e desprezo, contribuem para aumentar a violência.
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_barreiras:
+  - text: 'Ao ver que a mulher está disposta a sair da relação violenta, o agressor
+      recorre a todo tipo de chantagem e ameaça: requisita a custódia dos filhos,
+      nega pensão alimentícia, interfere no trabalho da esposa, difama-a, mata a mulher
+      e os filhos, se mataetc. São muitas as dificuldades e são poucos os recursos
+      disponíveis em nossa sociedade. Essa Mulher precisa de apoio e de pessoas dispostas
+      a ajudá-la a ser capaz de vencer as barreiras. '
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_dependencia:
+  - text: Muitas mulheres em situação de abuso não têm capacitação profissional para
+      iniciar uma vida no mercado de trabalho ou para estabelecer novas relações de
+      trabalho em outra cidade ou estado, onde poderiam encontrar as condições ideais
+      de segurança.
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_deixar:
+  - text: 'Ao perceber a necessidade de escapar da relação violenta, a mulher tem
+      um longo caminho a seguir: preparar-se afetivamente para o desenlace;preparar-se
+      com segurança para a fuga, preparar-se economicamente. Essas iniciativas podem
+      levar anos, principalmente se a mulher não contar com nenhum apoio.'
+    buttons:
+    - title: Por que AS MULHERES aguentam tanto tempo uma RELAÇÃO VIOLENTA ?
+      payload: /relacaoViolenta
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_planoProtecao:
+  - text: "/horaAtaque - Na Hora o Ataque\n /depoisAtaque- Depois do Ataque"
+  utter_horaAtaque:
+  - text: "Na Hora do ATAQUE\n - Evitar Locais pequenos com objetos perigosos ou superfícies\
+      \ cortantes\n - Evitar locais onde haja armas\n - Se a violência for inevitável:\
+      \ corra para um canto e agache-se com o rosto protegido e os braços em volta\
+      \ de cada lado da cabeça, com os dedos entrelaçados\n - Não corra para lugares\
+      \ onde pessoas indefesas estejam. Elas podem acabar sendo também agredidas\n\
+      \ - Evite fugir sem as crianças. Elas poderão ser usadas como objeto de chantagem.\n\
+      \ - Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
+      \ violência.\n"
+    buttons:
+    - title: Depois do Ataque
+      payload: /depoisAtaque
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_depoisAtaque:
+  - text: "Depois do Ataque\n - Sempre ter os números de emergência guardados em lugar\
+      \ de fácil acesso. Procure o telefone mais próximo.\n - Procure uma delegacia\
+      \ da mulher, um centro de atendimento ou alguma pessoa ou instituição em que\
+      \ você confie.\n - Verifique se há locais seguros por perto, onde você pode\
+      \ ficar até conseguir ajuda.\n - Se estiver ferida, procure um hospital ou um\
+      \ posto de atendimento e revele o que aconteceu.\n - Se você esconder que foi\
+      \ vítima de violência, ninguém vai poder ajudá-la\n - Separe um pacode contendo\
+      \ objetos de primeira necessidade. Guarde com alguém próximo no caso de ter\
+      \ que abandonar a casa.\n - Guarde cópias de documentos importantes em local\
+      \ seguro\n - Registrar todos os episódios de violência física, psicológica ou\
+      \ sexual que você esteja sofrendo. Isso é útil na hora de pedir ajuda as autoridades\n\
+      \ - Deixar pessoas de confiança a par da situação. Planeje com elas um esquema\
+      \ de proteção e combine algumas formas de sinalizar que você está em perigo\n\
+      \ - Se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
+      \ deixando-o abastecido e na posição de saída, de forma a evitar manobras\n"
+    buttons:
+    - title: Hora do Ataque
+      payload: /horaAtaque
+    - title: Orientação
+      payload: Orientação sobre direitos
+  utter_anteciparSinais:
+  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
+      \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
+      \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
+      \ - Mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
+      \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
+      \ e grosseira\n - Negação de abusos cometidos no passado\n"
+  utter_mitos:
+  - text: "/m1 - A VIOLÊNCIA DOMÉSTICA OCORRE MUITO ESPORADICAMENTE\n /m2 - A VIOLÊNCIA\
+      \ DOMÉSTICA É UM PROBLEMA EXCLUSIVAMENTE FAMILIAR\n /m3 - A VIOLÊNCIA SÓ ACONTECE\
+      \ ENTRE AS FAMÍLIAS DE BAIXA RENDA E POUCA INSTRUÇÃO\n /m4 - AS MULHERES PROVOCAM\
+      \ OU GOSTAM DA VIOLÊNCIA\n /m5 - A VIOLÊNCIA SÓ ACONTECE NAS FAMÍLIAS PROBLEMÁTICAS\n\
+      \ /m6 - OS AGRESSORES NÃO SABEM CONTROLAR SUAS EMOÇÕES\n /m7 - SE A SITUAÇÃO\
+      \ FOSSE REALMENTE TÃO GRAVE, AS VÍTIMAS ABANDONARIAM LOGO SEUS AGRESSORES\n\
+      \ /m8 - É FÁCIL IDENTIFICAR O TIPO DE MULHER QUE APANHA\n /m9 - A VIOLÊNCIA\
+      \ DOMÉSTICA VEM DE PROBLEMAS COM O ÁLCOOL, DROGAS OU DOENÇAS MENTAIS\n /m10\
+      \ - PARA ACABAR COM A VIOLÊNCIA BASTA PROTEGER AS VÍTIMAS E PUNIR OS AGRESSORES\n"
+  utter_m1:
+  - text: A violência doméstica não é esporádica, segundo dados do DataSenado o número
+      de mulheres reportando agressões vem apenas crescendo ao longo dos anos chegando
+      até a 29% das mulheres entrevistadas em 2017.
+  utter_m2:
+  - text: A violência doméstica não é apenas um problema familiar, ela afeta todos
+      em seu ambiente desde mudanças comportamentais da mulher que foi agredida até
+      afetar permanentemente seus filhos podendo causar graves sequelas, por isso
+      é sempre necessário buscar ajuda.
+  utter_m3:
+  - text: Violência doméstica não é exclusiva a famílias de baixa renda, ela pode
+      acontecer em ambientes de alta renda e instrução.
+  utter_m4:
+  - text: Não é verdade que mulheres que continuam com seus parceiros mesmo depois
+      de serem alvos de violência doméstica porque provocam ou gostam da sua situação
+      que se encontram, quem vive em situação de violência passa a maior parte do
+      tempo tentando evitar possíveis ocorrências de agressão e protegendo-se e também
+      protegendo seus filhos. Geralmente as mulheres continuam com seus agressores
+      para preservar a relação e por medo, por isso é sempre necessário tentar ajudar
+      caso encontre uma mulher sob uma situação diferente, gostaria de saber mais
+      sobre?
+  utter_m4_7_Afirm:
+  - text: Um dos fatores que levam a permanência com o agressor é o medo, uma grande
+      parcela de mulheres assassinadas nos estados unidos são resultantes da tentativa
+      de separação, outro fator são as sequelas psicológicas decorrentes da violência
+      doméstica e algumas mulheres acabam desenvolvendo PTSD(Síndrome do estresse
+      pós-traumático em português) e se tornam incapazes de reagir a situação, por
+      isso ajuda externa se torna muito importante.
+  utter_m5:
+  - text: A violência não é exclusiva a famílias aparentemente problématicas, não
+      há um padrão ou perfil que aponte um agressor, muitas vezes o agressor pode
+      ser bem articulado e bem sucedido publicamente, não usam ou abusam de álcool
+      e drogas e não tem problemas psicológicos, apenas não são denunciados e conseguem
+      passar despercebidos, gostaria de saber mais?.
+  utter_m5_9_Afirm:
+  - text: Mesmo tendo casos em que a violência doméstica é decorrente do abuso de
+      álcool, drogas ou problemas psicológicos esse nem sempre é o caso, há agressores
+      que não apresentam quaisquer desses fatores, a violência doméstica é um fenômeno
+      tão generalizado que não basta procurar porque o agressor a causa e sim porque
+      há um terreno tão favorável para acontecer e porque a resistência para se reproduzir
+      é tão baixa.
+  utter_m6:
+  - text: A violência doméstica não é somente uma questão de administração da raiva.
+      Os agressores sabem como se controlar, tanto que não batem no patrão e sim na
+      mulher ou nos filhos. Eles fazem isso porque não há nenhum custo a pagar. A
+      sociedade é indiferente. Faltam recursos para uma ação efetiva das polícias,
+      a justiça é conivente e as tradições religiosas e culturais não impõem nenhum
+      freio eficaz a esse comportamento.
+  utter_m8:
+  - text: Não há um padrão para a mulher que sofre as agressões, qualquer mulher pode
+      se encontrar em uma situação de violência doméstica independente de situação
+      financeira, social e cultural, esteriótipos sobre a vítima é apenas uma das
+      formas de sorrateiramente de jogar a culpa sobre a mulher e não ajuda a entender
+      ou prevenir a violência, a culpa é sempre do ambiente que gera tal ato e do
+      agressor.
+  utter_m10:
+  - text: O principal foco é proteger as vítimas, sobre os agressores é necessário
+      transformar o comportamente, somente punir irá causar recorrência na maioria
+      dos casos, no longo prazo investir em seu potencial de transformação e na capacidade
+      de mudança são as melhores apostas. É necessário encarar o desafio de transformar
+      comportamentos violentos para a construção de uma sociedade melhor.
+  utter_manifestacaoDaViolencia:
+  - text: "/vFisica - Violência Física\n /vEmocional - Violência Emocional\n /vSexual\
+      \ - Violência Sexual\n /vCiclo - Ciclo da Violẽncia"
+  utter_violenciaFisica:
+  - text: "A violência física não é só bater!\n Empura, atirar objetos, sacudir\n\
+      \ Estrangular, chutar violêntamente,\n torcer os braços, queimar, perfurar,\n\
+      \ mutilar e torturar\n também são violências físicas"
+  utter_violenciaEmocional:
+  - text: "A violência emocial vai muito além da ameaça!\n Intimidar, Diminuir a pessoa,\
+      \ xingar,\n fazer a pessoa pensar que está louca,\n provocar confusão mental,\n\
+      \ humilhar, usar os filhos para fazer chantagem\n isolar a vítima dos amigos\
+      \ e parentes\n e muitos outros."
+  utter_violenciaSexual:
+  - text: "A violência sexual não é só o estupro cometido por um desconhecido.\n Força\
+      \ relações sexuais,\n força a prática de atos que causam desconforto ou repulsa,\n\
+      \ obrigar à ver imagens pornográgicas,\n obrigar a vitíma a fazer sexo com outras\
+      \ pessoas."
+  utter_cicloViolencia:
+  - text: "1ªFase: A construção da tensão no relacionamento\n Agressões verbais, crises\
+      \ de ciúmes, ameaças, destruição de objetos.\n 2ªFase: A explosão da violência\
+      \ -Descontrole.\n Agressões agudas, a relação se torna inadministravel\n 3ªFase:\
+      \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
+      \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
   utter_agrideAgredidoINICIO:
   - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima?
   utter_agrideAgredidoInicioResposta:
@@ -44,8 +299,34 @@ templates:
   utter_orientacao:
   - text: "Quem agride e quem é agredido?\n Quais as manifestações da violência conjugal?\n\
       \ Por que as mulheres aguentam por tanto tempo uma relação violenta?\n Dez mitos\
-      \ sobre a violência Doméstica.\n Origens da violência ?\n É possível antecipar\
-      \ sinais da violência ?\n É possível medir a gravidade do risco?\n"
+      \ sobre a violência Doméstica.\n Como CONSTRUIR um PLANO DE PROTEÇÃO ?\n.Origem\
+      \ da violência ?\n É possível antecipar sinais da violência ?\n É possível medir\
+      \ a gravidade do risco?\n"
+  utter_origemViolencia:
+  - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
+      \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
+      \ ou porque a violência ocorre mais em algumas comunidades do que em outras.”.\n\
+      \ Na maioria dos casos a violência está associada a camadas da vivência do agressor,\
+      \ um modelo psicológico foi criado para mapear as prováveis causas que levariam\
+      \ um agressor a cometer a agressão.\n Quer saber como funciona?"
+    image: https://i.imgur.com/LIHnEaX.png
+  utter_origemViolenciaSIM:
+  - text: "- Observe que, segundo esse modelo, a violência estaria relacionada à interação\
+      \ de quatro planos: o individual, o relacional, o comunitário e o social. Cada\
+      \ um desses planos engloba o anterior, tanto para reforçar, quanto para prevenir\
+      \ os elementos de risco. Por exemplo: fatores biológicos, pessoais, como a impulsividade,\
+      \ abusos sofridos na infância ou o uso abusivo de substâncias químicas (plano\
+      \ individual), podem ou não favorecer a violência, dependendo da qualidade das\
+      \ relações familiares e de amizade,  o tipo de suporte dado pela família e pela\
+      \ rede de relações próximas faz toda a diferença (plano relacional).\n - Resumindo,a\
+      \ natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
+      \ vezes os fatores cruciais para a origem do seu comportamento violento,  a\
+      \ natureza dos vínculos que ligam uma pessoa ao seu entorno (vizinhos, ambiente\
+      \ de trabalho, amigos, grupo de igreja ou associações) pode abrir ou fechar\
+      \ as portas para a violência.\n - Só pra lembrar que esse é apenas um modelo\
+      \ para ajudar a entender melhor as raízes da violência. Não é uma regra ou uma\
+      \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
+      \ em todos esses planos e jamais apresente comportamento violento.\n"
   utter_greet:
   - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
       \ em:\n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
@@ -73,3 +354,34 @@ actions:
 - utter_agrideAgredidoRespostaAfirm
 - utter_agrideAgredidoQuemPodeSofrer
 - utter_agrideAgredidoQuemPodeSofrerAfirm
+- utter_manifestacaoDaViolencia
+- utter_violenciaFisica
+- utter_violenciaEmocional
+- utter_violenciaSexual
+- utter_cicloViolencia
+- utter_mitos
+- utter_m1
+- utter_m2
+- utter_m3
+- utter_m4
+- utter_m4_7_Afirm
+- utter_m5
+- utter_m5_9_Afirm
+- utter_m6
+- utter_m8
+- utter_m10
+- utter_anteciparSinais
+- utter_planoProtecao
+- utter_horaAtaque
+- utter_depoisAtaque
+- utter_origemViolencia
+- utter_origemViolenciaSIM
+- utter_aguentamRelacaoViolenta
+- utter_riscoRomp
+- utter_vergonhaMedo
+- utter_esperanca
+- utter_isolamento
+- utter_negacao
+- utter_barreiras
+- utter_dependencia
+- utter_deixar

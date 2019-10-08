@@ -1,0 +1,11 @@
+#IMPOSIVEL SUAR O RASA X NO DOCKER #
+sudo make
+          train
+          run
+          shell
+          start
+          interactive	
+          visualize
+
+## EXEMPLO
+    sudo make train
