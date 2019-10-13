@@ -7,32 +7,46 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Nome da Issue
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+- Descrição simples de qual é bug.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Descrição da Issue
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+Descrever a issue de forma detalhada e objetiva. A descrição deve ser clara e conter quaisquer informações para que seja corrigido o presente bug.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+### Tasks
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+Todas as correções a serem realizadas devem estar presente logo abaixo em um sistema de checklist. Cada correção deve receber um check assim cada problema encontrado for corrigido.
 
-**Additional context**
-Add any other context about the problem here.
+- [ ] Tarefa 1
+- [ ] Tarefa 2
+- [ ] Tarefa 3
+
+### Critérios de aceitação
+
+Todas os critérios de aceitação, se houver, devem estar presentes logo abaixo em um sistema de checklist. Recebendo um check assim que o critério for atendido.
+
+- [ ] Critério de aceitação 1
+- [ ] Critério de aceitação 2
+- [ ] Critério de aceitação 3
+
+## Assignees
+
+A issue deve ser atribuída a pelo menos um colaborador do projeto.
+
+## Labels
+
+A issue deve ser marcada com as tags condizentes, melhorando a rastreabilidade do projeto
+
+## Milestone
+
+A issue deve ser atribuída a respectiva Sprint(Milestone).
+
+## Estimate
+
+Deve se adicionar à issue a sua estimativa de dificuldade (pontuação).
+
+## ZenHub
+
+A issue deve ser possicionada à devida pipeline, melhorando a visualização do seu progresso.
