@@ -1,6 +1,8 @@
 version : '3.5'
 services :
   rasa_run :
+    depends_on:
+      - mongo
     image: rasa/rasa:1.2.9
     ports:
       - 5005:5005
@@ -8,7 +10,21 @@ services :
       - ./:/app
     command:
       - run
- 
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: rasa
+      MONGO_INITDB_ROOT_PASSWORD: example
+    depends_on:
+      - mongo-express
+  mongo-express:
+    image: mongo-express
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: rasa
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+
   rasa_shell :
     image: rasa/rasa:1.2.9
     ports:
