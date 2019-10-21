@@ -1,7 +1,7 @@
-
 ## intent:affirm
 - sim
 - de fato
+- quero
 - claro
 - isso soa bem
 - correto
@@ -79,6 +79,16 @@
 - como vai
 - oi
 - o que você pode me ajudar
+
+## intent:greet2
+- o que voce faz?
+- em que vc pode me ajudar
+- faz o que
+- em que pode me ajudar
+- me ajuda
+- pode me auxiliar
+- auxiliar
+- o que vc faz
 
 ## intent:horaAtaque
 - /horaAtaque
@@ -161,6 +171,7 @@
 ## intent:orientacao
 - Orientação sobre direitos
 - orientacao
+- orientacoes
 - orientações
 - orintação
 - direito
@@ -219,4 +230,3 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
-

@@ -42,6 +42,8 @@ intents:
 - esperanca
 - relacaoViolenta
 - barreiras
+- greet2
+
 templates:
   utter_aguentamRelacaoViolenta:
   - text: "/riscoRomp - Risco de rompimento\n /vergonhaMedo - Vergonha e medo\n /esperanca\
@@ -295,7 +297,8 @@ templates:
       \ ou qualquer outro local; e \nc) perpetrada ou tolerada pelo Estado ou seus\
       \ agentes, onde quer que ocorra.'"
   utter_delegacia:
-  - text: "Para mais informções lique: 180 \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  - text: "Encontre a delegacia perto de vc ou ligue 180: \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
   - text: "Quem agride e quem é agredido?\n Quais as manifestações da violência conjugal?\n\
       \ Por que as mulheres aguentam por tanto tempo uma relação violenta?\n Dez mitos\
@@ -327,6 +330,19 @@ templates:
       \ para ajudar a entender melhor as raízes da violência. Não é uma regra ou uma\
       \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
       \ em todos esses planos e jamais apresente comportamento violento.\n"
+  utter_greet0:
+  - text: "Olá =) \n Em que posso te ajudar?\n"
+  - text: "Em que posso te auxiliar?"
+  - text: "Olá!\n O que você procura? Posso te Ajudar!" 
+  utter_greet1:
+  - text: "Posso te auxiliar a\n-Encontrar Delegacias especializadas no atendimento\
+      \ à Mulher.\n- Te orientar sobre os direitos da mulher\n"
+    buttons:
+    - title: Delegacia
+      payload: Encontrar Delegacia Especializada
+    - title: Orientação
+      payload: Orientação sobre direitos
+  - text: "Então, posso te falar um pouco mais sobre os direitos da mulher.\nQuer saber um pouco?"
   utter_greet:
   - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
       \ em:\n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
@@ -343,7 +359,8 @@ templates:
   utter_goodbye:
   - text: Tchau:)
 actions:
-- utter_greet
+- utter_greet0
+- utter_greet1
 - utter_did_that_help
 - utter_happy
 - utter_goodbye

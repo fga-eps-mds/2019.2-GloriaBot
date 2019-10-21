@@ -1,11 +1,37 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
-pipeline: supervised_embeddings
+#language: en
+#pipeline: supervised_embeddings
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
+#policies:
+#  - name: MemoizationPolicy
+#  - name: KerasPolicy
+#  - name: MappingPolicy
+language : "pt"
+pipeline:
+  - name: "WhitespaceTokenizer"
+  - name: "CRFEntityExtractor"
+  - name: "EntitySynonymMapper"
+  - name: "CountVectorsFeaturizer"
+  - name: "EmbeddingIntentClassifier"
+
+
 policies:
-  - name: MemoizationPolicy
   - name: KerasPolicy
-  - name: MappingPolicy
+    priority: 5
+    epochs: 25
+    batch_size: 10
+    featurizer:
+      - name: FullDialogueTrackerFeaturizer
+        state_featurizer:
+          - name: LabelTokenizerSingleStateFeaturizer
+  - name: FallbackPolicy
+    nlu_threshold: 0.6
+    core_threshold: 0.6
+    priority: 1
+  - name: MemoizationPolicy
+    priority: 2
+    max_history: 2
+    
