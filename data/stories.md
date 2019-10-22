@@ -3,12 +3,15 @@
     - utter_greet0
 * greet2
     - utter_greet1
-> check_asked_question
+
 ## Story delegacia
-> check_asked_question
 * delegacia
     - utter_delegacia
 ## Story orientacao
-> check_asked_question
 * orientacao OR affirm
     - utter_orientacao
+>check_orientacao
+## Story agride_agredido
+>check_orientacao
+* quem_agride_quem_agredido_1
+    - utter_agrideAgredidoINICIO
