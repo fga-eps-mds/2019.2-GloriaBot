@@ -72,6 +72,7 @@
 
 ## intent:greet
 - Oi
+- Olá
 - Ola
 - Eae
 - bom dia
@@ -195,6 +196,8 @@
 - como construir um plano de proteção
 
 ## intent:quem_agride_quem_agredido_1
+- vítima
+- vitima
 - quem agride
 - quem agredido
 - violencia entre casal
