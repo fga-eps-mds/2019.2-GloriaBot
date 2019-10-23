@@ -29,11 +29,17 @@ O ChatBot Glória pretende ajudar mulheres em situações de abuso doméstico, f
 
 O ChatBot Glória poderá ser acessado via Telegram, sendo necessário o aplicativo ou sua versão web, acesso a internet e um cadastro na plataforma.
 
+### Contribuindo com o projeto
+
+Para contribuir com o projeto, há um [Guia de Contribuição](https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/contributing/CONTRIBUTING.md "Contributing") com as informações necessárias para rodar a aplicação. 
+
+#### O condigo de conduta para as contribuições está disponível [aqui](https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/contributing/CODE_OF_CONDUCT.md "Code of Conduct").
+
 ### Licenciamento
 
 A Glória será distribuída sob a licença MIT para softwares livres, que dá liberdade para todos que a adquirirem de modificar, distribuir, sublicenciar, vender e contribuir para o software.
 
-###Restrições do produto
+### Restrições do produto
 
    - O sistema será implementado utilizando as tecnologias --- para o banco de dados e framework Rasa, que utiliza a linguagem Python.
 

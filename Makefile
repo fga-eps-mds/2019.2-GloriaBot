@@ -1,17 +1,15 @@
 current_dir := $(shell pwd)
 
 train:
-	docker-compose run tr
+	docker-compose run rasa_train
 run:
-	docker-compose run rasa_run
+	docker-compose run --service-ports rasa_run
+
 shell:
-	docker-compose run shell
-start:
-	docker-compose run tr
-	docker-compose run rasa_run
+	docker-compose run rasa_shell
 
 interactive:
-	docker-compose run inter
-	
+	docker-compose run --service-ports rasa_interactive
+
 visualize:
-	docker-compose run vis
+  docker-compose run rasa_visualize
