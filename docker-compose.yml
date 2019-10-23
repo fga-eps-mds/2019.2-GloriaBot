@@ -1,42 +1,62 @@
 version : '3.5'
 services :
   rasa_run :
-    image : rasa/rasa:1.2.9
-    container_name: rasa_run
+    depends_on:
+      - mongo
+    image: rasa/rasa:1.2.9
     ports:
       - 5005:5005
-      - 5002:5002
-   
-    volumes :
+    volumes:
       - ./:/app
-    command :
-      - run 
-  tr:
-    image : rasa/rasa:1.2.9
-    container_name: rasa_train
-    volumes :
+    command:
+      - run
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: rasa
+      MONGO_INITDB_ROOT_PASSWORD: example
+    depends_on:
+      - mongo-express
+  mongo-express:
+    image: mongo-express
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: rasa
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+
+  rasa_shell :
+    image: rasa/rasa:1.2.9
+    ports:
+      - 5005:5005
+    volumes:
       - ./:/app
-    command :
-      - train
-      
-  shell:
-    image : rasa/rasa:1.2.9
-    container_name: rasa_train
-    volumes :
-      - ./:/app
-    command :
+    command:
       - shell
-  inter:
-    image : rasa/rasa:1.2.9
-    container_name: rasa_train
-    volumes :
+
+  rasa_train :
+    image: rasa/rasa:1.2.9
+    ports:
+      - 5005:5005
+    volumes:
       - ./:/app
-    command :
+    command:
+      - train
+
+  rasa_interactive:
+    image: rasa/rasa:1.2.9
+    ports:
+      - 5006:5006
+    volumes:
+      - ./:/app
+    command:
       - interactive
-  vis:
-    image : rasa/rasa:1.2.9
-    container_name: rasa_train
-    volumes :
+
+  rasa_visualize:
+    image: rasa/rasa:1.2.9
+    ports:
+      - 5005:5005
+    volumes:
       - ./:/app
-    command :
+    command:
       - visualize
