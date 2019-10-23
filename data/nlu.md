@@ -49,7 +49,6 @@
 - nao
 - nunca
 - Acho que nao
-- não gosto disso
 - de jeito nenhum
 - Na verdade não
 - não
@@ -72,6 +71,7 @@
 
 ## intent:greet
 - Oi
+- Olá
 - Ola
 - Eae
 - bom dia
@@ -195,6 +195,8 @@
 - como construir um plano de proteção
 
 ## intent:quem_agride_quem_agredido_1
+- vítima
+- vitima
 - quem agride
 - quem agredido
 - violencia entre casal
@@ -230,3 +232,7 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+## intent:duvida
+- me fale mais
+- diga-me mais
+- fale mais

@@ -43,7 +43,7 @@ intents:
 - relacaoViolenta
 - barreiras
 - greet2
-
+- duvida
 templates:
   utter_aguentamRelacaoViolenta:
   - text: "/riscoRomp - Risco de rompimento\n /vergonhaMedo - Vergonha e medo\n /esperanca\
@@ -247,8 +247,7 @@ templates:
       de mudança são as melhores apostas. É necessário encarar o desafio de transformar
       comportamentos violentos para a construção de uma sociedade melhor.
   utter_manifestacaoDaViolencia:
-  - text: "/vFisica - Violência Física\n /vEmocional - Violência Emocional\n /vSexual\
-      \ - Violência Sexual\n /vCiclo - Ciclo da Violẽncia"
+  - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual. \nEla também pode seguir um Ciclo da Violẽncia"
   utter_violenciaFisica:
   - text: "A violência física não é só bater!\n Empura, atirar objetos, sacudir\n\
       \ Estrangular, chutar violêntamente,\n torcer os braços, queimar, perfurar,\n\
@@ -265,25 +264,26 @@ templates:
       \ pessoas."
   utter_cicloViolencia:
   - text: "1ªFase: A construção da tensão no relacionamento\n Agressões verbais, crises\
-      \ de ciúmes, ameaças, destruição de objetos.\n 2ªFase: A explosão da violência\
-      \ -Descontrole.\n Agressões agudas, a relação se torna inadministravel\n 3ªFase:\
+      \ de ciúmes, ameaças, destruição de objetos.\n2ªFase: A explosão da violência\
+      \ -Descontrole.\n Agressões agudas, a relação se torna inadministravel\n3ªFase:\
       \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
       \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
   utter_agrideAgredidoINICIO:
-  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima?
+  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima? 
   utter_agrideAgredidoInicioResposta:
   - text: "Na sua forma mais típica, a violência conjugal é uma expressão de desejo\
-      \ de uma pessoa controlar e dominar a outra.\n Quer saber como isso se demonstra?"
+      \ de uma pessoa controlar e dominar a outra.\nQuer saber um pouquinho mais sobre isso?"
   utter_agrideAgredidoRespostaAfirm:
   - text: "A violência doméstica envolve atos repetitivos, que vão se agravando, em\
       \ frequêcia e intensidade\n coerção, cerceamento, humilhação, ameaça\n agressão\
       \ físicas e sexuais variadas\n Além do medo permanemte, esse tipo de violência\
       \ pode resultar em danos físicos e psicológicos duradouros"
   utter_agrideAgredidoQuemPodeSofrer:
-  - text: "Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
-      \ a violência contra a mulher é mais frequênte\n Quer saber mais?"
+  - text: "Ah deixa eu abrir um parênteses aqui\n 
+    Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
+      \ a violência contra a mulher é mais frequênte\n "
   utter_agrideAgredidoQuemPodeSofrerAfirm:
-  - text: "A Convenção Interamericana para Prevenir, Punir e Erradicar a Violência\
+  - text: " A Convenção Interamericana para Prevenir, Punir e Erradicar a Violência\
       \ Contra a Mulher (Convenção de Belém do Pará, 1994) define a violência contra\
       \ a mulher como 'qualquer ato ou conduta baseada no gênero, que cause morte,\
       \ dano ou sofrimento físico, sexual ou psicológico à mulher, tanto na esfera\
@@ -300,11 +300,11 @@ templates:
   - text: "Encontre a delegacia perto de vc ou ligue 180: \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
-  - text: "Quem agride e quem é agredido?\n Quais as manifestações da violência conjugal?\n\
-      \ Por que as mulheres aguentam por tanto tempo uma relação violenta?\n Dez mitos\
-      \ sobre a violência Doméstica.\n Como CONSTRUIR um PLANO DE PROTEÇÃO ?\n.Origem\
-      \ da violência ?\n É possível antecipar sinais da violência ?\n É possível medir\
-      \ a gravidade do risco?\n"
+  - text: "Você quer ter uma percepção clara de quem é a vítima ou quer saber sobre a violência conjugal?"
+  - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir a gravidade do risco de uma violência domestica?"
+  - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra a violência. \nQuer saber sobre qual delas?"
+  - text: "A violencia domestica tem sempre uma origem e tem como  antecipar os sinais da violência. \nQual vc deseja saber?"
+  
   utter_origemViolencia:
   - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
       \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
@@ -353,7 +353,8 @@ templates:
     - title: Orientação
       payload: Orientação sobre direitos
   utter_did_that_help:
-  - text: Em que eu posso te ajudar?
+  - text: "Ok\nQuer que eu te ajude em outra coisa?"
+  - text: "Ok\nQual quer coisa é so me chamar estou aqui para te ajudar =)"
   utter_happy:
   - text: Que legal!
   utter_goodbye:
