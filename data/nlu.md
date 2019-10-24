@@ -49,7 +49,6 @@
 - nao
 - nunca
 - Acho que nao
-- não gosto disso
 - de jeito nenhum
 - Na verdade não
 - não
@@ -233,3 +232,7 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+## intent:duvida
+- me fale mais
+- diga-me mais
+- fale mais

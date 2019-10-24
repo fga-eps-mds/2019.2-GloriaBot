@@ -12,4 +12,4 @@ interactive:
 	docker-compose run --service-ports rasa_interactive
 
 visualize:
-  docker-compose run rasa_visualize
+  	docker-compose run rasa_visualize
