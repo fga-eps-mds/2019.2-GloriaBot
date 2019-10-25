@@ -49,3 +49,12 @@
 ## Story manifestacao_CicloViolencia
 * cicloViolencia
     - utter_cicloViolencia
+
+## Story origem_violencia
+* origemViolencia
+    - utter_origemViolencia
+>check_origemViolenciaSIM
+## Story origem_violenciaAffirm
+>check_origemViolenciaSIM
+* affirm
+    - utter_origemViolenciaSIM
