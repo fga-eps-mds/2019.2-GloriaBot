@@ -2,6 +2,7 @@ current_dir := $(shell pwd)
 
 train:
 	docker-compose run rasa_train
+
 run:
 	docker-compose run --service-ports rasa_run
 
@@ -12,4 +13,4 @@ interactive:
 	docker-compose run --service-ports rasa_interactive
 
 visualize:
-  	docker-compose run rasa_visualize
+	docker-compose run rasa_visualize

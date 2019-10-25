@@ -49,3 +49,7 @@
 ## Story manifestacao_CicloViolencia
 * cicloViolencia
     - utter_cicloViolencia
+
+## Story Aguentam_Relacao_Violenta
+* AguentamRelacaoViolenta1
+    - utter_aguentamRelacaoViolenta

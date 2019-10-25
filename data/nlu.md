@@ -209,6 +209,12 @@
 ## intent:relacaoViolenta
 - /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
+- medo de sair da relação
+- medo de denunciar
+- isolada
+- me sinto isolada
+- medo pelos meus filhos
+- esperança que ele vai mudar
 
 ## intent:riscoRomp
 - /riscoRomp
