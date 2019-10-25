@@ -49,3 +49,7 @@
 ## Story manifestacao_CicloViolencia
 * cicloViolencia
     - utter_cicloViolencia
+
+## Story antecipar_sinais
+* anteciparSinais
+    - utter_anteciparSinais

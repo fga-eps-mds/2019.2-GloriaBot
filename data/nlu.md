@@ -19,6 +19,9 @@
 - antecipar
 - sinais
 - sinal
+- como saber se alguem é violento
+- prevenir
+- prevenção
 
 ## intent:barreiras
 - /barreiras

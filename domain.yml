@@ -169,12 +169,12 @@ templates:
     - title: Orientação
       payload: Orientação sobre direitos
   utter_anteciparSinais:
-  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
-      \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
-      \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
-      \ - Mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
-      \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
-      \ e grosseira\n - Negação de abusos cometidos no passado\n"
+  - text: "Sabia que existem alguns sinais que a pessoa pode ser violenta? Se uma pessoa é controladora,\
+      \ é extremamente dependente da relação, desenvolve realizações irrealistas sobre o relacionamento\
+      \ se a pessoa se irrita facilmente, é abusiva vermalmente com xingamentos e grosserias constantes, \
+      \ fica com raiva com coisas que considera injustiça contra si mesmo, então é sempre bom tomar cuidado \
+      \ com isso para que possa se fazer algo no futuro mas lembrando que isso não é uma regra e nem todos \
+      \ com esses comportamentos são pessoas que cometem violência doméstica mas é uma boa precaução ficar de olho sempre :)"
   utter_mitos:
   - text: "/m1 - A VIOLÊNCIA DOMÉSTICA OCORRE MUITO ESPORADICAMENTE\n /m2 - A VIOLÊNCIA\
       \ DOMÉSTICA É UM PROBLEMA EXCLUSIVAMENTE FAMILIAR\n /m3 - A VIOLÊNCIA SÓ ACONTECE\
@@ -269,7 +269,7 @@ templates:
       \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
       \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
   utter_agrideAgredidoINICIO:
-  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima? 
+  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima?
   utter_agrideAgredidoInicioResposta:
   - text: "Na sua forma mais típica, a violência conjugal é uma expressão de desejo\
       \ de uma pessoa controlar e dominar a outra.\nQuer saber um pouquinho mais sobre isso?"
@@ -279,7 +279,7 @@ templates:
       \ físicas e sexuais variadas\n Além do medo permanemte, esse tipo de violência\
       \ pode resultar em danos físicos e psicológicos duradouros"
   utter_agrideAgredidoQuemPodeSofrer:
-  - text: "Ah deixa eu abrir um parênteses aqui\n 
+  - text: "Ah deixa eu abrir um parênteses aqui\n
     Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
       \ a violência contra a mulher é mais frequênte\n "
   utter_agrideAgredidoQuemPodeSofrerAfirm:
@@ -304,7 +304,7 @@ templates:
   - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir a gravidade do risco de uma violência domestica?"
   - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra a violência. \nQuer saber sobre qual delas?"
   - text: "A violencia domestica tem sempre uma origem e tem como  antecipar os sinais da violência. \nQual vc deseja saber?"
-  
+
   utter_origemViolencia:
   - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
       \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
@@ -333,7 +333,7 @@ templates:
   utter_greet0:
   - text: "Olá =) \n Em que posso te ajudar?\n"
   - text: "Em que posso te auxiliar?"
-  - text: "Olá!\n O que você procura? Posso te Ajudar!" 
+  - text: "Olá!\n O que você procura? Posso te Ajudar!"
   utter_greet1:
   - text: "Posso te auxiliar a\n-Encontrar Delegacias especializadas no atendimento\
       \ à Mulher.\n- Te orientar sobre os direitos da mulher\n"
