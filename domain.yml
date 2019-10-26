@@ -169,12 +169,12 @@ templates:
     - title: Orientação
       payload: Orientação sobre direitos
   utter_anteciparSinais:
-  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
-      \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
-      \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
-      \ - Mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
-      \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
-      \ e grosseira\n - Negação de abusos cometidos no passado\n"
+  - text: "Sabia que existem alguns sinais que a pessoa pode ser violenta? Se uma pessoa é controladora,\
+      \ é extremamente dependente da relação, desenvolve realizações irrealistas sobre o relacionamento\
+      \ se a pessoa se irrita facilmente, é abusiva vermalmente com xingamentos e grosserias constantes, \
+      \ fica com raiva com coisas que considera injustiça contra si mesmo, então é sempre bom tomar cuidado \
+      \ com isso para que possa se fazer algo no futuro mas lembrando que isso não é uma regra e nem todos \
+      \ com esses comportamentos são pessoas que cometem violência doméstica mas é uma boa precaução ficar de olho sempre :)"
   utter_mitos:
   - text: "/m1 - A VIOLÊNCIA DOMÉSTICA OCORRE MUITO ESPORADICAMENTE\n /m2 - A VIOLÊNCIA\
       \ DOMÉSTICA É UM PROBLEMA EXCLUSIVAMENTE FAMILIAR\n /m3 - A VIOLÊNCIA SÓ ACONTECE\
