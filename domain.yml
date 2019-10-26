@@ -403,3 +403,4 @@ actions:
 - utter_barreiras
 - utter_dependencia
 - utter_deixar
+- action_hello_world
