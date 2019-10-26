@@ -49,7 +49,17 @@
 ## Story manifestacao_CicloViolencia
 * cicloViolencia
     - utter_cicloViolencia
-
 ## Story Aguentam_Relacao_Violenta
 * AguentamRelacaoViolenta1
     - utter_aguentamRelacaoViolenta
+## Story antecipar_sinais
+* anteciparSinais
+    - utter_anteciparSinais
+## Story origem_violencia
+* origemViolencia
+    - utter_origemViolencia
+>check_origemViolenciaSIM
+## Story origem_violenciaAffirm
+>check_origemViolenciaSIM
+* affirm
+    - utter_origemViolenciaSIM
