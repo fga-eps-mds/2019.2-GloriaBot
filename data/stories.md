@@ -49,3 +49,37 @@
 ## Story manifestacao_CicloViolencia
 * cicloViolencia
     - utter_cicloViolencia
+## Story mitosViolencia
+>check_orientacao
+* mitosViolencia
+    - utter_mitosViolencia
+## Story mitoUm
+* m1
+    - utter_m1
+## Story mitoDois
+* m2
+    - utter_m2
+## Story mitoTres
+* m3
+    - utter_m3
+## Story mitoQuatro
+* m4
+    - utter_m4
+## Story mitoCinco
+* m5
+    - utter_m5
+## Story mitoSeis
+* m6
+    - utter_m6
+## Story mitoSete
+* m4_7_Afirm
+    - utter_m4_7_Afirm
+## Story mitoOito
+* m8
+    - utter_m8
+## Story mitoNove
+* m5_9_Afirm
+    - utter_m5_9_Afirm
+## Story mitoDez
+* m10
+    - utter_m10
