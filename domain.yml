@@ -269,7 +269,7 @@ templates:
       \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
       \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
   utter_agrideAgredidoINICIO:
-  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima? 
+  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima?
   utter_agrideAgredidoInicioResposta:
   - text: "Na sua forma mais típica, a violência conjugal é uma expressão de desejo\
       \ de uma pessoa controlar e dominar a outra.\nQuer saber um pouquinho mais sobre isso?"
@@ -279,7 +279,7 @@ templates:
       \ físicas e sexuais variadas\n Além do medo permanemte, esse tipo de violência\
       \ pode resultar em danos físicos e psicológicos duradouros"
   utter_agrideAgredidoQuemPodeSofrer:
-  - text: "Ah deixa eu abrir um parênteses aqui\n 
+  - text: "Ah deixa eu abrir um parênteses aqui\n
     Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
       \ a violência contra a mulher é mais frequênte\n "
   utter_agrideAgredidoQuemPodeSofrerAfirm:
@@ -304,36 +304,25 @@ templates:
   - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir a gravidade do risco de uma violência domestica?"
   - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra a violência. \nQuer saber sobre qual delas?"
   - text: "A violencia domestica tem sempre uma origem e tem como  antecipar os sinais da violência. \nQual vc deseja saber?"
-  
+
   utter_origemViolencia:
-  - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
-      \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
-      \ ou porque a violência ocorre mais em algumas comunidades do que em outras.”.\n\
-      \ Na maioria dos casos a violência está associada a camadas da vivência do agressor,\
-      \ um modelo psicológico foi criado para mapear as prováveis causas que levariam\
-      \ um agressor a cometer a agressão.\n Quer saber como funciona?"
+  - text: "Não tem uma razão única para o porque as pessoas começam a serem violentas\
+      \ na maioria das vezes é porque quem agride tem muitas camadas de vivência sabia?\
+      \ Gostaria de saber mais sobre?"
     image: https://i.imgur.com/LIHnEaX.png
   utter_origemViolenciaSIM:
-  - text: "- Observe que, segundo esse modelo, a violência estaria relacionada à interação\
-      \ de quatro planos: o individual, o relacional, o comunitário e o social. Cada\
-      \ um desses planos engloba o anterior, tanto para reforçar, quanto para prevenir\
-      \ os elementos de risco. Por exemplo: fatores biológicos, pessoais, como a impulsividade,\
-      \ abusos sofridos na infância ou o uso abusivo de substâncias químicas (plano\
-      \ individual), podem ou não favorecer a violência, dependendo da qualidade das\
-      \ relações familiares e de amizade,  o tipo de suporte dado pela família e pela\
-      \ rede de relações próximas faz toda a diferença (plano relacional).\n - Resumindo,a\
-      \ natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
-      \ vezes os fatores cruciais para a origem do seu comportamento violento,  a\
-      \ natureza dos vínculos que ligam uma pessoa ao seu entorno (vizinhos, ambiente\
-      \ de trabalho, amigos, grupo de igreja ou associações) pode abrir ou fechar\
-      \ as portas para a violência.\n - Só pra lembrar que esse é apenas um modelo\
-      \ para ajudar a entender melhor as raízes da violência. Não é uma regra ou uma\
-      \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
-      \ em todos esses planos e jamais apresente comportamento violento.\n"
+  - text: "Existe um modelo que mostra que a violência é relacionada á quatro pontos, individual\
+      \ , o relacional, o comunitário e o social, sendo que cada ponto engloba o outro. Muitas desses\
+      \ pontos são da infância como abusos físicos ou de drogas, mas nem todos se tornam pessoas violentas,\
+      \ a família e amigos são muito importantes para ajudar alguém com dificuldades fazem total diferença para\
+      \ prevenir uma pessoa de perder seu caminho, os vínculos de alguém são extremamente importantes para que a\
+      \ pessoa possa ser funcional em sociedade. Lembrando que isso não é algo a ser levado como regra mas que influenciam\
+      \ , é completamente possível que alguém sofra isso e não se torne violento no futuro. =)"
+
   utter_greet0:
   - text: "Olá =) \n Em que posso te ajudar?\n"
   - text: "Em que posso te auxiliar?"
-  - text: "Olá!\n O que você procura? Posso te Ajudar!" 
+  - text: "Olá!\n O que você procura? Posso te Ajudar!"
   utter_greet1:
   - text: "Posso te auxiliar a\n-Encontrar Delegacias especializadas no atendimento\
       \ à Mulher.\n- Te orientar sobre os direitos da mulher\n"
@@ -403,4 +392,3 @@ actions:
 - utter_barreiras
 - utter_dependencia
 - utter_deixar
-- action_hello_world

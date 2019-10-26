@@ -186,6 +186,7 @@
 - origem da violencia
 - origem
 - inicio da violência
+- como a violência começa
 
 ## intent:planoProtecao
 - como construir um plano de proteção
