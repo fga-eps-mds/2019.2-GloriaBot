@@ -21,11 +21,11 @@ intents:
 - m2
 - m3
 - m4
+- m4_7_Afirm
 - m5
+- m5_9_Afirm
 - m6
-- m7
 - m8
-- m9
 - m10
 - anteciparSinais
 - planoProtecao
@@ -132,22 +132,22 @@ templates:
     - title: Orientação
       payload: Orientação sobre direitos
   utter_anteciparSinais:
-  - text: "Sabia que existem alguns sinais que a pessoa pode ser violenta? Se uma pessoa é controladora,\
-      \ é extremamente dependente da relação, desenvolve realizações irrealistas sobre o relacionamento\
-      \ se a pessoa se irrita facilmente, é abusiva vermalmente com xingamentos e grosserias constantes, \
-      \ fica com raiva com coisas que considera injustiça contra si mesmo, então é sempre bom tomar cuidado \
-      \ com isso para que possa se fazer algo no futuro mas lembrando que isso não é uma regra e nem todos \
-      \ com esses comportamentos são pessoas que cometem violência doméstica mas é uma boa precaução ficar de olho sempre :)"
-  utter_mitos:
-  - text: "/m1 - A VIOLÊNCIA DOMÉSTICA OCORRE MUITO ESPORADICAMENTE\n /m2 - A VIOLÊNCIA\
-      \ DOMÉSTICA É UM PROBLEMA EXCLUSIVAMENTE FAMILIAR\n /m3 - A VIOLÊNCIA SÓ ACONTECE\
-      \ ENTRE AS FAMÍLIAS DE BAIXA RENDA E POUCA INSTRUÇÃO\n /m4 - AS MULHERES PROVOCAM\
-      \ OU GOSTAM DA VIOLÊNCIA\n /m5 - A VIOLÊNCIA SÓ ACONTECE NAS FAMÍLIAS PROBLEMÁTICAS\n\
-      \ /m6 - OS AGRESSORES NÃO SABEM CONTROLAR SUAS EMOÇÕES\n /m7 - SE A SITUAÇÃO\
-      \ FOSSE REALMENTE TÃO GRAVE, AS VÍTIMAS ABANDONARIAM LOGO SEUS AGRESSORES\n\
-      \ /m8 - É FÁCIL IDENTIFICAR O TIPO DE MULHER QUE APANHA\n /m9 - A VIOLÊNCIA\
-      \ DOMÉSTICA VEM DE PROBLEMAS COM O ÁLCOOL, DROGAS OU DOENÇAS MENTAIS\n /m10\
-      \ - PARA ACABAR COM A VIOLÊNCIA BASTA PROTEGER AS VÍTIMAS E PUNIR OS AGRESSORES\n"
+  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
+      \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
+      \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
+      \ - Mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
+      \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
+      \ e grosseira\n - Negação de abusos cometidos no passado\n"
+  utter_mitosViolencia:
+  - text: Um dos mitos é de que a violência ocorre muito esporadicamente ou que a 
+      violência doméstica é um problema exclusivamente familia.
+  - text: Dizer que violência só acontece entre famílias carentes ou problemáticas é um mito.
+  - text: É falso dizer que as mulheres provocam ou gostam de violência. Assim como não há um perfil
+      das mulheres que sofrem agressão.
+  - text: É mito que os agressores não controlam suas emoções. Também é mito de que a única causa das
+      agressão são entorpecentes ou doenças mentais.
+  - text: Só proteger as vítimas não elimina o problema.
+  - text: É mito dizer que as vítimas só não abandonam os agressores por não ver a gravidade da situação
   utter_m1:
   - text: A violência doméstica não é esporádica, segundo dados do DataSenado o número
       de mulheres reportando agressões vem apenas crescendo ao longo dos anos chegando
@@ -205,7 +205,7 @@ templates:
       agressor.
   utter_m10:
   - text: O principal foco é proteger as vítimas, sobre os agressores é necessário
-      transformar o comportamente, somente punir irá causar recorrência na maioria
+      transformar o comportamento, somente punir irá causar recorrência na maioria
       dos casos, no longo prazo investir em seu potencial de transformação e na capacidade
       de mudança são as melhores apostas. É necessário encarar o desafio de transformar
       comportamentos violentos para a construção de uma sociedade melhor.
@@ -329,7 +329,7 @@ actions:
 - utter_violenciaEmocional
 - utter_violenciaSexual
 - utter_cicloViolencia
-- utter_mitos
+- utter_mitosViolencia
 - utter_m1
 - utter_m2
 - utter_m3
