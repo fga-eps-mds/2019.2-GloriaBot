@@ -138,7 +138,7 @@
 - fazem por raiva
 - controle da raiva
 
-## intent:m7
+## intent:m4_7_Afirm
 - Não abandonam por que não é grave
 - medo de abandonar o agressor
 - abandonar agressor
@@ -149,7 +149,7 @@
 - esteriótipo
 - como é a mulher que apanha
 
-## intent:m9
+## intent:m5_9_Afirm
 - problemas com bebida
 - bebida gera violência
 - álcool é o único problema
