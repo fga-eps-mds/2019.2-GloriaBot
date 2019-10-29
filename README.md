@@ -31,9 +31,9 @@ O ChatBot Glória poderá ser acessado via Telegram, sendo necessário o aplicat
 
 ### Contribuindo com o projeto
 
-Para contribuir com o projeto, há um [Guia de Contribuição](https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/contributing/CONTRIBUTING.md "Contributing") com as informações necessárias para rodar a aplicação. 
+Para contribuir com o projeto, há um [Guia de Contribuição](https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/master/CONTRIBUTING.md "Contributing") com as informações necessárias para rodar a aplicação. 
 
-#### O condigo de conduta para as contribuições está disponível [aqui](https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/contributing/CODE_OF_CONDUCT.md "Code of Conduct").
+#### O condigo de conduta para as contribuições está disponível [aqui](https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/master/CODE_OF_CONDUCT.md "Code of Conduct").
 
 ### Licenciamento
 
