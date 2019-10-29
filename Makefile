@@ -22,4 +22,4 @@ interactive:
 	docker container stop action_server	
 
 visualize:
-	docker-compose run rasa_visualize
+  docker-compose run rasa_visualize
