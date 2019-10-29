@@ -95,8 +95,9 @@ templates:
       levar anos, principalmente se a mulher não contar com nenhum apoio."
 
   utter_planoProtecao:
-  - text: "/horaAtaque - Na Hora o Ataque\n /depoisAtaque- Depois do Ataque"
-  utter_horaAtaque:
+  - text: "Caso se encontre em uma situação de violência física eminente, podemos traçar um plano\
+          \ de proteção para te ajudar o máximo possível. Você está se sentindo em perigo agora?\n"
+  utter_horaAtaqueAffirm:
   - text: "Na Hora do ATAQUE\n - Evitar Locais pequenos com objetos perigosos ou superfícies\
       \ cortantes\n - Evitar locais onde haja armas\n - Se a violência for inevitável:\
       \ corra para um canto e agache-se com o rosto protegido e os braços em volta\
@@ -105,13 +106,10 @@ templates:
       \ - Evite fugir sem as crianças. Elas poderão ser usadas como objeto de chantagem.\n\
       \ - Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
       \ violência.\n"
-    buttons:
-    - title: Depois do Ataque
-      payload: /depoisAtaque
-    - title: Orientação
-      payload: Orientação sobre direitos
-  utter_depoisAtaque:
-  - text: "Depois do Ataque\n - Sempre ter os números de emergência guardados em lugar\
+  utter_planoProtecaoDeny:
+    - text: "Seu parceiro já te agrediu (Física ou psicológicamente)?\n"
+  utter_depoisAtaqueAffirm:
+  - text: "É recomendado depois do Ataque\n - Sempre ter os números de emergência guardados em lugar\
       \ de fácil acesso. Procure o telefone mais próximo.\n - Procure uma delegacia\
       \ da mulher, um centro de atendimento ou alguma pessoa ou instituição em que\
       \ você confie.\n - Verifique se há locais seguros por perto, onde você pode\
@@ -126,11 +124,8 @@ templates:
       \ de proteção e combine algumas formas de sinalizar que você está em perigo\n\
       \ - Se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
       \ deixando-o abastecido e na posição de saída, de forma a evitar manobras\n"
-    buttons:
-    - title: Hora do Ataque
-      payload: /horaAtaque
-    - title: Orientação
-      payload: Orientação sobre direitos
+  utter_depoisAtaqueDeny:
+  - text: "Se precisar estou aqui para te ajudar.\n"
   utter_anteciparSinais:
   - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
       \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
@@ -342,8 +337,10 @@ actions:
 - utter_m10
 - utter_anteciparSinais
 - utter_planoProtecao
-- utter_horaAtaque
-- utter_depoisAtaque
+- utter_horaAtaqueAffirm
+- utter_planoProtecaoDeny
+- utter_depoisAtaqueAffirm
+- utter_depoisAtaqueDeny
 - utter_origemViolencia
 - utter_origemViolenciaSIM
 - utter_aguentamRelacaoViolenta

@@ -49,6 +49,28 @@
 ## Story manifestacao_CicloViolencia
 * cicloViolencia
     - utter_cicloViolencia
+## Story planoProtecao
+>check_orientacao
+* planoProtecao
+    - utter_planoProtecao
+>check_planoProtecao
+## Story planoProtecao_horaAtaqueAffirm
+>check_planoProtecao
+* affirm
+    - utter_horaAtaqueAffirm
+## Story planoProtecao_Deny
+>check_planoProtecao
+* deny
+    -utter_planoProtecaoDeny
+>check_planoProtecao_Deny
+## Story planoProtecao_DepoisAtaqueAffirm
+>check_planoProtecao_Deny
+* affirm
+    - utter_depoisAtaqueAffirm
+## Story planoProtecao_depoisAtaqueDeny
+>check_planoProtecao_Deny
+* deny
+    - utter_depoisAtaqueDeny
 ## Story mitosViolencia
 >check_orientacao
 * mitosViolencia

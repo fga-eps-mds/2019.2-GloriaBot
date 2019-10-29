@@ -224,6 +224,8 @@
 
 ## intent:planoProtecao
 - como construir um plano de proteção
+- me proteger
+- proteção
 - plano proteção
 - plano
 - proteção plano
