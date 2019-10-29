@@ -121,7 +121,7 @@
 * m10
     - utter_m10
 ## Story Aguentam_Relacao_Violenta
-* AguentamRelacaoViolenta1
+* aguentamRelacaoViolenta
     - utter_aguentamRelacaoViolenta
 ## Story antecipar_sinais
 * anteciparSinais
