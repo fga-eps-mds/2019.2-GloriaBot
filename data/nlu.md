@@ -19,6 +19,9 @@
 - antecipar
 - sinais
 - sinal
+- como saber se alguem é violento
+- prevenir
+- prevenção
 
 ## intent:barreiras
 - /barreiras
@@ -97,34 +100,62 @@
 - /isolamento
 
 ## intent:m1
-- /m1
+- esporádica
+- esporadica
+- isoladamente
+- aleatória
+- aleatoria
+- imprevista
 
 ## intent:m10
-- /m10
+- somento punir melhora
+- punir melhora
+- mudar comportamentos violentos
 
 ## intent:m2
-- /m2
+- violência doméstica é um problema familiar?
+- violencia domestica e um problema familiar
+- somente os envolvidos são afetados?
+- afetados
 
 ## intent:m3
-- /m3
+- familia de baixa renda
+- violencia ocorre com os pobres
+- só ocorre com os pobres
 
 ## intent:m4
-- /m4
+- mulher pede
+- mulher provoca
+- mulher merece ser agredida
+- mulher gosta de apanhar
+- merece apanhar
 
 ## intent:m5
-- /m5
+- só acontece em familias problemáticas
+- familias problematicas
+- agressor não é bem sucedido
+- problemas psicológicos
 
 ## intent:m6
-- /m6
+- agressores não se controlam
+- fazem por raiva
+- controle da raiva
 
-## intent:m7
-- /m7
+## intent:m4_7_Afirm
+- Não abandonam por que não é grave
+- medo de abandonar o agressor
+- abandonar agressor
 
 ## intent:m8
-- /m8
+- perfil da mulher que apanha
+- padrão de mulher que apanha
+- esteriótipo
+- como é a mulher que apanha
 
-## intent:m9
-- /m9
+## intent:m5_9_Afirm
+- problemas com bebida
+- bebida gera violência
+- álcool é o único problema
 
 ## intent:manifestacaoDaViolencia
 - quais são as manifestações da violencia
@@ -138,10 +169,13 @@
 - manifestação violência
 
 ## intent:mitosViolencia
-- 10 mitos
-- mitos
 - mitos violencia
 - mitos sobre a violência Doméstica
+- quais são os mitos sobre a violência doméstica?
+- mitos
+- quais são as mentiras sobre a violência doméstica?
+- mentiras
+- quais mitos existem sobre a violência doméstica?
 
 ## intent:mood_great
 - perfeito
@@ -186,6 +220,7 @@
 - origem da violencia
 - origem
 - inicio da violência
+- como a violência começa
 
 ## intent:planoProtecao
 - como construir um plano de proteção
@@ -211,6 +246,12 @@
 ## intent:relacaoViolenta
 - /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
+- medo de sair da relação
+- medo de denunciar
+- isolada
+- me sinto isolada
+- medo pelos meus filhos
+- esperança que ele vai mudar
 
 ## intent:riscoRomp
 - /riscoRomp

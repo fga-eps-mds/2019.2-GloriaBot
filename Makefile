@@ -2,6 +2,7 @@ current_dir := $(shell pwd)
 
 train:
 	docker-compose run rasa_train
+
 run:
 	docker-compose run --service-ports --rm rasa_run
 	docker container stop mongo-express
