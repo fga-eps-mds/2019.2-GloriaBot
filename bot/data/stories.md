@@ -92,18 +92,15 @@
 >check_mitos
 * m4
     - utter_m4
->check_mitoQuatro
 ## Story mitoCinco
 >check_mitos
 * m5
     - utter_m5
->check_mitoCinco
 ## Story mitoSeis
 >check_mitos
 * m6
     - utter_m6
 ## Story mitoSete
->check_mitoQuatro
 >check_mitos
 * m4_7_Afirm
     - utter_m4_7_Afirm
@@ -113,7 +110,6 @@
     - utter_m8
 ## Story mitoNove
 >check_mitos
->check_mitoCinco
 * m5_9_Afirm
     - utter_m5_9_Afirm
 ## Story mitoDez
