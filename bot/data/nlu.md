@@ -279,3 +279,13 @@
 - me fale mais
 - diga-me mais
 - fale mais
+
+## intent:medirGravidade
+- Quero medir a gravidade do risco de uma violência doméstica
+- Quero medir a gravidade do risco de uma violência domestica
+- medir a gravidade
+- Risco de violência
+- risco de violencia
+- Risco de violência doméstica
+- Risco de violencia domestica
+- risco

@@ -44,6 +44,7 @@ intents:
 - barreiras
 - greet2
 - duvida
+- medirGravidade
 templates:
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
@@ -306,6 +307,10 @@ templates:
   - text: Que legal!
   utter_goodbye:
   - text: Tchau:)
+  utter_medirGravidade:
+  - text: Para tentar medir o risco que você corre, farei algumas perguntas e de acordo
+      com as respostas tentarei medir o risco de violência você sofre, certo? 
+      Lembrando que não é um teste infalível, por isso confie também no seu bom senso.
 actions:
 - utter_greet0
 - utter_greet1
@@ -352,3 +357,4 @@ actions:
 - utter_barreiras
 - utter_dependencia
 - utter_deixar
+- utter_medirGravidade

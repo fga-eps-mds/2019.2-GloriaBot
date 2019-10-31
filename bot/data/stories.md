@@ -130,3 +130,7 @@
 >check_origemViolenciaSIM
 * affirm
     - utter_origemViolenciaSIM
+## Story Medir_Gravidade
+>check_orientacao
+* medirGravidade
+    - utter_medirGravidade
