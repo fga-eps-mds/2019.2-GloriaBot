@@ -130,7 +130,29 @@
 >check_origemViolenciaSIM
 * affirm
     - utter_origemViolenciaSIM
-## Story Medir_Gravidade
+
+## Story MedirGravidade
 >check_orientacao
 * medirGravidade
     - utter_medirGravidade
+>check_MedirGravidade
+## Story MedirAgressorRotina
+>check_MedirGravidade
+* affirm
+    - utter_MedirAgressorRotina
+>check_MedirAgressorRotina
+## Story MedirAgressorRotinaMedio
+>check_MedirAgressorRotina
+* deny
+    - utter_MedirAgressorRotinaMedio
+>check_MedirAgressorRotinaMedio
+## Story MedirAgressorRotinaAlto
+>check_MedirAgressorRotina
+* duvida
+    - utter_MedirAgressorRotinaAlto
+>check_MedirAgressorRotinaAlto
+## Story MedirAgressorRotinaExtremo
+>check_MedirAgressorRotina
+* affirm
+    - utter_MedirAgressorRotinaExtremo
+>check_MedirAgressorRotinaExtremo

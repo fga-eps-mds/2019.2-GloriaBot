@@ -45,6 +45,11 @@ intents:
 - greet2
 - duvida
 - medirGravidade
+- MedirAgressorRotina
+- MedirAgressorRotinaMedio
+- MedirAgressorRotinaAlto
+- MedirAgressorRotinaExtremo
+
 templates:
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
@@ -56,8 +61,9 @@ templates:
       \ mais sobre algum deles?\n"
   utter_riscoRomp:
   - text: "A violência e as ameaças contra a vida da mulheres dos filhos se tornam\
-      \ mais intensas no período da separação, pois o homem violento percebe que perdeu\
-      \ o controle sobre sua parceira. Por isso assim que fizer isso deve buscar ajuda.\n"
+      \ mais intensas no época da separação, pois o homem violento percebe que perdeu\
+      \ o controle sobre sua parceira. Por isso assim que seu parceiro der esses sinais\
+      \ deve-se buscar ajuda.\n"
   utter_vergonhaMedo:
   - text: As mulheres normalmente têm medo de denunciar seus maridos devia a dependência
       tanto emocional quanto dependência financeira, pois ai vem o medo de perder
@@ -278,6 +284,20 @@ templates:
       \ pessoa possa ser funcional em sociedade. Lembrando que isso não é algo a ser levado como regra mas que influenciam\
       \ , é completamente possível que alguém sofra isso e não se torne violento no futuro. =)"
 
+  utter_MedirAgressorRotina:
+  - text: "O agressor conhece a sua rotina, seu local de trabalho, a escola dos seus filhos,\
+  \ ou algum lugar que você visita com frequencia?"
+  utter_MedirAgressorRotinaMedio:
+  - text: "Nesse caso, você corre um risco médio, fique atenta aos arredores, e se possível\
+  \ fale pessoalmente com alguém de confiança."
+  utter_MedirAgressorRotinaAlto:
+  - text: "Você corre um risco alto, contate as autoridades locais e se mantenha atenta\
+  \ nos lugares que você visita com frequência, tente mudar sua rotina para evitar contato."
+  utter_MedirAgressorRotinaExtremo:
+  - text: "Cuidado, sua situação é de risco extremo, contate as autoridades locais e pessoas\
+  \ próximas a você sobre a situação, tente mudar sua rotina, tente mudar seus horários, \
+  \ deixe de frequentar por um tempo locais que você visita com frequência."
+
   utter_greet0:
   - text: "Olá =) \n Em que posso te ajudar?\n"
   - text: "Em que posso te auxiliar?"
@@ -358,3 +378,7 @@ actions:
 - utter_dependencia
 - utter_deixar
 - utter_medirGravidade
+- utter_MedirAgressorRotina
+- utter_MedirAgressorRotinaMedio
+- utter_MedirAgressorRotinaAlto
+- utter_MedirAgressorRotinaExtremo
