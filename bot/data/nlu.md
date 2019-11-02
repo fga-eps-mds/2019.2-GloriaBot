@@ -5,6 +5,8 @@
 - claro
 - isso soa bem
 - correto
+- ok
+- Ok
 
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
@@ -275,10 +277,13 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+
 ## intent:duvida
 - me fale mais
 - diga-me mais
 - fale mais
+- não sei
+- não tenho certeza
 
 ## intent:medirGravidade
 - Quero medir a gravidade do risco de uma violência doméstica

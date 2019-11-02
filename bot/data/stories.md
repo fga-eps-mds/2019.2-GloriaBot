@@ -144,11 +144,31 @@
 >check_agressorFaca
 * affirm OR agressorFacaAffirm
     - utter_altoRisco
+>check_agressorFacaresp
 ## Story Medir_AgressorFacaExt
 >check_agressorFaca
 * affirm OR agressorFacaAffirmExt
     - utter_riscoExtremo
+>check_agressorFacaresp
 ## Story Medir_AgressorDeny
 >check_agressorFaca
 * deny
     - utter_medioRisco
+>check_agressorFacaresp
+## Story suicida
+>check_agressorFacaresp
+* affirm
+    - utter_suicida
+>check_suicida
+## Story suicidaMedio
+>check_suicida
+* deny
+    - utter_suicidaMedio
+## Story suicidaAlto
+>check_suicida
+* duvida
+    - utter_suicidaAlto
+## Story suicidaExtremo
+>check_suicida
+* affirm
+    - utter_suicidaExtremo
