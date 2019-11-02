@@ -144,11 +144,35 @@
 >check_agressorFaca
 * affirm OR agressorFacaAffirm
     - utter_altoRisco
+>check_agressorFacaresp
 ## Story Medir_AgressorFacaExt
 >check_agressorFaca
 * affirm OR agressorFacaAffirmExt
     - utter_riscoExtremo
+>check_agressorFacaresp
 ## Story Medir_AgressorDeny
 >check_agressorFaca
 * deny
     - utter_medioRisco
+>check_agressorFacaresp
+## Story AgressorFilhos
+>check_agressorFacaresp
+    - utter_agressorFilhos
+>check_AgressorFilhos
+## Story AgressorFilhosMedio
+>check_AgressorFilhos
+* deny
+    - utter_agressorFilhosMedio
+## Story AgressorFilhosAffirm
+>check_AgressorFilhos
+* affirm
+    - utter_agressorFilhosAffirm
+>check_AgressorFilhosAffirm
+## Story AgressorFilhosAlto
+>check_AgressorFilhosAffirm
+* ameaçarFilhos
+    - utter_agressorFilhosAlto
+## Story AgressorFilhosExtremo
+>check_AgressorFilhosAffirm
+* baterFilhos
+    - utter_agressorFilhosExtremo

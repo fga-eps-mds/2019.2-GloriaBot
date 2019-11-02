@@ -300,3 +300,15 @@
 - Já me ameaçou com uma faca
 - Já me ameaçou
 - Já foi preso por atacar alguém
+
+## intent:ameaçarFilhos
+- Já ameaçou meus filhos
+- Ameaçou
+- tentou machucar meus filhos
+- tentou machucar
+- apenas ameaças
+
+## intent:baterFilhos
+- Já bateu nos meus filhos
+- já bateu no meu filho
+- já bateu na minha filha
