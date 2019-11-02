@@ -45,6 +45,12 @@ intents:
 - greet2
 - duvida
 - medirGravidade
+- agressorFaca
+- altoRisco
+- riscoExtremo
+- agressorFacaAffirm
+- agressorFacaAffirmExt
+
 templates:
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
@@ -311,6 +317,16 @@ templates:
   - text: Para tentar medir o risco que você corre, farei algumas perguntas e de acordo
       com as respostas tentarei medir o risco de violência você sofre, certo? 
       Lembrando que não é um teste infalível, por isso confie também no seu bom senso.
+  utter_agressorFaca:
+  - text: Agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
+  utter_medioRisco:
+  - text: É significante o risco que você corre. Tenha cuidado, sempre tentando evitar locais perigosos.
+  utter_altoRisco:
+  - text: Você corre um alto risco! Digite orientações para saber como agir adequadamente.
+  utter_riscoExtremo:
+  - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
+      a delegacia mais próxima para saber como proceder.
+  
 actions:
 - utter_greet0
 - utter_greet1
@@ -358,3 +374,7 @@ actions:
 - utter_dependencia
 - utter_deixar
 - utter_medirGravidade
+- utter_agressorFaca
+- utter_medioRisco
+- utter_altoRisco
+- utter_riscoExtremo

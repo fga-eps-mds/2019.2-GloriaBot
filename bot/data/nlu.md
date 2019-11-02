@@ -289,3 +289,14 @@
 - Risco de violência doméstica
 - Risco de violencia domestica
 - risco
+
+## intent:agressorFacaAffirm
+- possui uma faca
+- Sim, ele possui uma faca
+- faca
+- Ele tem uma faca
+
+## intent:agressorFacaAffirmExt
+- Já me ameaçou com uma faca
+- Já me ameaçou
+- Já foi preso por atacar alguém
