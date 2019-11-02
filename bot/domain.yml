@@ -332,8 +332,9 @@ templates:
       a delegacia mais próxima para saber como proceder.
 
   utter_maluco:
-  - text: "O agressor parece, tem tendências suicidas? (muitos suicidas não são violentos, mas agressores suicidas algumas vezes\
-  \ matam outros membros da família antes de se matarem)."
+  - text: "O agressor, em algumas vezes, parece maluco ou fora de si? (pessoas doentes não têm mais\
+  \ probabilidade do que as ditas normais de serem violentas. Entretanto, pessoas violentas que\
+  \ perdem seu senso de conseqüência podem se tornar muito perigosas)"
   utter_malucoMedio:
   - text: "O risco é médio, tente conversar com a pessoa, fale com alguém da sua confiança sobre a situação."
   utter_malucoAlto:
