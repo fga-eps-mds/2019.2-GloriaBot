@@ -134,3 +134,21 @@
 >check_orientacao
 * medirGravidade
     - utter_medirGravidade
+>check_medir
+## Story Medir_AgressorFaca
+>check_medir
+* affirm
+    - utter_agressorFaca
+>check_agressorFaca
+## Story Medir_AgressorFacaAffirm
+>check_agressorFaca
+* affirm OR agressorFacaAffirm
+    - utter_altoRisco
+## Story Medir_AgressorFacaExt
+>check_agressorFaca
+* affirm OR agressorFacaAffirmExt
+    - utter_riscoExtremo
+## Story Medir_AgressorDeny
+>check_agressorFaca
+* deny
+    - utter_medioRisco
