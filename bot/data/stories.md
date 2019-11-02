@@ -144,11 +144,31 @@
 >check_agressorFaca
 * affirm OR agressorFacaAffirm
     - utter_altoRisco
+>check_agressorFacaResp
 ## Story Medir_AgressorFacaExt
 >check_agressorFaca
 * affirm OR agressorFacaAffirmExt
     - utter_riscoExtremo
+>check_agressorFacaResp
 ## Story Medir_AgressorDeny
 >check_agressorFaca
 * deny
     - utter_medioRisco
+>check_agressorFacaResp
+## Story bebidaDrogas
+>check_agressorFacaResp
+* affirm
+    - utter_bebidaDrogas
+>check_bebidaDrogas
+## Story bebidaDrogasMedio
+>check_bebidaDrogas
+* deny
+    - utter_bebidaDrogasMedio
+## Story bebidaDrogasAlto
+>check_bebidaDrogas
+* duvida
+    - utter_bebidaDrogasAlto
+## Story bebidaDrogasExtremo
+>check_bebidaDrogas
+* affirm
+    - utter_bebidaDrogasExtremo

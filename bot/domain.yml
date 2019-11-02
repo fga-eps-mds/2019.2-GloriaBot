@@ -50,6 +50,10 @@ intents:
 - riscoExtremo
 - agressorFacaAffirm
 - agressorFacaAffirmExt
+- bebidaDrogas
+- bebidaDrogasMedio
+- bebidaDrogasAlto
+- bebidaDrogasExtremo
 
 templates:
   utter_aguentamRelacaoViolenta:
@@ -326,6 +330,19 @@ templates:
   utter_riscoExtremo:
   - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
       a delegacia mais próxima para saber como proceder.
+
+  utter_bebidaDrogas:
+  - text: "O agressor costuma beber e/ou usar algum tipo de estimulante?"
+  utter_bebidaDrogasMedio:
+  - text: "O risco é médio, tente conversar com a pessoa, se isso não resolver, fale com alguém da sua confiança\
+  \ sobre a situação."
+  utter_bebidaDrogasAlto:
+  - text: "O risco que você corre é alto, contate alguém de confiança, e fique atenta aos sinais que o agressor passar\
+  \ , estes são indicativos de que ele pode estar indo para um tipo de posição mais violenta, neste caso contate as\
+  \ autoridades locais."
+  utter_bebidaDrogasExtremo:
+  - text: "Você está em uma situação de extremo risco, contate as autoridades locais, eles saberão como te aconselhar\
+  \ de uma maneira mais pessoal."
   
 actions:
 - utter_greet0
@@ -378,3 +395,7 @@ actions:
 - utter_medioRisco
 - utter_altoRisco
 - utter_riscoExtremo
+- utter_bebidaDrogas
+- utter_bebidaDrogasMedio
+- utter_bebidaDrogasAlto
+- utter_bebidaDrogasExtremo
