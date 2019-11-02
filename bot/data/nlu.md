@@ -5,6 +5,7 @@
 - claro
 - isso soa bem
 - correto
+- ok
 
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica

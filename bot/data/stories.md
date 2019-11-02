@@ -152,3 +152,21 @@
 >check_agressorFaca
 * deny
     - utter_medioRisco
+>check_AgressorDeny
+## Story forcarAtosSexuais
+>check_AgressorDeny
+* affirm
+    - utter_forcarAtosSexuais
+>check_forcarAtosSexuais
+## Story forcarAtosMedio
+>check_forcarAtosSexuais
+* deny
+    - utter_forcarAtosMedio
+## Story forcarAtosAlto
+>check_forcarAtosSexuais
+* duvida
+    - utter_forcarAtosAlto
+## Story forcarAtosExtremo
+>check_forcarAtosSexuais
+* affirm
+    - utter_forcarAtosExtremo
