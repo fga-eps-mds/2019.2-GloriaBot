@@ -300,3 +300,16 @@
 - Já me ameaçou com uma faca
 - Já me ameaçou
 - Já foi preso por atacar alguém
+
+## intent:agressoControladorAffirm
+- É muito ciumento
+- Controla os meus horários
+- Não gosta dos meus amigos
+- Sempre nota se eu chego mais tarde
+
+## intent:agressoControladorAffirmExt
+- Ele me controla
+- Ele me prende
+- Doente de ciúmes
+- Imagina coisas absurdas
+- Controla o tanto que o carro andou

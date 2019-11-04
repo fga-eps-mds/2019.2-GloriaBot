@@ -137,7 +137,7 @@
 >check_medir
 ## Story Medir_AgressorFaca
 >check_medir
-* affirm
+* agressorFacaAffirm
     - utter_agressorFaca
 >check_agressorFaca
 ## Story Medir_AgressorFacaAffirm
@@ -150,5 +150,22 @@
     - utter_riscoExtremo
 ## Story Medir_AgressorDeny
 >check_agressorFaca
+* deny
+    - utter_medioRisco
+## Story medir_AgressorControlador
+>check_medir
+* affirm
+    - utter_agressorControlador
+>check_agressorControlador
+## Story medir_AgressorControladorAffirm
+>check_agressorControlador
+* affirm OR agressoControladorAffirm
+    - utter_altoRisco
+## Story medir_AgressoControladorExt
+>check_agressorControlador
+* agressoControladorAffirmExt
+    - utter_riscoExtremo
+## Story medir_agressoControladorDeny
+>check_agressorControlador
 * deny
     - utter_medioRisco
