@@ -300,3 +300,15 @@
 - Já me ameaçou com uma faca
 - Já me ameaçou
 - Já foi preso por atacar alguém
+
+## intent:agressorPresoAffirm
+- A polícia já veio aqui
+- Já prestei queixa, mas retirei
+- Tenho medo de dar queixa
+- Já fiz denúncia
+
+## intent:agressorPresoAffirmExt
+- Ele já foi preso
+- A polícia o deixa mais nervoso
+- Me atacou na frente do juiz
+- A polícia o deixa mais agressivo
