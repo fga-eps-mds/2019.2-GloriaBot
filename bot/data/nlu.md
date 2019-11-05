@@ -5,6 +5,7 @@
 - claro
 - isso soa bem
 - correto
+- ok
 
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
@@ -301,6 +302,22 @@
 - Já me ameaçou
 - Já foi preso por atacar alguém
 
+## intent:agressivo
+- Agressivo
+- Ele foi agressivo
+- Ele me bateu
+- bateu
+
+## intent:implorar
+- Ele implorou para eu voltar
+- implorou
+- ele ficou implorando
+- implorando
+- pediu para eu voltar
+- pediu
+- me ligou várias vezes
+- ligou
+
 ## intent:agressoControladorAffirm
 - É muito ciumento
 - Controla os meus horários
@@ -325,4 +342,3 @@
 - A polícia o deixa mais nervoso
 - Me atacou na frente do juiz
 - A polícia o deixa mais agressivo
-
