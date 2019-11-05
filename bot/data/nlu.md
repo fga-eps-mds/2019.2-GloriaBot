@@ -301,6 +301,19 @@
 - Já me ameaçou
 - Já foi preso por atacar alguém
 
+## intent:agressoControladorAffirm
+- É muito ciumento
+- Controla os meus horários
+- Não gosta dos meus amigos
+- Sempre nota se eu chego mais tarde
+
+## intent:agressoControladorAffirmExt
+- Ele me controla
+- Ele me prende
+- Doente de ciúmes
+- Imagina coisas absurdas
+- Controla o tanto que o carro andou
+
 ## intent:agressorPresoAffirm
 - A polícia já veio aqui
 - Já prestei queixa, mas retirei
@@ -312,3 +325,4 @@
 - A polícia o deixa mais nervoso
 - Me atacou na frente do juiz
 - A polícia o deixa mais agressivo
+

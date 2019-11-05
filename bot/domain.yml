@@ -50,8 +50,11 @@ intents:
 - riscoExtremo
 - agressorFacaAffirm
 - agressorFacaAffirmExt
+- agressoControladorAffirm
+- agressoControladorAffirmExt
 - agressorPresoAffirm
 - agressorPresoAffirmExt
+
 
 templates:
   utter_aguentamRelacaoViolenta:
@@ -330,6 +333,9 @@ templates:
   utter_riscoExtremo:
   - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
       a delegacia mais próxima para saber como proceder.
+  utter_agressorControlador:
+  - text: O agressor tentou controlar a sua vida de outras formas como, por exemplo, isolando
+      você de sua família ou de seus amigos?
   
 actions:
 - utter_greet0
@@ -382,4 +388,5 @@ actions:
 - utter_medioRisco
 - utter_altoRisco
 - utter_riscoExtremo
+- utter_agressorControlador
 - utter_agressorPreso

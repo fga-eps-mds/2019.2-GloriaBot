@@ -152,6 +152,23 @@
 >check_agressorFaca
 * deny
     - utter_medioRisco
+## Story medir_AgressorControlador
+>check_medir
+* affirm
+    - utter_agressorControlador
+>check_agressorControlador
+## Story medir_AgressorControladorAffirm
+>check_agressorControlador
+* affirm OR agressoControladorAffirm
+    - utter_altoRisco
+## Story medir_AgressoControladorExt
+>check_agressorControlador
+* agressoControladorAffirmExt
+    - utter_riscoExtremo
+## Story medir_agressoControladorDeny
+>check_agressorControlador
+* deny
+    - utter_medioRisco
 ## Story medir_AgressorPreso
 >check_medir
 * affirm OR agressorPresoAffirm
