@@ -52,6 +52,9 @@ intents:
 - agressorFacaAffirmExt
 - agressoControladorAffirm
 - agressoControladorAffirmExt
+- agressorPresoAffirm
+- agressorPresoAffirmExt
+
 
 templates:
   utter_aguentamRelacaoViolenta:
@@ -321,6 +324,8 @@ templates:
       Lembrando que não é um teste infalível, por isso confie também no seu bom senso.
   utter_agressorFaca:
   - text: Agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
+  utter_agressorPreso:
+  - text: O agressor já foi preso? Ele tem medo da polícia ou da justiça?
   utter_medioRisco:
   - text: É significante o risco que você corre. Tenha cuidado, sempre tentando evitar locais perigosos.
   utter_altoRisco:
@@ -384,3 +389,4 @@ actions:
 - utter_altoRisco
 - utter_riscoExtremo
 - utter_agressorControlador
+- utter_agressorPreso

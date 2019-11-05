@@ -130,25 +130,25 @@
 >check_origemViolenciaSIM
 * affirm
     - utter_origemViolenciaSIM
-## Story Medir_Gravidade
+## Story medir_Gravidade
 >check_orientacao
 * medirGravidade
     - utter_medirGravidade
 >check_medir
-## Story Medir_AgressorFaca
+## Story medir_AgressorFaca
 >check_medir
 * agressorFacaAffirm
     - utter_agressorFaca
 >check_agressorFaca
-## Story Medir_AgressorFacaAffirm
+## Story medir_AgressorFacaAffirm
 >check_agressorFaca
 * affirm OR agressorFacaAffirm
     - utter_altoRisco
-## Story Medir_AgressorFacaExt
+## Story medir_AgressorFacaExt
 >check_agressorFaca
-* affirm OR agressorFacaAffirmExt
+* agressorFacaAffirmExt
     - utter_riscoExtremo
-## Story Medir_AgressorDeny
+## Story medir_AgressorDeny
 >check_agressorFaca
 * deny
     - utter_medioRisco
@@ -167,5 +167,22 @@
     - utter_riscoExtremo
 ## Story medir_agressoControladorDeny
 >check_agressorControlador
+* deny
+    - utter_medioRisco
+## Story medir_AgressorPreso
+>check_medir
+* affirm OR agressorPresoAffirm
+    - utter_agressorPreso
+>check_agressorPreso
+## Story_medir_AgressorPresoAffirm
+>check_agressorPreso
+* affirm OR agressorPresoAffirm
+    - utter_altoRisco
+## Story_medir_AgressorPresoAffirmExt
+>check_agressorPreso
+* agressorPresoAffirmExt
+    - utter_riscoExtremo
+## Story_medir_AgressorPresoAffirmDeny
+>check_agressorPreso
 * deny
     - utter_medioRisco
