@@ -54,6 +54,10 @@ intents:
 - riscoExtremo
 - agressorFacaAffirm
 - agressorFacaAffirmExt
+- forcarAtosSexuais
+- forcarAtosMedio
+- forcarAtosAlto
+- forcarAtosExtremo
 - ameaça
 - ameaçarFilhos
 - baterFilhos
@@ -356,6 +360,17 @@ templates:
   utter_riscoExtremo:
   - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
       a delegacia mais próxima para saber como proceder.
+  utter_forcarAtosSexuais:
+  - text: "O agressor pediu para praticar atos sexuais de que você não gosta?"
+  utter_forcarAtosMedio:
+  - text: "Nesse caso, o risco ainda é médio, converse com seu parceiro sobre as atitudes que\
+  \ ele está tomando, e caso se sinta desconfortável, peça aconselhamento em uma pessoa especializada."
+  utter_forcarAtosAlto:
+  - text: "Fique atenta, sua situação é de alto risco, converse com seu parceiro, caso a situação\
+  \ não mude, peça ajuda para alguém de confiança e mude de ambiente."
+  utter_forcarAtosExtremo:
+  - text: "Sua situação é de risco extremo, contate as autoridades locais para mais informações\
+  \ e peça ajuda para alguém de confiança."
   utter_ameaça:
   - text: Quando você tentou deixá-lo ele te ameaçou?
   utter_ameaçaAffirm:
@@ -463,6 +478,10 @@ actions:
 - utter_medioRisco
 - utter_altoRisco
 - utter_riscoExtremo
+- utter_forcarAtosSexuais
+- utter_forcarAtosMedio
+- utter_forcarAtosAlto
+- utter_forcarAtosExtremo
 - utter_ameaça
 - utter_ameaçaMedio
 - utter_ameaçaAlto
