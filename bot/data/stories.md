@@ -130,24 +130,49 @@
 >check_origemViolenciaSIM
 * affirm
     - utter_origemViolenciaSIM
-## Story Medir_Gravidade
+## Story MedirGravidade
+>check_orientacao
+* medirGravidade
+    - utter_medirGravidade
+>check_MedirGravidade
+## Story MedirAgressorRotina
+>check_MedirGravidade
+* affirm
+    - utter_MedirAgressorRotina
+>check_MedirAgressorRotina
+## Story MedirAgressorRotinaMedio
+>check_MedirAgressorRotina
+* deny
+    - utter_MedirAgressorRotinaMedio
+>check_MedirAgressorRotinaMedio
+## Story MedirAgressorRotinaAlto
+>check_MedirAgressorRotina
+* duvida
+    - utter_MedirAgressorRotinaAlto
+>check_MedirAgressorRotinaAlto
+## Story MedirAgressorRotinaExtremo
+>check_MedirAgressorRotina
+* affirm
+    - utter_MedirAgressorRotinaExtremo
+>check_MedirAgressorRotinaExtremo
+## Story medir_Gravidade
 >check_orientacao
 * medirGravidade
     - utter_medirGravidade
 >check_medir
-## Story Medir_AgressorFaca
+## Story medir_AgressorFaca
 >check_medir
-* affirm
+* agressorFacaAffirm
     - utter_agressorFaca
 >check_agressorFaca
-## Story Medir_AgressorFacaAffirm
+## Story medir_AgressorFacaAffirm
 >check_agressorFaca
 * affirm OR agressorFacaAffirm
     - utter_altoRisco
 >check_agressorFacaresp
-## Story Medir_AgressorFacaExt
+## Story medir_AgressorFacaExt
 >check_agressorFaca
-* affirm OR agressorFacaAffirmExt
+* agressorFacaAffirmExt
     - utter_riscoExtremo
 >check_agressorFacaresp
 ## Story Medir_AgressorDeny
@@ -176,3 +201,108 @@
 >check_Medir_ameaçaAffirm
 * affirm
     - utter_ameaçaExtremo
+## Story Recurso
+>check_agressorFacaresp
+    - utter_Recurso
+>check_recurso
+## Story RecursoMedio
+>check_recurso
+* deny
+    - utter_RecursoMedio
+## Story RecursoAffirm
+>check_recurso
+* affirm
+    - utter_RecursoAffirm
+>check_recursoAffirm
+## Story RecursoAlto
+>check_recursoAffirm
+* deny
+    - utter_RecursoAlto
+## Story RecursoExtremo
+>check_recursoAffirm
+* affirm
+    - utter_RecursoExtremo
+## Story AgressorFilhos
+>check_agressorFacaresp
+    - utter_agressorFilhos
+>check_AgressorFilhos
+## Story AgressorFilhosMedio
+>check_AgressorFilhos
+* deny
+    - utter_agressorFilhosMedio
+## Story AgressorFilhosAffirm
+>check_AgressorFilhos
+* affirm
+    - utter_agressorFilhosAffirm
+>check_AgressorFilhosAffirm
+## Story AgressorFilhosAlto
+>check_AgressorFilhosAffirm
+* ameaçarFilhos
+    - utter_agressorFilhosAlto
+## Story AgressorFilhosExtremo
+>check_AgressorFilhosAffirm
+* baterFilhos
+    - utter_agressorFilhosExtremo
+## Story Deixar_Agressor
+>check_agressorFacaresp
+    - utter_deixarAgressor
+>check_deixarAgressor
+## Story Deixar_AgressorDeny
+>check_deixarAgressor
+* deny
+    - utter_deixarAgressorMedio
+## Story Deixar_AgressorAffirm
+>check_deixarAgressor
+* affirm
+    - utter_deixarAgressorAffirm
+>check_deixarAgressorAffirm
+## Story Deixar_AgressorImportar
+>check_deixarAgressorAffirm
+    - utter_deixarAgressorImportar
+>check_deixarAgressorImportar
+## Story Deixar_AgressorExtremo
+>check_deixarAgressorImportar
+* affirm OR agressivo
+    - utter_deixarAgressorExtremo
+## Story Deixar_AgressorAlto
+>check_deixarAgressorImportar
+* deny OR implorar
+    - utter_deixarAgressorAlto
+## Story medir_AgressorDeny
+>check_agressorFaca
+* deny
+    - utter_medioRisco
+## Story medir_AgressorControlador
+>check_medir
+* affirm
+    - utter_agressorControlador
+>check_agressorControlador
+## Story medir_AgressorControladorAffirm
+>check_agressorControlador
+* affirm OR agressoControladorAffirm
+    - utter_altoRisco
+## Story medir_AgressoControladorExt
+>check_agressorControlador
+* agressoControladorAffirmExt
+    - utter_riscoExtremo
+## Story medir_agressoControladorDeny
+>check_agressorControlador
+* deny
+    - utter_medioRisco
+## Story medir_AgressorPreso
+>check_medir
+* affirm OR agressorPresoAffirm
+    - utter_agressorPreso
+>check_agressorPreso
+## Story_medir_AgressorPresoAffirm
+>check_agressorPreso
+* affirm OR agressorPresoAffirm
+    - utter_altoRisco
+## Story_medir_AgressorPresoAffirmExt
+>check_agressorPreso
+* agressorPresoAffirmExt
+    - utter_riscoExtremo
+## Story_medir_AgressorPresoAffirmDeny
+>check_agressorPreso
+* deny
+    - utter_medioRisco

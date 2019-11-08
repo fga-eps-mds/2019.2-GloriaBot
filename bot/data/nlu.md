@@ -5,6 +5,7 @@
 - claro
 - isso soa bem
 - correto
+- ok
 
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
@@ -275,10 +276,15 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+
 ## intent:duvida
 - me fale mais
 - diga-me mais
 - fale mais
+- não sei
+- talvez
+- não posso afirmar
+- não consigo dar a certeza
 
 ## intent:medirGravidade
 - Quero medir a gravidade do risco de uma violência doméstica
@@ -300,3 +306,56 @@
 - Já me ameaçou com uma faca
 - Já me ameaçou
 - Já foi preso por atacar alguém
+
+## intent:ameaçarFilhos
+- Já ameaçou meus filhos
+- Ameaçou
+- tentou machucar meus filhos
+- tentou machucar
+- apenas ameaças
+
+## intent:baterFilhos
+- Já bateu nos meus filhos
+- já bateu no meu filho
+- já bateu na minha filha
+
+## intent:agressivo
+- Agressivo
+- Ele foi agressivo
+- Ele me bateu
+- bateu
+
+## intent:implorar
+- Ele implorou para eu voltar
+- implorou
+- ele ficou implorando
+- implorando
+- pediu para eu voltar
+- pediu
+- me ligou várias vezes
+- ligou
+
+## intent:agressoControladorAffirm
+- É muito ciumento
+- Controla os meus horários
+- Não gosta dos meus amigos
+- Sempre nota se eu chego mais tarde
+
+## intent:agressoControladorAffirmExt
+- Ele me controla
+- Ele me prende
+- Doente de ciúmes
+- Imagina coisas absurdas
+- Controla o tanto que o carro andou
+
+## intent:agressorPresoAffirm
+- A polícia já veio aqui
+- Já prestei queixa, mas retirei
+- Tenho medo de dar queixa
+- Já fiz denúncia
+
+## intent:agressorPresoAffirmExt
+- Ele já foi preso
+- A polícia o deixa mais nervoso
+- Me atacou na frente do juiz
+- A polícia o deixa mais agressivo
