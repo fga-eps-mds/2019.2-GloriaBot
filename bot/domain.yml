@@ -50,6 +50,8 @@ intents:
 - riscoExtremo
 - agressorFacaAffirm
 - agressorFacaAffirmExt
+- ameaçarFilhos
+- baterFilhos
 - implorar
 - agressivo
 - agressoControladorAffirm
@@ -334,6 +336,19 @@ templates:
   utter_riscoExtremo:
   - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
       a delegacia mais próxima para saber como proceder.
+  utter_agressorFilhos:
+  - text: O agressor já ameaçou ou tentou machucar seus filhos?
+  utter_agressorFilhosMedio:
+  - text: O risco atual é médio, tenha muito cuidado com a forma que ele age com seus filhos para não
+      escalar para algo mais sério.
+  utter_agressorFilhosAffirm:
+  - text: Ele já chegou a bater em seus filhos ou foram apenas ameaças?
+  utter_agressorFilhosAlto:
+  - text: O risco de algo mais sério acontecer com seus filhos é alta eu recomendo que você tente procurar
+      ajuda de autoridades enquanto tenta proteger seus filhos. Digite orientações para saber como agir adequadamente.
+  utter_agressorFilhosExtremo:
+  - text: O risco é extremo recomendo procurar algum lugar para seus filhos ficarem enquanto procura ajuda das autoridades
+      competentes.
   utter_deixarAgressor:
   - text: Você já tentou deixá-lo?
   utter_deixarAgressorAffirm:
@@ -352,6 +367,7 @@ templates:
   - text: O agressor tentou controlar a sua vida de outras formas como, por exemplo, isolando
       você de sua família ou de seus amigos?
   
+
 actions:
 - utter_greet0
 - utter_greet1
@@ -403,6 +419,11 @@ actions:
 - utter_medioRisco
 - utter_altoRisco
 - utter_riscoExtremo
+- utter_agressorFilhos
+- utter_agressorFilhosMedio
+- utter_agressorFilhosAffirm
+- utter_agressorFilhosAlto
+- utter_agressorFilhosExtremo
 - utter_deixarAgressor
 - utter_deixarAgressorAffirm
 - utter_deixarAgressorAlto

@@ -302,6 +302,18 @@
 - Já me ameaçou
 - Já foi preso por atacar alguém
 
+## intent:ameaçarFilhos
+- Já ameaçou meus filhos
+- Ameaçou
+- tentou machucar meus filhos
+- tentou machucar
+- apenas ameaças
+
+## intent:baterFilhos
+- Já bateu nos meus filhos
+- já bateu no meu filho
+- já bateu na minha filha
+
 ## intent:agressivo
 - Agressivo
 - Ele foi agressivo
@@ -342,3 +354,4 @@
 - A polícia o deixa mais nervoso
 - Me atacou na frente do juiz
 - A polícia o deixa mais agressivo
+
