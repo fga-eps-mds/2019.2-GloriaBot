@@ -276,10 +276,15 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+
 ## intent:duvida
 - me fale mais
 - diga-me mais
 - fale mais
+- não sei
+- talvez
+- não posso afirmar
+- não consigo dar a certeza
 
 ## intent:medirGravidade
 - Quero medir a gravidade do risco de uma violência doméstica
