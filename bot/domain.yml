@@ -49,6 +49,19 @@ intents:
 - MedirAgressorRotinaMedio
 - MedirAgressorRotinaAlto
 - MedirAgressorRotinaExtremo
+- agressorFaca
+- altoRisco
+- riscoExtremo
+- agressorFacaAffirm
+- agressorFacaAffirmExt
+- ameaçarFilhos
+- baterFilhos
+- implorar
+- agressivo
+- agressoControladorAffirm
+- agressoControladorAffirmExt
+- agressorPresoAffirm
+- agressorPresoAffirmExt
 
 templates:
   utter_aguentamRelacaoViolenta:
@@ -141,7 +154,7 @@ templates:
       \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
       \ e grosseira\n - Negação de abusos cometidos no passado\n"
   utter_mitosViolencia:
-  - text: Um dos mitos é de que a violência ocorre muito esporadicamente ou que a 
+  - text: Um dos mitos é de que a violência ocorre muito esporadicamente ou que a
       violência doméstica é um problema exclusivamente familia.
   - text: Dizer que violência só acontece entre famílias carentes ou problemáticas é um mito.
   - text: É falso dizer que as mulheres provocam ou gostam de violência. Assim como não há um perfil
@@ -329,8 +342,61 @@ templates:
   - text: Tchau:)
   utter_medirGravidade:
   - text: Para tentar medir o risco que você corre, farei algumas perguntas e de acordo
-      com as respostas tentarei medir o risco de violência você sofre, certo? 
+      com as respostas tentarei medir o risco de violência você sofre, certo?
       Lembrando que não é um teste infalível, por isso confie também no seu bom senso.
+  utter_agressorFaca:
+  - text: Agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
+  utter_agressorPreso:
+  - text: O agressor já foi preso? Ele tem medo da polícia ou da justiça?
+  utter_medioRisco:
+  - text: É significante o risco que você corre. Tenha cuidado, sempre tentando evitar locais perigosos.
+  utter_altoRisco:
+  - text: Você corre um alto risco! Digite orientações para saber como agir adequadamente.
+  utter_riscoExtremo:
+  - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
+      a delegacia mais próxima para saber como proceder.
+  utter_Recurso:
+  - text: Se você tentar deixá-lo, ele tem alguma forma de te encontrar facilmente?
+  utter_RecursoMedio:
+  - text: Há um risco médio de algo sério acontecer se você tentar deixá-lo porém sempre tome cuidado.
+  utter_RecursoAffirm:
+  - text: Essa forma de te encontrar é algo relacionado ao trabalho dele ou informação que ele possui de você?
+  utter_RecursoAlto:
+  - text: O risco é alto porém não tão provável mas nunca abaixe a guarda e esteja sempre atenta.
+  utter_RecursoExtremo:
+  - text: O risco é extremo e não acho que você devia tentar deixá-lo sem antes contatar as autoridades responsáveis,
+      mesmo se ele for policial há sempre uma forma de procurar ajuda.
+  utter_agressorFilhos:
+  - text: O agressor já ameaçou ou tentou machucar seus filhos?
+  utter_agressorFilhosMedio:
+  - text: O risco atual é médio, tenha muito cuidado com a forma que ele age com seus filhos para não
+      escalar para algo mais sério.
+  utter_agressorFilhosAffirm:
+  - text: Ele já chegou a bater em seus filhos ou foram apenas ameaças?
+  utter_agressorFilhosAlto:
+  - text: O risco de algo mais sério acontecer com seus filhos é alta eu recomendo que você tente procurar
+      ajuda de autoridades enquanto tenta proteger seus filhos. Digite orientações para saber como agir adequadamente.
+  utter_agressorFilhosExtremo:
+  - text: O risco é extremo recomendo procurar algum lugar para seus filhos ficarem enquanto procura ajuda das autoridades
+      competentes.
+  utter_deixarAgressor:
+  - text: Você já tentou deixá-lo?
+  utter_deixarAgressorAffirm:
+  - text: Ele se importou quando você tentou?
+  utter_deixarAgressorMedio:
+  - text: O risco de ele tentar algo se você tentar de novo é médio.
+  utter_deixarAgressorImportar:
+  - text: Ele foi agressivo?
+  utter_deixarAgressorAlto:
+  - text: O risco de ele tentar algo se você tentar deixá-lo novamente é alto pois ele pode ficar
+      instável emocionalmente.
+  utter_deixarAgressorExtremo:
+  - text: Há uma chance extremamente alta de ele tentar te machucar se você tentar novamente, por favor contate as autoridades
+      antes de tentar algo.
+  utter_agressorControlador:
+  - text: O agressor tentou controlar a sua vida de outras formas como, por exemplo, isolando
+      você de sua família ou de seus amigos?
+
 actions:
 - utter_greet0
 - utter_greet1
@@ -382,3 +448,25 @@ actions:
 - utter_MedirAgressorRotinaMedio
 - utter_MedirAgressorRotinaAlto
 - utter_MedirAgressorRotinaExtremo
+- utter_agressorFaca
+- utter_medioRisco
+- utter_altoRisco
+- utter_riscoExtremo
+- utter_Recurso
+- utter_RecursoMedio
+- utter_RecursoAffirm
+- utter_RecursoAlto
+- utter_RecursoExtremo
+- utter_agressorFilhos
+- utter_agressorFilhosMedio
+- utter_agressorFilhosAffirm
+- utter_agressorFilhosAlto
+- utter_agressorFilhosExtremo
+- utter_deixarAgressor
+- utter_deixarAgressorAffirm
+- utter_deixarAgressorAlto
+- utter_deixarAgressorMedio
+- utter_deixarAgressorExtremo
+- utter_deixarAgressorImportar
+- utter_agressorControlador
+- utter_agressorPreso
