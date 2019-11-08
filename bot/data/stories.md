@@ -155,6 +155,27 @@
 * deny
     - utter_medioRisco
 >check_agressorFacaresp
+## Story Recurso
+>check_agressorFacaresp
+    - utter_Recurso
+>check_recurso
+## Story RecursoMedio
+>check_recurso
+* deny
+    - utter_RecursoMedio
+## Story RecursoAffirm
+>check_recurso
+* affirm
+    - utter_RecursoAffirm
+>check_recursoAffirm
+## Story RecursoAlto
+>check_recursoAffirm
+* deny
+    - utter_RecursoAlto
+## Story RecursoExtremo
+>check_recursoAffirm
+* affirm
+    - utter_RecursoExtremo
 ## Story AgressorFilhos
 >check_agressorFacaresp
     - utter_agressorFilhos

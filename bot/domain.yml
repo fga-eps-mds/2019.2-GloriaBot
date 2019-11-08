@@ -336,6 +336,17 @@ templates:
   utter_riscoExtremo:
   - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
       a delegacia mais próxima para saber como proceder.
+  utter_Recurso:
+  - text: Se você tentar deixá-lo, ele tem alguma forma de te encontrar facilmente?
+  utter_RecursoMedio:
+  - text: Há um risco médio de algo sério acontecer se você tentar deixá-lo porém sempre tome cuidado.
+  utter_RecursoAffirm:
+  - text: Essa forma de te encontrar é algo relacionado ao trabalho dele ou informação que ele possui de você?
+  utter_RecursoAlto:
+  - text: O risco é alto porém não tão provável mas nunca abaixe a guarda e esteja sempre atenta.
+  utter_RecursoExtremo:
+  - text: O risco é extremo e não acho que você devia tentar deixá-lo sem antes contatar as autoridades responsáveis,
+      mesmo se ele for policial há sempre uma forma de procurar ajuda.
   utter_agressorFilhos:
   - text: O agressor já ameaçou ou tentou machucar seus filhos?
   utter_agressorFilhosMedio:
@@ -366,7 +377,6 @@ templates:
   utter_agressorControlador:
   - text: O agressor tentou controlar a sua vida de outras formas como, por exemplo, isolando
       você de sua família ou de seus amigos?
-  
 
 actions:
 - utter_greet0
@@ -419,6 +429,11 @@ actions:
 - utter_medioRisco
 - utter_altoRisco
 - utter_riscoExtremo
+- utter_Recurso
+- utter_RecursoMedio
+- utter_RecursoAffirm
+- utter_RecursoAlto
+- utter_RecursoExtremo
 - utter_agressorFilhos
 - utter_agressorFilhosMedio
 - utter_agressorFilhosAffirm
