@@ -180,6 +180,27 @@
 * deny
     - utter_medioRisco
 >check_agressorFacaresp
+## Story Medir_ameaça
+>check_agressorFacaresp
+    - utter_ameaça
+>check_Medir_ameaça
+## Story Medir_ameaçaDeny
+>check_Medir_ameaça
+* deny
+    - utter_ameaçaMedio
+## Story Medir_ameaçaAffirm
+>check_Medir_ameaça
+* affirm
+    - utter_ameaçaAffirm
+>check_Medir_ameaçaAffirm
+## Story Medir_ameaçaAlto
+>check_Medir_ameaçaAffirm
+* deny
+    - utter_ameaçaAlto
+## Story Medir_ameaçaExtremo
+>check_Medir_ameaçaAffirm
+* affirm
+    - utter_ameaçaExtremo
 ## Story Recurso
 >check_agressorFacaresp
     - utter_Recurso

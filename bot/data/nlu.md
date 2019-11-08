@@ -359,4 +359,3 @@
 - A polícia o deixa mais nervoso
 - Me atacou na frente do juiz
 - A polícia o deixa mais agressivo
-

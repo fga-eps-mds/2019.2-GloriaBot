@@ -54,6 +54,7 @@ intents:
 - riscoExtremo
 - agressorFacaAffirm
 - agressorFacaAffirmExt
+- ameaça
 - ameaçarFilhos
 - baterFilhos
 - implorar
@@ -355,6 +356,16 @@ templates:
   utter_riscoExtremo:
   - text: Você corre um risco extremo. Recomendo que procure a ajuda das autoridades. Procure
       a delegacia mais próxima para saber como proceder.
+  utter_ameaça:
+  - text: Quando você tentou deixá-lo ele te ameaçou?
+  utter_ameaçaAffirm:
+  - text: Quando ele te ameaçou ele falou que te agrediria ou algo parecido?
+  utter_ameaçaMedio:
+  - text: O risco atual é médio porém tente sempre tomar cuidado.
+  utter_ameaçaAlto:
+  - text: Você corre um alto risco acho que você deveria procurar as autoridades após achar algum lugar para ficar.
+  utter_ameaçaExtremo:
+  - text: Você corre risco extremo por favor tente contatar as autoridades o mais rápido possível.
   utter_Recurso:
   - text: Se você tentar deixá-lo, ele tem alguma forma de te encontrar facilmente?
   utter_RecursoMedio:
@@ -452,6 +463,11 @@ actions:
 - utter_medioRisco
 - utter_altoRisco
 - utter_riscoExtremo
+- utter_ameaça
+- utter_ameaçaMedio
+- utter_ameaçaAlto
+- utter_ameaçaExtremo
+- utter_ameaçaAffirm
 - utter_Recurso
 - utter_RecursoMedio
 - utter_RecursoAffirm
