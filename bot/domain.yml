@@ -52,6 +52,12 @@ intents:
 - agressorFacaAffirmExt
 - ameaçarFilhos
 - baterFilhos
+- implorar
+- agressivo
+- agressoControladorAffirm
+- agressoControladorAffirmExt
+- agressorPresoAffirm
+- agressorPresoAffirmExt
 
 templates:
   utter_aguentamRelacaoViolenta:
@@ -321,6 +327,8 @@ templates:
       Lembrando que não é um teste infalível, por isso confie também no seu bom senso.
   utter_agressorFaca:
   - text: Agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
+  utter_agressorPreso:
+  - text: O agressor já foi preso? Ele tem medo da polícia ou da justiça?
   utter_medioRisco:
   - text: É significante o risco que você corre. Tenha cuidado, sempre tentando evitar locais perigosos.
   utter_altoRisco:
@@ -341,6 +349,24 @@ templates:
   utter_agressorFilhosExtremo:
   - text: O risco é extremo recomendo procurar algum lugar para seus filhos ficarem enquanto procura ajuda das autoridades
       competentes.
+  utter_deixarAgressor:
+  - text: Você já tentou deixá-lo?
+  utter_deixarAgressorAffirm:
+  - text: Ele se importou quando você tentou?
+  utter_deixarAgressorMedio:
+  - text: O risco de ele tentar algo se você tentar de novo é médio.
+  utter_deixarAgressorImportar:
+  - text: Ele foi agressivo?
+  utter_deixarAgressorAlto:
+  - text: O risco de ele tentar algo se você tentar deixá-lo novamente é alto pois ele pode ficar
+      instável emocionalmente.
+  utter_deixarAgressorExtremo:
+  - text: Há uma chance extremamente alta de ele tentar te machucar se você tentar novamente, por favor contate as autoridades
+      antes de tentar algo.
+  utter_agressorControlador:
+  - text: O agressor tentou controlar a sua vida de outras formas como, por exemplo, isolando
+      você de sua família ou de seus amigos?
+  
 
 actions:
 - utter_greet0
@@ -398,3 +424,11 @@ actions:
 - utter_agressorFilhosAffirm
 - utter_agressorFilhosAlto
 - utter_agressorFilhosExtremo
+- utter_deixarAgressor
+- utter_deixarAgressorAffirm
+- utter_deixarAgressorAlto
+- utter_deixarAgressorMedio
+- utter_deixarAgressorExtremo
+- utter_deixarAgressorImportar
+- utter_agressorControlador
+- utter_agressorPreso
