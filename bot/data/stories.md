@@ -130,6 +130,7 @@
 >check_origemViolenciaSIM
 * affirm
     - utter_origemViolenciaSIM
+
 ## Story MedirGravidade
 >check_orientacao
 * medirGravidade
@@ -324,3 +325,54 @@
 >check_agressorPreso
 * deny
     - utter_medioRisco
+## Story bebidaDrogas
+>check_agressorFacaResp
+* affirm
+    - utter_bebidaDrogas
+>check_bebidaDrogas
+## Story bebidaDrogasMedio
+>check_bebidaDrogas
+* deny
+    - utter_bebidaDrogasMedio
+## Story bebidaDrogasAlto
+>check_bebidaDrogas
+* duvida
+    - utter_bebidaDrogasAlto
+## Story bebidaDrogasExtremo
+>check_bebidaDrogas
+* affirm
+    - utter_bebidaDrogasExtremo
+## Story suicida
+>check_agressorFacaresp
+* affirm
+    - utter_suicida
+>check_suicida
+## Story suicidaMedio
+>check_suicida
+* deny
+    - utter_suicidaMedio
+## Story suicidaAlto
+>check_suicida
+* duvida
+    - utter_suicidaAlto
+## Story suicidaExtremo
+>check_suicida
+* affirm
+    - utter_suicidaExtremo
+## Story comportamentoMaluco
+>check_agressorFacaResp
+* affirm
+    - utter_maluco
+>check_maluco
+## Story malucoMedio
+>check_maluco
+* deny
+    - utter_malucoMedio
+## Story malucoAlto
+>check_maluco
+* duvida
+    - utter_malucoAlto
+## Story malucoExtremo
+>check_maluco
+* affirm
+    - utter_malucoExtremo
