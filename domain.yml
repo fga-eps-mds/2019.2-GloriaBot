@@ -46,9 +46,15 @@ intents:
 - greet2
 - duvida
 - medirGravidade
+- faca
+- facaExt: {triggers: utter_facaRiscoExtremo}
 templates:
   utter_agressorFaca:
   - text:  O agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
+  utter_facaAltoRisco:
+  - text: Evite locais como a cozinha quando o agressor estiver alterado. Tente colocar objetos cortantes em locais onde ele não possa encontrar.
+  utter_facaRiscoExtremo:
+  - text: "Quando o agressor estiver portando uma faca, tente manter a calma e procure ajuda o mais rápido possível. Não tente enfrentá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
   utter_aguentamRelacaoViolenta:
   - text: "/riscoRomp - Risco de rompimento\n /vergonhaMedo - Vergonha e medo\n /esperanca\
       \ - Esperança de que o marido mude o comportamento\n /isolamento- Isolamento\n\
@@ -413,3 +419,5 @@ actions:
 - utter_barreiras
 - utter_dependencia
 - utter_deixar
+- utter_facaAltoRisco
+- utter_facaRiscoExtremo

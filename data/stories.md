@@ -20,6 +20,16 @@
 >check_medir
 * ok
     -utter_agressorFaca
+>check_agressorFaca
+## Agressor faca
+>check_agressorFaca
+* affirm OR faca
+    - utter_facaAltoRisco
+## Agressor faca
+>check_agressorFaca
+* facaExt
+    - utter_facaRiscoExtremo
+    - utter_delegacia
 
 
 ## Story agride_agredido

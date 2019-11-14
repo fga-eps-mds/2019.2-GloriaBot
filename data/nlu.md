@@ -17,6 +17,16 @@
 - ok
 - tudo bem
 - certo
+## intent:faca
+- possui uma faca
+- ele possui uma faca
+- faca
+- Ele tem uma faca
+## intent:facaExt
+- ele já me ameaçou
+- ameaçou
+- ameaça
+- Já foi preso
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
 - quem pode sofrer
