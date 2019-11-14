@@ -3,7 +3,6 @@
     - utter_greet0
 * greet2
     - utter_greet1
-
 ## Story delegacia
 * delegacia
     - utter_delegacia
@@ -11,6 +10,18 @@
 * orientacao OR affirm
     - utter_orientacao
 >check_orientacao
+
+## Story MedirGravidade
+>check_orientacao
+* medirGravidade
+    - utter_medirGravidade
+>check_medir
+## Story medir OK
+>check_medir
+* ok
+    -utter_agressorFaca
+
+
 ## Story agride_agredido
 >check_orientacao
 * quem_agride_quem_agredido_1

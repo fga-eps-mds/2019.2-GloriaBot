@@ -1,3 +1,11 @@
+## intent:medirGravidade
+- Quero medir a gravidade do risco de uma violência doméstica
+- Quero medir a gravidade do risco de uma violência domestica
+- medir a gravidade
+- Risco de violência
+- Risco de violência doméstica
+- risco
+
 ## intent:affirm
 - sim
 - de fato
@@ -5,7 +13,10 @@
 - claro
 - isso soa bem
 - correto
-
+## intent:ok
+- ok
+- tudo bem
+- certo
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
 - quem pode sofrer
@@ -39,7 +50,9 @@
 ## intent:delegacia
 - Encontrar Delegacia Especializada
 - delegacias
+- delgacia
 - delegacia
+- quero encontrar uma delegacia 
 - encontrar delegacias
 - delegacia da mulher
 - atendimento a mulher

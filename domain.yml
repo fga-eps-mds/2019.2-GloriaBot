@@ -1,4 +1,5 @@
 intents:
+- ok
 - manifestacaoDaViolencia
 - greet
 - goodbye
@@ -7,7 +8,7 @@ intents:
 - mood_great
 - mood_unhappy
 - start
-- delegacia
+- delegacia: {triggers: utter_delegacia}
 - orientacao
 - bot_challenge
 - quem_agride_quem_agredido_1
@@ -44,7 +45,10 @@ intents:
 - barreiras
 - greet2
 - duvida
+- medirGravidade
 templates:
+  utter_agressorFaca:
+  - text:  O agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
   utter_aguentamRelacaoViolenta:
   - text: "/riscoRomp - Risco de rompimento\n /vergonhaMedo - Vergonha e medo\n /esperanca\
       \ - Esperança de que o marido mude o comportamento\n /isolamento- Isolamento\n\
@@ -359,7 +363,13 @@ templates:
   - text: Que legal!
   utter_goodbye:
   - text: Tchau:)
+  utter_medirGravidade:
+  - text: "Para tentar medir o risco que você corre, farei algumas perguntas e de acordo
+      com as respostas tentarei medir o risco de violência que você sofre, certo?
+      Lembrando que não é um teste infalível, por isso confie também no seu bom senso."
 actions:
+- utter_agressorFaca
+- utter_medirGravidade
 - utter_greet0
 - utter_greet1
 - utter_did_that_help
