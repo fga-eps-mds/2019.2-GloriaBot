@@ -22,6 +22,7 @@
 - ele possui uma faca
 - faca
 - Ele tem uma faca
+
 ## intent:ameaca
 - ele já me ameaçou
 - ameaçou
@@ -78,7 +79,7 @@
 - informação que ele possui de mim
 - informações que ele possui
 ## intent:barreiras
-- /barreiras
+- barreiras
 
 ## intent:bot_challenge
 - Voce e um robô?
@@ -124,7 +125,14 @@
 - não
 
 ## intent:dependencia
-- /dependencia
+- dependencia
+- dependo dele para viver
+- ele sustenta a casa
+
+## intent: deixarAgressor
+- deixar agressor
+- deixar ele
+- deixa-lo
 
 ## intent:depoisAtaque
 - /depoisAtaque
@@ -163,8 +171,8 @@
 ## intent:horaAtaque
 - /horaAtaque
 
-## intent:isolamento
-- /isolamento
+## intent: isolamento
+- isolamento
 
 ## intent:m1
 - /m1
@@ -236,7 +244,7 @@
 - tao triste
 
 ## intent:negacao
-- /negacao
+- negacao
 
 ## intent:orientacao
 - Orientação sobre direitos
@@ -279,15 +287,27 @@
 ## intent:relacaoViolenta
 - /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
+- medo de sair da relação
+- medo de denunciar
+- isolada
+- me sinto isolada
+- medo pelos meus filhos
+- esperança que ele vai mudar
 
-## intent:riscoRomp
+## intent:rompimento
 - /riscoRomp
+- risco rompimento
+- rompimento
 
 ## intent:start
 - /start
 
 ## intent:vergonhaMedo
 - /vergonhaMedo
+- vergonha
+- medo
+- sinto vergonha
+- sinto medo
 
 ## intent:violenciaEmocinal
 - /vEmocional

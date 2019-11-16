@@ -34,7 +34,6 @@ intents:
 - depoisAtaque
 - origemViolencia
 - aguentamRelacaoViolenta
-- riscoRomp
 - negacao
 - vergonhaMedo
 - isolamento
@@ -54,7 +53,9 @@ intents:
 - agressoControladorAffirmExt
 - baterFilhos
 - implorar
+- rompimento
 - trabalho
+- deixarAgressor
 - informacao
 
 templates:

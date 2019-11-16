@@ -138,6 +138,44 @@
 * affirm
   - utter_ameacaExtremo
 
+## Story Aguentam_Relacao_Violenta
+>check_orientacao
+* aguentamRelacaoViolenta
+    - utter_aguentamRelacaoViolenta
+>check_relacaoViolenta
+## Story riscoRomp
+>check_relacaoViolenta
+* rompimento
+    - utter_riscoRomp
+## Story vergonhaMedo
+>check_relacaoViolenta
+* vergonhaMedo
+    - utter_vergonhaMedo
+## Story esperanca
+>check_relacaoViolenta
+* esperanca
+    - utter_esperanca
+## Story isolamento
+>check_relacaoViolenta
+* isolamento
+    - utter_isolamento
+## Story negacao
+>check_relacaoViolenta
+* negacao
+    - utter_negacao
+## Story barreiras
+>check_relacaoViolenta
+* barreiras
+    - utter_barreiras
+## Story dependencia
+>check_relacaoViolenta
+* dependencia
+    - utter_dependencia
+## Story deixarAgressor
+>check_relacaoViolenta
+* deixarAgressor
+    - utter_deixarAgressor
+
 
 ## Story agride_agredido
 >check_orientacao
