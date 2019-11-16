@@ -59,6 +59,16 @@ intents:
 - informacao
 
 templates:
+  utter_MedirAgressorRotinaExtremo:
+  - text: "Cuidado, sua situação é de risco extremo, contate as autoridades locais e pessoas\
+  \ próximas a você sobre a situação, tente mudar sua rotina, tente mudar seus horários, \
+  \ deixe de frequentar por um tempo locais que você visita com frequência."
+  utter_MedirAgressorRotinaAlto:
+  - text: "Você corre um risco alto, contate as autoridades locais e se mantenha atenta\
+  \ nos lugares que você visita com frequência, tente mudar sua rotina para evitar contato."
+  utter_MedirAgressorRotina:
+  - text: "O agressor conhece a sua rotina, seu local de trabalho, a escola dos seus filhos,\
+  \ ou algum lugar que você visita com frequencia?"
   utter_ameacaExtremo:
   - text: Você corre risco extremo por favor tente contatar as autoridades o mais rápido possível.
   utter_ameacaAlto:
@@ -506,3 +516,6 @@ actions:
 - utter_ameacaAlto
 - utter_ameacaAffirm
 - utter_ameaca
+- utter_MedirAgressorRotinaExtremo
+- utter_MedirAgressorRotinaAlto
+- utter_MedirAgressorRotina

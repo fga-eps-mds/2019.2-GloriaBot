@@ -326,3 +326,7 @@
 - me fale mais
 - diga-me mais
 - fale mais
+- não sei
+- talvez
+- não posso afirmar
+- não consigo dar a certeza

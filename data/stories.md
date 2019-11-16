@@ -129,6 +129,20 @@
 * affirm
   - utter_ameacaAffirm
 >check_Medir_ameacaAffirm
+## Story Medir_ameaçaAffirm
+>check_Medir_ameaca
+* deny
+  - utter_MedirAgressorRotina
+>check_MedirAgressorRotina
+## Story MedirAgressorRotinaAlto
+>check_MedirAgressorRotina
+* duvida
+    - utter_MedirAgressorRotinaAlto
+## Story MedirAgressorRotinaExtremo
+>check_MedirAgressorRotina
+* affirm
+    - utter_MedirAgressorRotinaExtremo
+
 ## Story Medir_ameaçaAlto
 >check_Medir_ameacaAffirm
 * deny
