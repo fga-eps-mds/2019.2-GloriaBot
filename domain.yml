@@ -54,8 +54,19 @@ intents:
 - agressoControladorAffirmExt
 - baterFilhos
 - implorar
+- trabalho
+- informacao
 
 templates:
+  utter_RecursoExtremo:
+  - text: O risco é extremo e não acho que você devia tentar deixá-lo sem antes contatar as autoridades responsáveis,
+      mesmo se ele for policial há sempre uma forma de procurar ajuda.
+  utter_RecursoAlto:
+  - text: O risco é alto porém não tão provável mas nunca abaixe a guarda e esteja sempre atenta.
+  utter_RecursoAffirm:
+  - text: Essa forma de te encontrar é algo relacionado ao trabalho dele ou informação que ele possui de você?
+  utter_Recurso:
+  - text: Se você tentar deixá-lo, ele tem alguma forma de te encontrar facilmente?
   utter_deixarAgressorAlto:
   - text: O risco de ele tentar algo se você tentar deixá-lo novamente é alto pois ele pode ficar
       instável emocionalmente.
@@ -478,3 +489,7 @@ actions:
 - utter_deixarAgressorImportar
 - utter_deixarAgressor
 - utter_deixarAgressorAffirm
+- utter_RecursoExtremo
+- utter_RecursoAlto
+- utter_RecursoAffirm
+- utter_Recurso

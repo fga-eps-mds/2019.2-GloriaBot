@@ -100,7 +100,24 @@
 >check_deixarAgressorImportar
 * deny OR implorar
   - utter_deixarAgressorAlto
-
+## Story Deixar_AgressorDeny
+>check_deixarAgressor
+* deny
+  - utter_Recurso
+>check_recurso
+## Story RecursoAffirm
+>check_recurso
+* affirm
+  - utter_RecursoAffirm
+>check_recursoAffirm
+## Story RecursoAlto
+>check_recursoAffirm
+* trabalho
+  - utter_RecursoAlto
+## Story RecursoExtremo
+>check_recursoAffirm
+* informacao
+  - utter_RecursoExtremo
 
 ## Story agride_agredido
 >check_orientacao

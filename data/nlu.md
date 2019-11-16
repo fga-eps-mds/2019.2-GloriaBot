@@ -70,7 +70,13 @@
 - pediu
 - me ligou várias vezes
 - ligou
-
+## intent:trabalho
+- é relacionado ao trabalho dele
+- trabalho
+- emprego
+## intent:informacao
+- informação que ele possui de mim
+- informações que ele possui
 ## intent:barreiras
 - /barreiras
 
