@@ -52,8 +52,19 @@ intents:
 - agressorPresoAffirmExt: {triggers: utter_presoRiscoExtremo}
 - agressoControladorAffirm
 - agressoControladorAffirmExt
-
+- ameacarFilhos
+- baterFilhos
 templates:
+  utter_agressorFilhosExtremo:
+  - text: O risco é extremo recomendo procurar algum lugar para seus filhos ficarem enquanto procura ajuda das autoridades
+      competentes.
+  utter_agressorFilhosAlto:
+  - text: O risco de algo mais sério acontecer com seus filhos é alta eu recomendo que você tente procurar
+      ajuda de autoridades enquanto tenta proteger seus filhos. Digite ' delegacia ' para procurar ajuda.
+  utter_agressorFilhosAffirm:
+  - text: Ele já chegou a bater em seus filhos ou foram apenas ameaças?
+  utter_agressorFilhos:
+  - text: O agressor já ameaçou ou tentou machucar seus filhos?
   utter_controladorRiscoExtremo:
   - text: "Se o agressor chegou ao ponto de te controlar assim, está na hora de procurara ajuda. O comportamento controlador pode ser corrigido e substituído por uma atmosfera de respeito mútuo. No entanto, ainda é frequente que um indivíduo controlador não consiga mudar. Se você é abusada verbal, emocional ou sexualmente, a melhor opção é terminar o relacionamento. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
   utter_controladorAltoRisco:
@@ -445,3 +456,7 @@ actions:
 - utter_agressorControlador
 - utter_controladorAltoRisco
 - utter_controladorRiscoExtremo
+- utter_agressorFilhos
+- utter_agressorFilhosAffirm
+- utter_agressorFilhosAlto
+- utter_agressorFilhosExtremo

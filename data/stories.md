@@ -54,6 +54,27 @@
 * agressoControladorAffirmExt
     - utter_controladorRiscoExtremo
 
+## Story medir_AgressoControladorExt
+>check_agressorControlador
+* deny
+    - utter_agressorFilhos
+>check_AgressorFilhos
+
+## Story AgressorFilhosAffirm
+>check_AgressorFilhos
+* affirm
+   - utter_agressorFilhosAffirm
+>check_AgressorFilhosAffirm
+
+## Story AgressorFilhosAlto
+>check_AgressorFilhosAffirm
+* ameacarFilhos
+    - utter_agressorFilhosAlto
+## Story AgressorFilhosExtremo
+>check_AgressorFilhosAffirm
+* baterFilhos
+    - utter_agressorFilhosExtremo
+    - utter_delegacia
 
 ## Story agride_agredido
 >check_orientacao

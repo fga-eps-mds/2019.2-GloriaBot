@@ -50,6 +50,15 @@
 - antecipar
 - sinais
 - sinal
+## intent:ameacarFilhos
+- Já ameaçou meus filhos
+- tentou machucar meus filhos
+- tentou machucar
+- apenas ameaças
+## intent:baterFilhos
+- Já bateu nos meus filhos
+- já bateu no meu filho
+- já bateu na minha filha
 
 ## intent:barreiras
 - /barreiras
