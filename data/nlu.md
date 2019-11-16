@@ -22,11 +22,15 @@
 - ele possui uma faca
 - faca
 - Ele tem uma faca
-## intent:facaExt
+## intent:ameaca
 - ele já me ameaçou
 - ameaçou
 - ameaça
 - Já foi preso
+- Já ameaçou meus filhos
+- tentou machucar meus filhos
+- tentou machucar
+- apenas ameaças
 ## intent:agressoControladorAffirm
 - É muito ciumento
 - Controla os meus horários
@@ -50,15 +54,22 @@
 - antecipar
 - sinais
 - sinal
-## intent:ameacarFilhos
-- Já ameaçou meus filhos
-- tentou machucar meus filhos
-- tentou machucar
-- apenas ameaças
+
 ## intent:baterFilhos
 - Já bateu nos meus filhos
 - já bateu no meu filho
 - já bateu na minha filha
+- Ele me bateu
+- bateu
+## intent:implorar
+- Ele implorou para eu voltar
+- implorou
+- ele ficou implorando
+- implorando
+- pediu para eu voltar
+- pediu
+- me ligou várias vezes
+- ligou
 
 ## intent:barreiras
 - /barreiras

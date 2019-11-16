@@ -27,7 +27,7 @@
     - utter_facaAltoRisco
 ## Agressor faca
 >check_agressorFaca
-* facaExt
+* ameaca
     - utter_facaRiscoExtremo
 ## Agressor faca
 >check_agressorFaca
@@ -68,13 +68,39 @@
 
 ## Story AgressorFilhosAlto
 >check_AgressorFilhosAffirm
-* ameacarFilhos
+* ameaca
     - utter_agressorFilhosAlto
 ## Story AgressorFilhosExtremo
 >check_AgressorFilhosAffirm
 * baterFilhos
     - utter_agressorFilhosExtremo
     - utter_delegacia
+## Story Caso o agressor tenha ameaçado a vítima
+>check_AgressorFilhos
+* deny
+    -  utter_deixarAgressor
+>check_deixarAgressor
+## Story Deixar_AgressorAffirm
+>check_deixarAgressor
+* affirm
+  - utter_deixarAgressorAffirm
+>check_deixarAgressorAffirm
+
+## Story Deixar_AgressorImportar
+>check_deixarAgressorAffirm
+* affirm
+  - utter_deixarAgressorImportar 
+>check_deixarAgressorImportar
+
+## Story Deixar_AgressorExtremo
+>check_deixarAgressorImportar
+* affirm OR baterFilhos
+  - utter_deixarAgressorExtremo
+## Story Deixar_AgressorAlto
+>check_deixarAgressorImportar
+* deny OR implorar
+  - utter_deixarAgressorAlto
+
 
 ## Story agride_agredido
 >check_orientacao

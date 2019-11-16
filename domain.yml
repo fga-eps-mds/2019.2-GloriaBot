@@ -47,14 +47,27 @@ intents:
 - duvida
 - medirGravidade
 - faca
-- facaExt: {triggers: utter_facaRiscoExtremo}
+- ameaca
 - agressorPresoAffirm
 - agressorPresoAffirmExt: {triggers: utter_presoRiscoExtremo}
 - agressoControladorAffirm
 - agressoControladorAffirmExt
-- ameacarFilhos
 - baterFilhos
+- implorar
+
 templates:
+  utter_deixarAgressorAlto:
+  - text: O risco de ele tentar algo se você tentar deixá-lo novamente é alto pois ele pode ficar
+      instável emocionalmente.
+  utter_deixarAgressorExtremo:
+  - text: Há uma chance extremamente alta de ele tentar te machucar se você tentar novamente, por favor contate as autoridades
+      antes de tentar algo.
+  utter_deixarAgressorImportar:
+  - text: Ele foi agressivo?
+  utter_deixarAgressor:
+  - text: Você já tentou deixá-lo?
+  utter_deixarAgressorAffirm:
+  - text: Ele se importou quando você tentou?  
   utter_agressorFilhosExtremo:
   - text: O risco é extremo recomendo procurar algum lugar para seus filhos ficarem enquanto procura ajuda das autoridades
       competentes.
@@ -460,3 +473,8 @@ actions:
 - utter_agressorFilhosAffirm
 - utter_agressorFilhosAlto
 - utter_agressorFilhosExtremo
+- utter_deixarAgressorAlto
+- utter_deixarAgressorExtremo
+- utter_deixarAgressorImportar
+- utter_deixarAgressor
+- utter_deixarAgressorAffirm
