@@ -59,6 +59,14 @@ intents:
 - informacao
 
 templates:
+  utter_forcarAtosExtremo:
+  - text: "Sua situação é de risco extremo, contate as autoridades locais para mais informações\
+  \ e peça ajuda para alguém de confiança."
+  utter_forcarAtosAlto:
+  - text: "Fique atenta, sua situação é de alto risco, converse com seu parceiro, caso a situação\
+  \ não mude, peça ajuda para alguém de confiança e mude de ambiente."
+  utter_forcarAtosSexuais:
+  - text: "O agressor pediu para praticar atos sexuais de que você não gosta?"
   utter_MedirAgressorRotinaExtremo:
   - text: "Cuidado, sua situação é de risco extremo, contate as autoridades locais e pessoas\
   \ próximas a você sobre a situação, tente mudar sua rotina, tente mudar seus horários, \
@@ -519,3 +527,6 @@ actions:
 - utter_MedirAgressorRotinaExtremo
 - utter_MedirAgressorRotinaAlto
 - utter_MedirAgressorRotina
+- utter_forcarAtosExtremo
+- utter_forcarAtosAlto
+- utter_forcarAtosSexuais

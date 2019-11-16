@@ -142,7 +142,20 @@
 >check_MedirAgressorRotina
 * affirm
     - utter_MedirAgressorRotinaExtremo
-
+## Story forcarAtosSexuais
+>check_MedirAgressorRotina
+* deny
+    - utter_forcarAtosSexuais
+>check_forcarAtosSexuais
+## Story forcarAtosAlto
+>check_forcarAtosSexuais
+* duvida
+    - utter_forcarAtosAlto
+## Story forcarAtosExtremo
+>check_forcarAtosSexuais
+* affirm
+    - utter_forcarAtosExtremo
+    
 ## Story Medir_ameaçaAlto
 >check_Medir_ameacaAffirm
 * deny
