@@ -58,6 +58,14 @@ intents:
 - informacao
 
 templates:
+  utter_ameacaExtremo:
+  - text: Você corre risco extremo por favor tente contatar as autoridades o mais rápido possível.
+  utter_ameacaAlto:
+  - text: Você corre um alto risco acho que você deveria procurar as autoridades após achar algum lugar para ficar.
+  utter_ameacaAffirm:
+  - text: Quando ele te ameaçou ele falou que te agrediria ou algo parecido?
+  utter_ameaca:
+  - text: Quando você tentou deixá-lo ele te ameaçou?
   utter_RecursoExtremo:
   - text: O risco é extremo e não acho que você devia tentar deixá-lo sem antes contatar as autoridades responsáveis,
       mesmo se ele for policial há sempre uma forma de procurar ajuda.
@@ -493,3 +501,7 @@ actions:
 - utter_RecursoAlto
 - utter_RecursoAffirm
 - utter_Recurso
+- utter_ameacaExtremo
+- utter_ameacaAlto
+- utter_ameacaAffirm
+- utter_ameaca

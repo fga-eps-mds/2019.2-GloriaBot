@@ -119,6 +119,26 @@
 * informacao
   - utter_RecursoExtremo
 
+## Story RecursoAffirm
+>check_recurso
+* deny 
+    - utter_ameaca
+>check_Medir_ameaca
+## Story Medir_ameaçaAffirm
+>check_Medir_ameaca
+* affirm
+  - utter_ameacaAffirm
+>check_Medir_ameacaAffirm
+## Story Medir_ameaçaAlto
+>check_Medir_ameacaAffirm
+* deny
+  - utter_ameacaAlto
+## Story Medir_ameaçaExtremo
+>check_Medir_ameacaAffirm
+* affirm
+  - utter_ameacaExtremo
+
+
 ## Story agride_agredido
 >check_orientacao
 * quem_agride_quem_agredido_1
