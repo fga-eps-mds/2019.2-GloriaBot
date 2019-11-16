@@ -50,7 +50,17 @@ intents:
 - facaExt: {triggers: utter_facaRiscoExtremo}
 - agressorPresoAffirm
 - agressorPresoAffirmExt: {triggers: utter_presoRiscoExtremo}
+- agressoControladorAffirm
+- agressoControladorAffirmExt
+
 templates:
+  utter_controladorRiscoExtremo:
+  - text: "Se o agressor chegou ao ponto de te controlar assim, está na hora de procurara ajuda. O comportamento controlador pode ser corrigido e substituído por uma atmosfera de respeito mútuo. No entanto, ainda é frequente que um indivíduo controlador não consiga mudar. Se você é abusada verbal, emocional ou sexualmente, a melhor opção é terminar o relacionamento. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
+  utter_controladorAltoRisco:
+  - text: Não discuta com o agressor, pois ele nunca cederá, e o resultado será apenas aumentar o problema em questão. Tente manter a calma e a compostura.
+  utter_agressorControlador:
+  - text: "O agressor tentou controlar a sua vida de outras formas como, por exemplo, isolando
+      você de sua família ou de seus amigos?"
   utter_presoRiscoExtremo:
   - text: "É altamente recomendável que você procure a ajuda das autoridades. Procure ajuda sem que ele tenha conhecimento. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
   utter_presoAltoRisco:
@@ -432,3 +442,6 @@ actions:
 - utter_agressorPreso
 - utter_presoAltoRisco
 - utter_presoRiscoExtremo
+- utter_agressorControlador
+- utter_controladorAltoRisco
+- utter_controladorRiscoExtremo

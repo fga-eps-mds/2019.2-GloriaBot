@@ -38,7 +38,21 @@
 >check_agressorPreso
 * affirm OR agressorPresoAffirm
     - utter_presoAltoRisco
+## Story medir_AgressorControlador
+>check_agressorPreso
+* deny
+    - utter_agressorControlador
+>check_agressorControlador
 
+## Story medir_AgressorControladorAffirm
+>check_agressorControlador
+* affirm OR agressoControladorAffirm
+    - utter_controladorAltoRisco
+
+## Story medir_AgressoControladorExt
+>check_agressorControlador
+* agressoControladorAffirmExt
+    - utter_controladorRiscoExtremo
 
 
 ## Story agride_agredido
