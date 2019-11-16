@@ -155,7 +155,20 @@
 >check_forcarAtosSexuais
 * affirm
     - utter_forcarAtosExtremo
-    
+## Story bebidaDrogasMedio
+>check_bebidaDrogas
+* deny  
+    - utter_suicida
+>check_suicida
+## Story suicidaAlto
+>check_suicida
+* duvida
+    - utter_suicidaAlto
+## Story suicidaExtremo
+>check_suicida
+* affirm
+    - utter_suicidaExtremo
+
 ## Story forcarAtosMedio
 >check_forcarAtosSexuais
 * deny
