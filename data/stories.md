@@ -168,7 +168,20 @@
 >check_suicida
 * affirm
     - utter_suicidaExtremo
-
+## Story suicidaMedio
+>check_suicida
+* deny
+    - utter_maluco
+>check_maluco
+## Story malucoAlto
+>check_maluco
+* duvida
+    - utter_malucoAlto
+## Story malucoExtremo
+>check_maluco
+* affirm
+    - utter_malucoExtremo
+    
 ## Story forcarAtosMedio
 >check_forcarAtosSexuais
 * deny
