@@ -29,7 +29,16 @@
 >check_agressorFaca
 * facaExt
     - utter_facaRiscoExtremo
-    - utter_delegacia
+## Agressor faca
+>check_agressorFaca
+* deny
+    - utter_agressorPreso 
+>check_agressorPreso
+## Story_medir_AgressorPresoAffirm
+>check_agressorPreso
+* affirm OR agressorPresoAffirm
+    - utter_presoAltoRisco
+
 
 
 ## Story agride_agredido

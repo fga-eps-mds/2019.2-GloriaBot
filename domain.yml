@@ -48,7 +48,15 @@ intents:
 - medirGravidade
 - faca
 - facaExt: {triggers: utter_facaRiscoExtremo}
+- agressorPresoAffirm
+- agressorPresoAffirmExt: {triggers: utter_presoRiscoExtremo}
 templates:
+  utter_presoRiscoExtremo:
+  - text: "É altamente recomendável que você procure a ajuda das autoridades. Procure ajuda sem que ele tenha conhecimento. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
+  utter_presoAltoRisco:
+  - text: Evite falar pra ele que chamou a polícia. Chame-a e espere tentando manter a calma. Não o ameaçe falando que vai chamar a polícia, isso pode irritá-lo ainda mais.
+  utter_agressorPreso:
+  - text: O agressor já foi preso? Ele tem medo da polícia ou da justiça?
   utter_agressorFaca:
   - text:  O agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
   utter_facaAltoRisco:
@@ -421,3 +429,6 @@ actions:
 - utter_deixar
 - utter_facaAltoRisco
 - utter_facaRiscoExtremo
+- utter_agressorPreso
+- utter_presoAltoRisco
+- utter_presoRiscoExtremo
