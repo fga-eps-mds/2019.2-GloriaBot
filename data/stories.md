@@ -156,6 +156,20 @@
 * affirm
     - utter_forcarAtosExtremo
     
+## Story forcarAtosMedio
+>check_forcarAtosSexuais
+* deny
+    - utter_bebidaDrogas
+>check_bebidaDrogas
+## Story bebidaDrogasAlto
+>check_bebidaDrogas
+* duvida
+    - utter_bebidaDrogasAlto
+## Story bebidaDrogasExtremo
+>check_bebidaDrogas
+* affirm
+    - utter_bebidaDrogasExtremo
+
 ## Story Medir_ameaçaAlto
 >check_Medir_ameacaAffirm
 * deny

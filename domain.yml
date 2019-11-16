@@ -59,6 +59,15 @@ intents:
 - informacao
 
 templates:
+  utter_bebidaDrogasAlto:
+  - text: "O risco que você corre é alto, contate alguém de confiança, e fique atenta aos sinais que o agressor passar\
+  \ , estes são indicativos de que ele pode estar indo para um tipo de posição mais violenta, neste caso contate as\
+  \ autoridades locais."
+  utter_bebidaDrogasExtremo:
+  - text: "Você está em uma situação de extremo risco, contate as autoridades locais, eles saberão como te aconselhar\
+  \ de uma maneira mais pessoal."
+  utter_bebidaDrogas:
+  - text: "O agressor costuma beber e/ou usar algum tipo de estimulante?"
   utter_forcarAtosExtremo:
   - text: "Sua situação é de risco extremo, contate as autoridades locais para mais informações\
   \ e peça ajuda para alguém de confiança."
@@ -530,3 +539,6 @@ actions:
 - utter_forcarAtosExtremo
 - utter_forcarAtosAlto
 - utter_forcarAtosSexuais
+- utter_bebidaDrogasAlto
+- utter_bebidaDrogasExtremo
+- utter_bebidaDrogas
