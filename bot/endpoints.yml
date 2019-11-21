@@ -46,3 +46,9 @@
 #  username: username
 #  password: password
 #  queue: queue
+
+tracker_store:
+  type: mongod
+  url: mongodb://mongo:27017
+  username: rasa
+  password: example
