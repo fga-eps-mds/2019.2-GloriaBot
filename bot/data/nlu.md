@@ -1,3 +1,11 @@
+## intent:medirGravidade
+- Quero medir a gravidade do risco de uma violência doméstica
+- Quero medir a gravidade do risco de uma violência domestica
+- medir a gravidade
+- Risco de violência
+- Risco de violência doméstica
+- risco
+
 ## intent:affirm
 - sim
 - de fato
@@ -5,14 +13,41 @@
 - claro
 - isso soa bem
 - correto
+## intent:ok
 - ok
+- tudo bem
+- certo
+## intent:faca
+- possui uma faca
+- ele possui uma faca
+- faca
+- Ele tem uma faca
 
+## intent:ameaca
+- ele já me ameaçou
+- ameaçou
+- ameaça
+- Já foi preso
+- Já ameaçou meus filhos
+- tentou machucar meus filhos
+- tentou machucar
+- apenas ameaças
+## intent:agressoControladorAffirm
+- É muito ciumento
+- Controla os meus horários
+- Não gosta dos meus amigos
+- Sempre nota se eu chego mais tarde
+## intent:agressoControladorAffirmExt
+- Ele me controla
+- Ele me prende
+- Doente de ciúmes
+- Imagina coisas absurdas
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
 - quem pode sofrer
 - homem também sofre violência
 - sofrer quem pode
-- quem pode sofre violência domestica?
+- quem pode sofre violência domestica?
 
 ## intent:anteciparSinais
 - antecipar sinal
@@ -20,12 +55,31 @@
 - antecipar
 - sinais
 - sinal
-- como saber se alguem é violento
-- prevenir
-- prevenção
 
+## intent:baterFilhos
+- Já bateu nos meus filhos
+- já bateu no meu filho
+- já bateu na minha filha
+- Ele me bateu
+- bateu
+## intent:implorar
+- Ele implorou para eu voltar
+- implorou
+- ele ficou implorando
+- implorando
+- pediu para eu voltar
+- pediu
+- me ligou várias vezes
+- ligou
+## intent:trabalho
+- é relacionado ao trabalho dele
+- trabalho
+- emprego
+## intent:informacao
+- informação que ele possui de mim
+- informações que ele possui
 ## intent:barreiras
-- /barreiras
+- barreiras
 
 ## intent:bot_challenge
 - Voce e um robô?
@@ -43,11 +97,24 @@
 ## intent:delegacia
 - Encontrar Delegacia Especializada
 - delegacias
+- delgacia
 - delegacia
+- quero encontrar uma delegacia 
 - encontrar delegacias
 - delegacia da mulher
 - atendimento a mulher
 - Delegacia
+
+## intent:agressorPresoAffirm
+- A polícia já veio aqui
+- Já prestei queixa, mas retirei
+- Tenho medo de dar queixa
+- Já fiz denúncia
+## intent:agressorPresoAffirmExt
+- Ele já foi preso
+- A polícia o deixa mais nervoso
+- Me atacou na frente do juiz
+- A polícia o deixa mais agressivo
 
 ## intent:deny
 - nao
@@ -58,7 +125,14 @@
 - não
 
 ## intent:dependencia
-- /dependencia
+- dependencia
+- dependo dele para viver
+- ele sustenta a casa
+
+## intent: deixarAgressor
+- deixar agressor
+- deixar ele
+- deixa-lo
 
 ## intent:depoisAtaque
 - /depoisAtaque
@@ -97,86 +171,55 @@
 ## intent:horaAtaque
 - /horaAtaque
 
-## intent:isolamento
-- /isolamento
+## intent: isolamento
+- isolamento
 
 ## intent:m1
-- esporádica
-- esporadica
-- isoladamente
-- aleatória
-- aleatoria
-- imprevista
+- /m1
 
 ## intent:m10
-- somento punir melhora
-- punir melhora
-- mudar comportamentos violentos
+- /m10
 
 ## intent:m2
-- violência doméstica é um problema familiar?
-- violencia domestica e um problema familiar
-- somente os envolvidos são afetados?
-- afetados
+- /m2
 
 ## intent:m3
-- familia de baixa renda
-- violencia ocorre com os pobres
-- só ocorre com os pobres
+- /m3
 
 ## intent:m4
-- mulher pede
-- mulher provoca
-- mulher merece ser agredida
-- mulher gosta de apanhar
-- merece apanhar
+- /m4
 
 ## intent:m5
-- só acontece em familias problemáticas
-- familias problematicas
-- agressor não é bem sucedido
-- problemas psicológicos
+- /m5
 
 ## intent:m6
-- agressores não se controlam
-- fazem por raiva
-- controle da raiva
+- /m6
 
-## intent:m4_7_Afirm
-- Não abandonam por que não é grave
-- medo de abandonar o agressor
-- abandonar agressor
+## intent:m7
+- /m7
 
 ## intent:m8
-- perfil da mulher que apanha
-- padrão de mulher que apanha
-- esteriótipo
-- como é a mulher que apanha
+- /m8
 
-## intent:m5_9_Afirm
-- problemas com bebida
-- bebida gera violência
-- álcool é o único problema
+## intent:m9
+- /m9
 
 ## intent:manifestacaoDaViolencia
 - quais são as manifestações da violencia
 - quais são as manifestações da violencia conjugal?
 - tipos de violencia
 - quais são as violencias
-- quais são as manifestações da violencia conjugal?
+- quais são as manifestações da violencia conjugal?
 - violencia conjugal
 - manifestações da violência conjugal
 - manifestação da violencia
 - manifestação violência
 
 ## intent:mitosViolencia
+- 10 mitos
+- mitos
 - mitos violencia
 - mitos sobre a violência Doméstica
-- quais são os mitos sobre a violência doméstica?
-- mitos
-- quais são as mentiras sobre a violência doméstica?
-- mentiras
-- quais mitos existem sobre a violência doméstica?
 
 ## intent:mood_great
 - perfeito
@@ -201,7 +244,7 @@
 - tao triste
 
 ## intent:negacao
-- /negacao
+- negacao
 
 ## intent:orientacao
 - Orientação sobre direitos
@@ -221,16 +264,13 @@
 - origem da violencia
 - origem
 - inicio da violência
-- como a violência começa
 
 ## intent:planoProtecao
 - como construir um plano de proteção
-- me proteger
-- proteção
 - plano proteção
 - plano
 - proteção plano
-- como construir um plano de proteção
+- como construir um plano de proteção
 
 ## intent:quem_agride_quem_agredido_1
 - vítima
@@ -254,14 +294,20 @@
 - medo pelos meus filhos
 - esperança que ele vai mudar
 
-## intent:riscoRomp
+## intent:rompimento
 - /riscoRomp
+- risco rompimento
+- rompimento
 
 ## intent:start
 - /start
 
 ## intent:vergonhaMedo
 - /vergonhaMedo
+- vergonha
+- medo
+- sinto vergonha
+- sinto medo
 
 ## intent:violenciaEmocinal
 - /vEmocional
@@ -276,7 +322,6 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
-
 ## intent:duvida
 - me fale mais
 - diga-me mais
@@ -285,77 +330,3 @@
 - talvez
 - não posso afirmar
 - não consigo dar a certeza
-
-## intent:medirGravidade
-- Quero medir a gravidade do risco de uma violência doméstica
-- Quero medir a gravidade do risco de uma violência domestica
-- medir a gravidade
-- Risco de violência
-- risco de violencia
-- Risco de violência doméstica
-- Risco de violencia domestica
-- risco
-
-## intent:agressorFacaAffirm
-- possui uma faca
-- Sim, ele possui uma faca
-- faca
-- Ele tem uma faca
-
-## intent:agressorFacaAffirmExt
-- Já me ameaçou com uma faca
-- Já me ameaçou
-- Já foi preso por atacar alguém
-
-## intent:ameaçarFilhos
-- Já ameaçou meus filhos
-- Ameaçou
-- tentou machucar meus filhos
-- tentou machucar
-- apenas ameaças
-
-## intent:baterFilhos
-- Já bateu nos meus filhos
-- já bateu no meu filho
-- já bateu na minha filha
-
-## intent:agressivo
-- Agressivo
-- Ele foi agressivo
-- Ele me bateu
-- bateu
-
-## intent:implorar
-- Ele implorou para eu voltar
-- implorou
-- ele ficou implorando
-- implorando
-- pediu para eu voltar
-- pediu
-- me ligou várias vezes
-- ligou
-
-## intent:agressoControladorAffirm
-- É muito ciumento
-- Controla os meus horários
-- Não gosta dos meus amigos
-- Sempre nota se eu chego mais tarde
-
-## intent:agressoControladorAffirmExt
-- Ele me controla
-- Ele me prende
-- Doente de ciúmes
-- Imagina coisas absurdas
-- Controla o tanto que o carro andou
-
-## intent:agressorPresoAffirm
-- A polícia já veio aqui
-- Já prestei queixa, mas retirei
-- Tenho medo de dar queixa
-- Já fiz denúncia
-
-## intent:agressorPresoAffirmExt
-- Ele já foi preso
-- A polícia o deixa mais nervoso
-- Me atacou na frente do juiz
-- A polícia o deixa mais agressivo
