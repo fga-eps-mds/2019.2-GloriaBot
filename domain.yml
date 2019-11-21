@@ -573,3 +573,31 @@ actions:
 - utter_malucoAlto
 - utter_malucoExtremo
 - utter_maluco
+
+
+# intents:
+#   - greet
+#   - fala
+# entities:
+#   - feedback
+
+# slots:
+#   feedback:
+#     type: unfeaturized
+#     auto_fill: false
+
+# templates:
+#   utter_ask_feedback:
+#     - text: "Qual é seu nome ?"
+#   utter_submit:
+#     - text: "Entou na actipn"
+#   utter_fala:
+#     - text: "Seu nome e: {feedback}"
+#   utter_greet:
+#     - text: "Hello! I am restaurant search assistant! How can I help?"
+#   utter_defa
+
+# actions:
+#   - utter_fala
+# forms:
+#   - restaurant_form
