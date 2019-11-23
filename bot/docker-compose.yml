@@ -6,6 +6,7 @@ services :
       - mongo
       - action_server
     image: rasa/rasa:1.2.9
+    restart: unless-stopped
     ports:
       - 5005:5005
     volumes:
@@ -16,6 +17,7 @@ services :
   mongo:
     container_name: mongo
     image: mongo
+    restart: unless-stopped
     environment:
       MONGO_INITDB_ROOT_USERNAME: rasa
       MONGO_INITDB_ROOT_PASSWORD: example
@@ -26,6 +28,7 @@ services :
     restart: always
     container_name: mongo-express
     image: mongo-express
+    restart: unless-stopped
     ports:
       - 8081:8081
     environment:
