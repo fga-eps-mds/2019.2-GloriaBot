@@ -78,6 +78,7 @@
 ## intent:informacao
 - informação que ele possui de mim
 - informações que ele possui
+
 ## intent:barreiras
 - barreiras
 
@@ -139,6 +140,9 @@
 
 ## intent:esperanca
 - /esperanca
+- tenho esperanca de que ele va mudar
+- esperanca
+- espero que ele mude
 
 ## intent:goodbye
 - tchau
@@ -173,6 +177,8 @@
 
 ## intent: isolamento
 - isolamento
+- isolada
+- isolar
 
 ## intent:m1
 - /m1
