@@ -1,34 +1,24 @@
 version : '3.5'
 services :
   rasa_run :
-    container_name: rasa_run
     depends_on:
       - mongo
-      - action_server
     image: rasa/rasa:1.2.9
-    restart: unless-stopped
     ports:
       - 5005:5005
     volumes:
       - ./:/app
     command:
       - run
-
   mongo:
-    container_name: mongo
     image: mongo
-    restart: unless-stopped
     environment:
       MONGO_INITDB_ROOT_USERNAME: rasa
       MONGO_INITDB_ROOT_PASSWORD: example
     depends_on:
       - mongo-express
-
   mongo-express:
-    restart: always
-    container_name: mongo-express
     image: mongo-express
-    restart: unless-stopped
     ports:
       - 8081:8081
     environment:
@@ -36,10 +26,6 @@ services :
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
 
   rasa_shell :
-    depends_on:
-        - mongo
-        - action_server
-    container_name: rasa_shell
     image: rasa/rasa:1.2.9
     ports:
       - 5005:5005
@@ -49,7 +35,6 @@ services :
       - shell
 
   rasa_train :
-    container_name: rasa_train
     image: rasa/rasa:1.2.9
     ports:
       - 5005:5005
@@ -59,9 +44,6 @@ services :
       - train
 
   rasa_interactive:
-    depends_on:
-      - mongo
-      - action_server
     image: rasa/rasa:1.2.9
     ports:
       - 5006:5006
@@ -79,8 +61,3 @@ services :
     command:
       - visualize
 
-  action_server:
-    container_name: action_server
-    image: rasa/rasa-sdk:latest
-    volumes:
-      - ./actions:/app/actions
