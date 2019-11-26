@@ -9,37 +9,39 @@
 ## intent:affirm
 - sim
 - de fato
-- quero
 - claro
 - isso soa bem
 - correto
+- já
+
 ## intent:ok
 - ok
 - tudo bem
 - certo
+
 ## intent:faca
 - possui uma faca
-- ele possui uma faca
+- possui uma faca
 - faca
-- Ele tem uma faca
+- tem uma faca
 
 ## intent:ameaca
-- ele já me ameaçou
 - ameaçou
 - ameaça
-- Já foi preso
-- Já ameaçou meus filhos
+- foi preso
+- ameaçou meus filhos
 - tentou machucar meus filhos
 - tentou machucar
 - apenas ameaças
+
 ## intent:agressoControladorAffirm
 - É muito ciumento
 - Controla os meus horários
 - Não gosta dos meus amigos
 - Sempre nota se eu chego mais tarde
 ## intent:agressoControladorAffirmExt
-- Ele me controla
-- Ele me prende
+- controla
+- prende
 - Doente de ciúmes
 - Imagina coisas absurdas
 ## intent:agrideAgredidoQuemPodeSofrer
@@ -57,27 +59,26 @@
 - sinal
 
 ## intent:baterFilhos
-- Já bateu nos meus filhos
-- já bateu no meu filho
-- já bateu na minha filha
-- Ele me bateu
+- bateu nos meus filhos
+- bateu no meu filho
+- bateu na minha filha
 - bateu
 ## intent:implorar
-- Ele implorou para eu voltar
+- implorou para eu voltar
 - implorou
-- ele ficou implorando
+- ficou implorando
 - implorando
 - pediu para eu voltar
 - pediu
-- me ligou várias vezes
+- ligou várias vezes
 - ligou
 ## intent:trabalho
 - é relacionado ao trabalho dele
 - trabalho
 - emprego
 ## intent:informacao
-- informação que ele possui de mim
-- informações que ele possui
+- informação que  possui de mim
+- informações que  possui
 ## intent:barreiras
 - barreiras
 
@@ -93,27 +94,28 @@
 
 ## intent:deixar
 - /deixar
+- deixar
 
 ## intent:delegacia
 - Encontrar Delegacia Especializada
 - delegacias
 - delgacia
 - delegacia
-- quero encontrar uma delegacia 
+- encontrar uma delegacia
 - encontrar delegacias
 - delegacia da mulher
 - atendimento a mulher
 - Delegacia
 
 ## intent:agressorPresoAffirm
-- A polícia já veio aqui
-- Já prestei queixa, mas retirei
+- A polícia  veio aqui
+- prestei queixa, mas retirei
 - Tenho medo de dar queixa
-- Já fiz denúncia
+- fiz denúncia
 ## intent:agressorPresoAffirmExt
-- Ele já foi preso
+- foi preso
 - A polícia o deixa mais nervoso
-- Me atacou na frente do juiz
+- atacou na frente do juiz
 - A polícia o deixa mais agressivo
 
 ## intent:deny
@@ -127,11 +129,11 @@
 ## intent:dependencia
 - dependencia
 - dependo dele para viver
-- ele sustenta a casa
+- sustenta a casa
 
 ## intent: deixarAgressor
 - deixar agressor
-- deixar ele
+- deixar
 - deixa-lo
 
 ## intent:depoisAtaque
@@ -139,6 +141,8 @@
 
 ## intent:esperanca
 - /esperanca
+- esperanca
+- esperança
 
 ## intent:goodbye
 - tchau
@@ -156,15 +160,17 @@
 - boa noite
 - como vai
 - oi
-- o que você pode me ajudar
+- o que você pode ajudar
 
 ## intent:greet2
-- o que voce faz?
-- em que vc pode me ajudar
+- o que você faz
+- o que voce faz
+- o que vc faz
+- em que vc pode ajudar
 - faz o que
-- em que pode me ajudar
-- me ajuda
-- pode me auxiliar
+- em que pode ajudar
+- ajuda
+- pode auxiliar
 - auxiliar
 - o que vc faz
 
@@ -173,6 +179,7 @@
 
 ## intent: isolamento
 - isolamento
+- /isolamento
 
 ## intent:m1
 - /m1
@@ -227,7 +234,7 @@
 - otimo
 - surpreendente
 - Maravilhoso
-- estou me sentindo muito bem
+- estou sentindo muito bem
 - Estou estou otimo
 - Eu estou bem
 
@@ -244,6 +251,8 @@
 - tao triste
 
 ## intent:negacao
+- /negacao
+- negação
 - negacao
 
 ## intent:orientacao
@@ -287,12 +296,16 @@
 ## intent:relacaoViolenta
 - /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
+- aguentam relação violenta
+- relação violenta
+- relacao violenta
+- aguentam relacao violenta
 - medo de sair da relação
 - medo de denunciar
 - isolada
-- me sinto isolada
+- sinto isolada
 - medo pelos meus filhos
-- esperança que ele vai mudar
+- esperança que  vai mudar
 
 ## intent:rompimento
 - /riscoRomp
@@ -312,6 +325,9 @@
 ## intent:violenciaEmocinal
 - /vEmocional
 - violencia Emocional
+- violencia emocional
+- violência emocional
+- violência Emocional
 
 ## intent:violenciaFisica
 - Violencia Fisica
@@ -322,6 +338,11 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+- violencia Sexual
+- violência sexual
+- violência sexual
+
+
 ## intent:duvida
 - me fale mais
 - diga-me mais
