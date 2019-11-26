@@ -78,7 +78,6 @@
 ## intent:informacao
 - informação que ele possui de mim
 - informações que ele possui
-
 ## intent:barreiras
 - barreiras
 
@@ -94,6 +93,7 @@
 
 ## intent:deixar
 - /deixar
+- deixar
 
 ## intent:delegacia
 - Encontrar Delegacia Especializada
@@ -140,9 +140,8 @@
 
 ## intent:esperanca
 - /esperanca
-- tenho esperanca de que ele va mudar
 - esperanca
-- espero que ele mude
+- esperança
 
 ## intent:goodbye
 - tchau
@@ -163,7 +162,9 @@
 - o que você pode me ajudar
 
 ## intent:greet2
-- o que voce faz?
+- o que você faz
+- o que voce faz
+- o que vc faz
 - em que vc pode me ajudar
 - faz o que
 - em que pode me ajudar
@@ -177,8 +178,7 @@
 
 ## intent: isolamento
 - isolamento
-- isolada
-- isolar
+- /isolamento
 
 ## intent:m1
 - /m1
@@ -250,6 +250,8 @@
 - tao triste
 
 ## intent:negacao
+- /negacao
+- negação
 - negacao
 
 ## intent:orientacao
@@ -293,6 +295,10 @@
 ## intent:relacaoViolenta
 - /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
+- aguentam relação violenta
+- relação violenta
+- relacao violenta
+- aguentam relacao violenta
 - medo de sair da relação
 - medo de denunciar
 - isolada
@@ -318,6 +324,9 @@
 ## intent:violenciaEmocinal
 - /vEmocional
 - violencia Emocional
+- violencia emocional
+- violência emocional
+- violência Emocional
 
 ## intent:violenciaFisica
 - Violencia Fisica
@@ -328,6 +337,11 @@
 ## intent:violenciaSexual
 - /vSexual
 - violencia Sexual
+- violencia Sexual
+- violência sexual
+- violência sexual
+
+
 ## intent:duvida
 - me fale mais
 - diga-me mais

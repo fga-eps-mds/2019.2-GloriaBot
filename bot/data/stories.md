@@ -1,12 +1,17 @@
 ## Story greet
 * greet OR start
     - utter_greet0
+>check_greet
+## Story greet
+>check_greet
 * greet2
     - utter_greet1
 ## Story delegacia
+>check_greet
 * delegacia
     - utter_delegacia
 ## Story orientacao
+>check_greet
 * orientacao OR affirm
     - utter_orientacao
 >check_orientacao
@@ -207,7 +212,7 @@
 
 ## Story Aguentam_Relacao_Violenta
 >check_orientacao
-* aguentamRelacaoViolenta
+* relacaoViolenta
     - utter_aguentamRelacaoViolenta
 >check_relacaoViolenta
 ## Story riscoRomp
@@ -260,7 +265,7 @@
 ## Story agride_agredido_respostaDeny
 >check_agride_agredido_respostaAfirm
 * deny
-    - utter_did_that_help
+    - utter_maisAlgumaCoisa
 ## Story agrideAgredidoQuemPodeSofrerAfirm
 >check_duvida
 * duvida
