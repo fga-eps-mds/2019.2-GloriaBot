@@ -84,3 +84,38 @@ services :
     image: rasa/rasa-sdk:latest
     volumes:
       - ./actions:/app/actions
+ # Analitics ElasticSearch Stack.
+  elasticsearch:
+    build:
+      context: .
+      dockerfile: ./docker/elasticsearch.Dockerfile
+    restart: unless-stopped
+    ports:
+      - 9200:9200
+      - 9300:9300
+    env_file:
+      - env/elasticsearch.env
+    volumes:
+      - esbackup:/usr/share/elasticsearch/backup
+      - ./modules/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - esdata:/usr/share/elasticsearch/data
+
+  # Visualization layer of Analitics Stack.
+  kibana:
+    build:
+      context: .
+      dockerfile: ./docker/kibana.Dockerfile
+    restart: unless-stopped
+    ports:
+      - 5601:5601
+    env_file:
+      - env/kibana.env
+    depends_on:
+      - elasticsearch
+volumes:
+  notebook_models:
+  mongo_data:
+  rabbit_data:
+  esbackup:
+  esdata:
+    driver: local
