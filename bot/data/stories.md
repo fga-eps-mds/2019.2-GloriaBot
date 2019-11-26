@@ -3,6 +3,9 @@
     - utter_greet0
 * greet2
     - utter_greet1
+## sroty greet1
+* greet2
+    - utter_greet1
 ## Story delegacia
 * delegacia
     - utter_delegacia
@@ -216,7 +219,7 @@
     - utter_riscoRomp
 ## Story vergonhaMedo
 >check_relacaoViolenta
-* vergonhaMedo
+* relacaoViolenta
     - utter_vergonhaMedo
 ## Story esperanca
 >check_relacaoViolenta

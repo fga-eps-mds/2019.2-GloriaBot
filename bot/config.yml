@@ -17,7 +17,6 @@ pipeline:
   - name: "CountVectorsFeaturizer"
   - name: "EmbeddingIntentClassifier"
 
-
 policies:
   - name: KerasPolicy
     priority: 5
