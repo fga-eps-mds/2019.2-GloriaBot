@@ -1,4 +1,5 @@
 intents:
+- agradecimento
 - greet: {triggers: utter_greet0}
 - ok
 - manifestacaoDaViolencia
@@ -167,55 +168,53 @@ templates:
   utter_facaRiscoExtremo:
   - text: "Quando o agressor estiver portando uma faca, tente manter a calma e procure ajuda o mais rápido possível. Não tente enfrentá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
   utter_aguentamRelacaoViolenta:
-  - text: "/riscoRomp - Risco de rompimento\n /vergonhaMedo - Vergonha e medo\n /esperanca\
-      \ - Esperança de que o marido mude o comportamento\n /isolamento- Isolamento\n\
-      \ /negacao - Negação social\n /barreiras - Barreiras que impedem o rompimento\n\
-      \ /dependencia - Dependência econômica\n /deixar - Deixar a relação é um longo\
-      \ processo\n"
+  - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
+      \ denuncia o seu companheiro é que, existe um risco de rompimento, ou seja, ela sente vergonha\
+      \ ou medo do que pode acontecer caso ele(a) descubra, ou uma esperança na mudança de atitude\
+      \ de seu companheiro(a), ou a mulher se encontra em um ambiente tão hostil que perdeu seus\
+      \ laços familiares e com amigos e se vêem isoladas.\nEsses tipos de relatos formam barreiras\
+      \ que impedem o rompimento do relacionamento por parte da vítima. Quer que eu te conte\
+      \ mais sobre algum deles?\n"
   utter_riscoRomp:
   - text: "A violência e as ameaças contra a vida da mulheres dos filhos se tornam\
-      \ mais intensas no período da separação. O homem violento percebe que perdeu\
-      \ o controle sobre sua parceira. Por isso assim que fizer isso deve buscar ajuda\n"
-
+      \ mais intensas no época da separação, pois o homem violento percebe que perdeu\
+      \ o controle sobre sua parceira. Por isso assim que seu parceiro der esses sinais\
+      \ deve-se buscar ajuda."
   utter_vergonhaMedo:
-  - text: As mulheres normalmente têm medo de denunciar seus maridos devia a dependência
-      tanto emocional quanto dependência financeira, pois ai vem o medo de perder
-      o que tem ou de acontecer algo pior
-
+  - text: "As mulheres normalmente têm medo de denunciar seus maridos devia a dependência\
+      \ tanto emocional quanto dependência financeira, pois ai vem o medo de perder\
+      \ o que tem ou de acontecer algo pior"
   utter_esperanca:
   - text: "Homens que apresentam tal comportamento sempre pedem perdão e falam que\
       \ vão mudar e buscar ajuda. Ele pode demonstrar o amor, admitir seus erros e\
-      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\
-      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado.\n"
+      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado."
   utter_isolamento:
-  - text: As mulheres em situação de violência perdem seus laços familiares e sociais.
-      Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.
-      Querem saber onde ela foi, com quem falou ao telefone, o que disse, porque usou
-      tal roupa, para quem olhou na rua etc.
-
+  - text: "As mulheres em situação de violência perdem seus laços familiares e sociais.\
+      \ Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.\
+      \ Querem saber onde ela foi, com quem falou ao telefone, o que disse, porque usou\
+      \ tal roupa, para quem olhou na rua etc"
   utter_negacao:
-  - text: Quando pedem ajuda, às vítimas de violência se defrontam com pessoas despreparadas
-      e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico,um
-      psicólogo, um líder religioso, um policial ou um advogado as trata com indiferença,
-      desconfiança e desprezo, contribuem para aumentar a violência.
-
+  - text: "Quando pedem ajuda, às vítimas de violência se defrontam com pessoas despreparadas\
+      \ e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico,um\
+      \ psicólogo, um líder religioso, um policial ou um advogado as trata com indiferença,\
+      \ desconfiança e desprezo, contribuem para aumentar a violência"
   utter_barreiras:
-  - text: 'Ao ver que a mulher está disposta a sair da relação violenta, o agressor
+  - text: "Ao ver que a mulher está disposta a sair da relação violenta, o agressor
       recorre a todo tipo de chantagem e ameaça: requisita a custódia dos filhos,
       nega pensão alimentícia, interfere no trabalho da esposa, difama-a, mata a mulher
       e os filhos, se mataetc. São muitas as dificuldades e são poucos os recursos
       disponíveis em nossa sociedade. Essa Mulher precisa de apoio e de pessoas dispostas
-      a ajudá-la a ser capaz de vencer as barreiras. '
+      a ajudá-la a ser capaz de vencer as barreiras."
   utter_dependencia:
   - text: Muitas mulheres em situação de abuso não têm capacitação profissional para
       iniciar uma vida no mercado de trabalho ou para estabelecer novas relações de
       trabalho em outra cidade ou estado, onde poderiam encontrar as condições ideais
-      de segurança.
+      de segurança
   utter_deixar:
-  - text: 'Ao perceber a necessidade de escapar da relação violenta, a mulher tem
+  - text: "Ao perceber a necessidade de escapar da relação violenta, a mulher tem
       um longo caminho a seguir: preparar-se afetivamente para o desenlace;preparar-se
       com segurança para a fuga, preparar-se economicamente. Essas iniciativas podem
-      levar anos, principalmente se a mulher não contar com nenhum apoio.'
+      levar anos, principalmente se a mulher não contar com nenhum apoio."
   utter_planoProtecao:
   - text: "/horaAtaque - Na Hora o Ataque\n /depoisAtaque- Depois do Ataque"
   utter_horaAtaque:
@@ -332,7 +331,8 @@ templates:
       de mudança são as melhores apostas. É necessário encarar o desafio de transformar
       comportamentos violentos para a construção de uma sociedade melhor.
   utter_manifestacaoDaViolencia:
-  - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual. \nEla também pode seguir um Ciclo da Violẽncia"
+  - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual.\
+      \ Ela também pode seguir um Ciclo da Violência, gostaria que eu te falasse sobre alguma dessas coisas?"
   utter_violenciaFisica:
   - text: "A violência física não é só bater!\n Empura, atirar objetos, sacudir\n\
       \ Estrangular, chutar violêntamente,\n torcer os braços, queimar, perfurar,\n\
@@ -348,10 +348,10 @@ templates:
       \ obrigar à ver imagens pornográgicas,\n obrigar a vitíma a fazer sexo com outras\
       \ pessoas."
   utter_cicloViolencia:
-  - text: "1ªFase: A construção da tensão no relacionamento\n Agressões verbais, crises\
+  - text: "1ªFase: A construção da tensão no relacionamento\nAgressões verbais, crises\
       \ de ciúmes, ameaças, destruição de objetos.\n2ªFase: A explosão da violência\
-      \ -Descontrole.\n Agressões agudas, a relação se torna inadministravel\n3ªFase:\
-      \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
+      \ -Descontrole.\nAgressões agudas, a relação se torna inadministravel\n3ªFase:\
+      \ Desculpas\nArrependimento do agressor, termino o período da violência física,implora\
       \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
   utter_agrideAgredidoINICIO:
   - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima? 
@@ -360,13 +360,12 @@ templates:
       \ de uma pessoa controlar e dominar a outra.\nQuer saber um pouquinho mais sobre isso?"
   utter_agrideAgredidoRespostaAfirm:
   - text: "A violência doméstica envolve atos repetitivos, que vão se agravando, em\
-      \ frequêcia e intensidade\n coerção, cerceamento, humilhação, ameaça\n agressão\
-      \ físicas e sexuais variadas\n Além do medo permanemte, esse tipo de violência\
+      \ frequêcia, intensidade, coerção, cerceamento, humilhação, ameaça, agressão,\
+      \ físicas e sexuais, variadas. Além do medo permanente, esse tipo de violência\
       \ pode resultar em danos físicos e psicológicos duradouros"
   utter_agrideAgredidoQuemPodeSofrer:
-  - text: "Ah deixa eu abrir um parênteses aqui\n 
-    Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
-      \ a violência contra a mulher é mais frequênte\n "
+  - text: "Ah deixa eu abrir um parênteses aqui, tanto o mulher quanto o homem podem sofrer violência doméstica. Contudo,\
+      \ a violência contra a mulher é mais frequênte, ok?"
   utter_agrideAgredidoQuemPodeSofrerAfirm:
   - text: " A Convenção Interamericana para Prevenir, Punir e Erradicar a Violência\
       \ Contra a Mulher (Convenção de Belém do Pará, 1994) define a violência contra\
@@ -382,14 +381,14 @@ templates:
       \ ou qualquer outro local; e \nc) perpetrada ou tolerada pelo Estado ou seus\
       \ agentes, onde quer que ocorra.'"
   utter_delegacia:
-  - text: "Encontre a delegacia perto de vc ou ligue 180: \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  - text: "Encontre a delegacia perto de vc ou ligue 180:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
-  - text: "Você quer ter uma percepção clara de quem é a vítima ou quer saber sobre a violência conjugal?"
-  - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir a gravidade do risco de uma violência domestica?"
-  - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra a violência. \nQuer saber sobre qual delas?"
-  - text: "A violencia domestica tem sempre uma origem e tem como  antecipar os sinais da violência. \nQual vc deseja saber?"
-  
+  - text: "Consigo te dar orientações sobre algumas coisa como quem pode ser a vítima, ou te falar um pouco mais sobre \
+      \ violência conjugal, ou o porque de algumas mulheres se manterem em uma relação violenta e te contar das origens da \
+      \ violência doméstica e como você poderia antecipar os sinais. Também posso te ajudar a fazer uma medida de gravidade \
+      \ do risco em caso de violência doméstica, ou ajudar com um plano de proteção, te contar algumas curiosidades...\
+      \ se preferir, o que você gostaria de saber?"
   utter_origemViolencia:
   - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
       \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
@@ -416,35 +415,40 @@ templates:
       \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
       \ em todos esses planos e jamais apresente comportamento violento.\n"
   utter_greet0:
-  - text: "Olá =) \n Em que posso te ajudar?\n"
+  - text: "Olá, em que posso te ajudar?"
   - text: "Em que posso te auxiliar?"
-  - text: "Olá!\n O que você procura? Posso te Ajudar!" 
+  - text: "Oii, posso te ajudar com alguma coisa?" 
   utter_greet1:
-  - text: "Posso te auxiliar a\n-Encontrar Delegacias especializadas no atendimento\
-      \ à Mulher.\n- Te orientar sobre os direitos da mulher\n"
-    buttons:
-    - title: Delegacia
-      payload: Encontrar Delegacia Especializada
-    - title: Orientação
-      payload: Orientação sobre direitos
-  - text: "Então, posso te falar um pouco mais sobre os direitos da mulher.\nQuer saber um pouco?"
-  utter_did_that_help:
-  - text: "Ok\nQuer que eu te ajude em outra coisa?"
-  - text: "Ok\nQual quer coisa é so me chamar estou aqui para te ajudar =)"
+  - text: "Posso te ajudar com informações como encontrar delegacias especializadas no atendimento\
+      \ à Mulher, ou te dar alguma orientação. Gostaria de saber sobre alguma dessas\
+      \ coisas?"
+  - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas. Posso te auxiliar\
+      \ em: \n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
+      \ sobre os direitos da mulher\nGostaria de saber sobre alguma dessas coisas?"
+  utter_maisAlgumaCoisa:
+  - text: "Quer que eu te ajude em outra coisa?"
+  - text: "Posso te ajudar com mais alguma coisa?"
+  - text: "Algo mais que eu posso fazer pra te ajudar?"
   utter_happy:
   - text: Que legal!
   utter_goodbye:
   - text: Tchau:)
+  - text: Estou aqui caso precise novamente =)!
   utter_medirGravidade:
   - text: "Para tentar medir o risco que você corre, farei algumas perguntas e de acordo
       com as respostas tentarei medir o risco de violência que você sofre, certo?
       Lembrando que não é um teste infalível, por isso confie também no seu bom senso."
+  utter_deNada:
+  - text: "De nada, posso te ajudar com mais alguma coisa?"
+  - text: "Fico feliz em poder ter ajudado, posso te ajudar com mais alguma coisa?"
+
 actions:
+- utter_deNada
 - utter_agressorFaca
 - utter_medirGravidade
 - utter_greet0
 - utter_greet1
-- utter_did_that_help
+- utter_maisAlgumaCoisa
 - utter_happy
 - utter_goodbye
 - utter_delegacia

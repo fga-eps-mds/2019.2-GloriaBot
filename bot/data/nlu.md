@@ -6,6 +6,13 @@
 - Risco de violência doméstica
 - risco
 
+## intent: agradecimento
+- obrigada
+- ajudou bastante
+- thanks
+- valeu
+- vlw
+
 ## intent:affirm
 - sim
 - de fato
@@ -83,10 +90,11 @@
 - barreiras
 
 ## intent:cicloViolencia
-- /vCiclo
 - ciclo da violencia
+- ciclo da violência
 
 ## intent:deixar
+- /deixar
 - deixar
 
 ## intent:delegacia
@@ -154,12 +162,17 @@
 - boa noite
 - como vai
 - oi
-- o que você pode ajudar
 
 ## intent:greet2
 - o que você faz
 - o que voce faz
 - o que vc faz
+- oq vc pode fazer
+- oque voce pode fazer
+- fazer
+- oque você pode fazer
+- oq você pode fazer
+- em que vc pode me ajudar
 - em que vc pode ajudar
 - faz o que
 - em que pode ajudar
@@ -206,15 +219,17 @@
 - /m9
 
 ## intent:manifestacaoDaViolencia
-- quais são as manifestações da violencia
-- quais são as manifestações da violencia conjugal?
+- manifestações da violencia
+- manifestacoes da violencia
+- manifestações da violência
 - tipos de violencia
+- tipos de violência
 - quais são as violencias
-- quais são as manifestações da violencia conjugal?
 - violencia conjugal
-- manifestações da violência conjugal
+- violência conjugal
 - manifestação da violencia
-- manifestação violência
+- manifestação da violência
+- manifestacao da violencia
 
 ## intent:mitosViolencia
 - 10 mitos
@@ -242,15 +257,17 @@
 - orientacoes
 - orientações
 - orintação
-- direito
-- direitos
+- orientar
+- Orientar
+- direito da mulher
+- direitos da mulher
+- direitos das mulheres 
 - Orientação
 - orientação
 - Orientações sobre os direitos da mulher
 - Orientações sobre os direitos
 
 ## intent:origemViolencia
-- /origemViolencia
 - origem da violencia
 - origem
 - inicio da violência
@@ -275,7 +292,6 @@
 - Quem agride e quem é agredido?
 
 ## intent:relacaoViolenta
-- /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
 - aguentam relação violenta
 - relação violenta
@@ -284,7 +300,6 @@
 - medo de sair da relação
 - medo de denunciar
 - isolada
-- sinto isolada
 - medo pelos meus filhos
 - esperança que vai mudar
 - /vergonhaMedo
@@ -302,30 +317,20 @@
 - /start
 
 ## intent:violenciaEmocinal
-- /vEmocional
-- violencia Emocional
 - violencia emocional
 - violência emocional
-- violência Emocional
 
 ## intent:violenciaFisica
-- Violencia Fisica
-- fisica
-- /vFisica
-- violencia fisicas
+- Violencia física
+- violencia fisica
+- violência física
+- violência fisica
 
 ## intent:violenciaSexual
-- /vSexual
-- violencia Sexual
-- violencia Sexual
+- violencia sexual
 - violência sexual
-- violência sexual
-
 
 ## intent:duvida
-- me fale mais
-- diga-me mais
-- fale mais
 - não sei
 - talvez
 - não posso afirmar
