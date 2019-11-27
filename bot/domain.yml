@@ -13,7 +13,7 @@ intents:
 - quem_agride_quem_agredido_1
 - agrideAgredidoQuemPodeSofrer
 - violenciaFisica
-- violenciaEmocinal
+- violenciaEmocional
 - violenciaSexual
 - cicloViolencia
 - mitosViolencia
@@ -60,7 +60,7 @@ templates:
   utter_default:
   - text: Não consegui entender o que você disse, poderia repetir?
   - text: Desculpa, não entendi o que você falou, você pode repetir pra mim?
-  - text: Não entendi o que você falou, Poderia escrever de uma maneira diferente? 
+  - text: Não entendi o que você falou, Poderia escrever de uma maneira diferente?
   utter_malucoAlto:
   - text: "O risco que você corre é alto, contate alguém de confiança, e fique atenta aos sinais que o agressor passar\
   \ , estes são indicativos de que ele pode estar indo para um tipo de posição mais violenta, neste caso contate as\
@@ -73,7 +73,7 @@ templates:
   \ probabilidade do que as ditas normais de serem violentas. Entretanto, pessoas violentas que\
   \ perdem seu senso de conseqüência podem se tornar muito perigosas)"
   utter_suicida:
-  - text: "O agressor parece, tem tendências suicidas? (muitos suicidas não são violentos, mas agressores suicidas algumas vezes\
+  - text: "O agressor parece ter tendências suicidas? (muitos suicidas não são violentos, mas agressores suicidas algumas vezes\
   \ matam outros membros da família antes de se matarem)."
   utter_suicidaAlto:
   - text: "O risco que você corre é alto, contate alguém de confiança, e fique atenta aos sinais que o agressor passar\
@@ -137,7 +137,7 @@ templates:
   utter_deixarAgressor:
   - text: Você já tentou deixá-lo?
   utter_deixarAgressorAffirm:
-  - text: Ele se importou quando você tentou?  
+  - text: Ele se importou quando você tentou?
   utter_agressorFilhosExtremo:
   - text: O risco é extremo recomendo procurar algum lugar para seus filhos ficarem enquanto procura ajuda das autoridades
       competentes.
@@ -170,93 +170,85 @@ templates:
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
       \ denuncia o seu companheiro é que, existe um risco de rompimento, ou seja, ela sente vergonha\
-      \ ou medo do que pode acontecer caso ele(a) descubra, ou uma esperança na mudança de atitude\
+      \ ou medo do que pode acontecer caso o agressor descubra, ou uma esperança na mudança de atitude\
       \ de seu companheiro(a), ou a mulher se encontra em um ambiente tão hostil que perdeu seus\
-      \ laços familiares e com amigos e se vêem isoladas.\nEsses tipos de relatos formam barreiras\
+      \ laços familiares e com amigos e se vêem isoladas. Esses tipos de relatos formam barreiras\
       \ que impedem o rompimento do relacionamento por parte da vítima. Quer que eu te conte\
-      \ mais sobre algum deles?\n"
+      \ mais sobre algum deles?"
   utter_riscoRomp:
-  - text: "A violência e as ameaças contra a vida da mulheres dos filhos se tornam\
+  - text: "A violência e as ameaças contra a vida da mulheres e dos filhos se tornam\
       \ mais intensas no época da separação, pois o homem violento percebe que perdeu\
       \ o controle sobre sua parceira. Por isso assim que seu parceiro der esses sinais\
       \ deve-se buscar ajuda."
   utter_vergonhaMedo:
-  - text: "As mulheres normalmente têm medo de denunciar seus maridos devia a dependência\
-      \ tanto emocional quanto dependência financeira, pois ai vem o medo de perder\
+  - text: "As mulheres normalmente têm medo de denunciar seus maridos devido a dependência\
+      \ tanto emocional quanto dependência financeira, pois vem o medo de perder\
       \ o que tem ou de acontecer algo pior"
   utter_esperanca:
   - text: "Homens que apresentam tal comportamento sempre pedem perdão e falam que\
       \ vão mudar e buscar ajuda. Ele pode demonstrar o amor, admitir seus erros e\
-      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado."
+      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\
+      \ a mudança, mas caso ocorra o mesmo comportamento não deve ser relevado."
   utter_isolamento:
   - text: "As mulheres em situação de violência perdem seus laços familiares e sociais.\
       \ Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.\
       \ Querem saber onde ela foi, com quem falou ao telefone, o que disse, porque usou\
-      \ tal roupa, para quem olhou na rua etc"
+      \ tal roupa, para quem olhou na rua e outros sinais de ciúmes extremo."
   utter_negacao:
   - text: "Quando pedem ajuda, às vítimas de violência se defrontam com pessoas despreparadas\
-      \ e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico,um\
+      \ e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico, um\
       \ psicólogo, um líder religioso, um policial ou um advogado as trata com indiferença,\
       \ desconfiança e desprezo, contribuem para aumentar a violência"
   utter_barreiras:
   - text: "Ao ver que a mulher está disposta a sair da relação violenta, o agressor
       recorre a todo tipo de chantagem e ameaça: requisita a custódia dos filhos,
-      nega pensão alimentícia, interfere no trabalho da esposa, difama-a, mata a mulher
-      e os filhos, se mataetc. São muitas as dificuldades e são poucos os recursos
-      disponíveis em nossa sociedade. Essa Mulher precisa de apoio e de pessoas dispostas
+      nega pensão alimentícia, interfere no trabalho da esposa, difama-a, e pode chegar a casos extremos
+      como recorrer a homícidio ou suícidio. São muitas as dificuldades e são poucos os recursos
+      disponíveis em nossa sociedade. Essa mulher precisa de apoio e de pessoas dispostas
       a ajudá-la a ser capaz de vencer as barreiras."
   utter_dependencia:
-  - text: Muitas mulheres em situação de abuso não têm capacitação profissional para
+  - text: Algumas mulheres em situação de abuso não têm capacitação profissional para
       iniciar uma vida no mercado de trabalho ou para estabelecer novas relações de
       trabalho em outra cidade ou estado, onde poderiam encontrar as condições ideais
-      de segurança
+      de segurança o que leva a uma dependência do parceiro violento.
   utter_deixar:
   - text: "Ao perceber a necessidade de escapar da relação violenta, a mulher tem
-      um longo caminho a seguir: preparar-se afetivamente para o desenlace;preparar-se
+      um longo caminho a seguir: preparar-se afetivamente para a separação, preparar-se
       com segurança para a fuga, preparar-se economicamente. Essas iniciativas podem
       levar anos, principalmente se a mulher não contar com nenhum apoio."
   utter_planoProtecao:
-  - text: "/horaAtaque - Na Hora o Ataque\n /depoisAtaque- Depois do Ataque"
+  - text: "Gostaria de saber como agir durante uma situação de risco ou após a situação?"
   utter_horaAtaque:
-  - text: "Na Hora do ATAQUE\n - Evitar Locais pequenos com objetos perigosos ou superfícies\
-      \ cortantes\n - Evitar locais onde haja armas\n - Se a violência for inevitável:\
-      \ corra para um canto e agache-se com o rosto protegido e os braços em volta\
-      \ de cada lado da cabeça, com os dedos entrelaçados\n - Não corra para lugares\
-      \ onde pessoas indefesas estejam. Elas podem acabar sendo também agredidas\n\
-      \ - Evite fugir sem as crianças. Elas poderão ser usadas como objeto de chantagem.\n\
-      \ - Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
-      \ violência.\n"
-    buttons:
-    - title: Depois do Ataque
-      payload: /depoisAtaque
-    - title: Orientação
-      payload: Orientação sobre direitos
+  - text: "Na Hora do ataque deve se evitar Locais pequenos com objetos perigosos ou superfícies\
+      \ cortantes, evitar locais onde haja armas, se a violência for inevitável:
+      \ corra para um canto e se agache com o rosto protegido e os braços em volta\
+      \ de cada lado da cabeça, com os dedos entrelaçados, não corra para lugares\
+      \ onde outras pessoas indefesas estejam se escondendo pois elas podem acabar sendo também agredidas\
+      \ , evite fugir sem as crianças se possuir alguma, elas poderão ser usadas como objeto de chantagem.\
+      \ Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
+      \ violência."
   utter_depoisAtaque:
-  - text: "Depois do Ataque\n - Sempre ter os números de emergência guardados em lugar\
-      \ de fácil acesso. Procure o telefone mais próximo.\n - Procure uma delegacia\
+  - text: "Depois do Ataque, sempre ter os números de emergência guardados em lugar\
+      \ de fácil acesso. Procure o telefone mais próximo. Procure uma delegacia\
       \ da mulher, um centro de atendimento ou alguma pessoa ou instituição em que\
-      \ você confie.\n - Verifique se há locais seguros por perto, onde você pode\
-      \ ficar até conseguir ajuda.\n - Se estiver ferida, procure um hospital ou um\
-      \ posto de atendimento e revele o que aconteceu.\n - Se você esconder que foi\
-      \ vítima de violência, ninguém vai poder ajudá-la\n - Separe um pacode contendo\
+      \ você confie, verifique se há locais seguros por perto, onde você pode\
+      \ ficar até conseguir ajuda, se estiver ferida, procure um hospital ou um\
+      \ posto de atendimento e revele o que aconteceu, se você esconder que foi\
+      \ vítima de violência, ninguém vai poder ajudá-la, separe um pacode contendo\
       \ objetos de primeira necessidade. Guarde com alguém próximo no caso de ter\
-      \ que abandonar a casa.\n - Guarde cópias de documentos importantes em local\
-      \ seguro\n - Registrar todos os episódios de violência física, psicológica ou\
-      \ sexual que você esteja sofrendo. Isso é útil na hora de pedir ajuda as autoridades\n\
-      \ - Deixar pessoas de confiança a par da situação. Planeje com elas um esquema\
-      \ de proteção e combine algumas formas de sinalizar que você está em perigo\n\
-      \ - Se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
-      \ deixando-o abastecido e na posição de saída, de forma a evitar manobras\n"
-    buttons:
-    - title: Hora do Ataque
-      payload: /horaAtaque
-    - title: Orientação
-      payload: Orientação sobre direitos
+      \ que abandonar a casa, guarde cópias de documentos importantes em local\
+      \ seguro, registrar todos os episódios de violência física, psicológica ou\
+      \ sexual que você esteja sofrendo se for possível mas de forma segura o suficiente para que não seja descoberto
+      \ , isso é útil na hora de pedir ajuda as autoridades, \
+      \ deixar pessoas de confiança a par da situação. Planeje com elas um esquema\
+      \ de proteção e combine algumas formas de sinalizar que você está em perigo\
+      \ , se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
+      \ deixando-o abastecido e na posição de saída, de forma a evitar manobras difíceis caso tenha se ferido."
   utter_anteciparSinais:
-  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
+  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n- Sinais de comportamento\
       \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
       \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
-      \ - Mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
+      \ - Se mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
       \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
       \ e grosseira\n - Negação de abusos cometidos no passado\n"
   utter_mitos:
@@ -334,30 +326,29 @@ templates:
   - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual.\
       \ Ela também pode seguir um Ciclo da Violência, gostaria que eu te falasse sobre alguma dessas coisas?"
   utter_violenciaFisica:
-  - text: "A violência física não é só bater!\n Empura, atirar objetos, sacudir\n\
-      \ Estrangular, chutar violêntamente,\n torcer os braços, queimar, perfurar,\n\
-      \ mutilar e torturar\n também são violências físicas"
+  - text: "A violência física não é só bater! Empurrar, atirar objetos, sacudir\
+      \ e apertar também são formas de violência física."
   utter_violenciaEmocional:
-  - text: "A violência emocial vai muito além da ameaça!\n Intimidar, Diminuir a pessoa,\
-      \ xingar,\n fazer a pessoa pensar que está louca,\n provocar confusão mental,\n\
-      \ humilhar, usar os filhos para fazer chantagem\n isolar a vítima dos amigos\
-      \ e parentes\n e muitos outros."
+  - text: "A violência emocional vai muito além da ameaça! Intimidar, diminuir a pessoa,\
+      \ xingar, fazer a pessoa pensar que está louca, provocar confusão mental,\
+      \ humilhar, usar os filhos para fazer chantagem, isolar a vítima dos amigos\
+      \ e parentes e muitos outros."
   utter_violenciaSexual:
-  - text: "A violência sexual não é só o estupro cometido por um desconhecido.\n Força\
-      \ relações sexuais,\n força a prática de atos que causam desconforto ou repulsa,\n\
-      \ obrigar à ver imagens pornográgicas,\n obrigar a vitíma a fazer sexo com outras\
-      \ pessoas."
+  - text: "A violência sexual não é só algo cometido por um desconhecido sem intimidade com a vítima. Forçar\
+      \ relações sexuais quando não tem consentimento do parceiro, força a prática de atos que causam desconforto ou repulsa,\
+      \ obrigar à ver imagens pornográgicas, obrigar a vitíma a fazer sexo com outras\
+      \ pessoas são formas de violência sexual também."
   utter_cicloViolencia:
-  - text: "1ªFase: A construção da tensão no relacionamento\nAgressões verbais, crises\
-      \ de ciúmes, ameaças, destruição de objetos.\n2ªFase: A explosão da violência\
-      \ -Descontrole.\nAgressões agudas, a relação se torna inadministravel\n3ªFase:\
-      \ Desculpas\nArrependimento do agressor, termino o período da violência física,implora\
-      \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
+  - text: "1ªFase: A construção da tensão no relacionamento, agressões verbais, crises\
+      \ de ciúmes, ameaças, destruição de objetos.2ªFase: A explosão da violência\
+      \ -Descontrole. Agressões agudas, a relação se torna inadministravel\n3ªFase:\
+      \ Desculpas, arrependimento do agressor, termino o período da violência física, implora\
+      \ por perdão, o agressor promete qualquer coisa, demonstra remorso."
   utter_agrideAgredidoINICIO:
-  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima? 
+  - text: Você sabia que na grande maioria dos casos, a mulher é a principal vítima?
   utter_agrideAgredidoInicioResposta:
   - text: "Na sua forma mais típica, a violência conjugal é uma expressão de desejo\
-      \ de uma pessoa controlar e dominar a outra.\nQuer saber um pouquinho mais sobre isso?"
+      \ de uma pessoa controlar e dominar a outra. Quer saber um pouquinho mais sobre isso?"
   utter_agrideAgredidoRespostaAfirm:
   - text: "A violência doméstica envolve atos repetitivos, que vão se agravando, em\
       \ frequêcia, intensidade, coerção, cerceamento, humilhação, ameaça, agressão,\
@@ -392,11 +383,10 @@ templates:
   utter_origemViolencia:
   - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
       \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
-      \ ou porque a violência ocorre mais em algumas comunidades do que em outras.”.\n\
+      \ ou porque a violência ocorre mais em algumas comunidades do que em outras.”. \
       \ Na maioria dos casos a violência está associada a camadas da vivência do agressor,\
       \ um modelo psicológico foi criado para mapear as prováveis causas que levariam\
-      \ um agressor a cometer a agressão.\n Quer saber como funciona?"
-    image: https://i.imgur.com/LIHnEaX.png
+      \ um agressor a cometer a agressão. Quer saber como funciona?"
   utter_origemViolenciaSIM:
   - text: "- Observe que, segundo esse modelo, a violência estaria relacionada à interação\
       \ de quatro planos: o individual, o relacional, o comunitário e o social. Cada\
@@ -417,7 +407,7 @@ templates:
   utter_greet0:
   - text: "Olá, em que posso te ajudar?"
   - text: "Em que posso te auxiliar?"
-  - text: "Oii, posso te ajudar com alguma coisa?" 
+  - text: "Oi, posso te ajudar com alguma coisa?"
   utter_greet1:
   - text: "Posso te ajudar com informações como encontrar delegacias especializadas no atendimento\
       \ à Mulher, ou te dar alguma orientação. Gostaria de saber sobre alguma dessas\
