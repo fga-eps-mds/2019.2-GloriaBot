@@ -162,12 +162,16 @@
 - boa noite
 - como vai
 - oi
-- o que você pode me ajudar
 
 ## intent:greet2
 - o que você faz
 - o que voce faz
 - o que vc faz
+- oq vc pode fazer
+- oque voce pode fazer
+- fazer
+- oque você pode fazer
+- oq você pode fazer
 - em que vc pode me ajudar
 - faz o que
 - em que pode me ajudar
@@ -275,7 +279,6 @@
 - Orientações sobre os direitos
 
 ## intent:origemViolencia
-- /origemViolencia
 - origem da violencia
 - origem
 - inicio da violência
@@ -300,7 +303,6 @@
 - Quem agride e quem é agredido?
 
 ## intent:relacaoViolenta
-- /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
 - aguentam relação violenta
 - relação violenta

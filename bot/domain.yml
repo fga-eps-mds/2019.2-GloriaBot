@@ -385,16 +385,14 @@ templates:
       \ ou qualquer outro local; e \nc) perpetrada ou tolerada pelo Estado ou seus\
       \ agentes, onde quer que ocorra.'"
   utter_delegacia:
-  - text: "Encontre a delegacia perto de vc ou ligue 180: \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  - text: "Encontre a delegacia perto de vc ou ligue 180:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
-  - text: "Você quer ter uma percepção clara de quem é a vítima ou quer saber sobre a violência conjugal?"
-  - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir\
-      \ a gravidade do risco de uma violência domestica?"
-  - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra\
-      \ a violência.\nQuer saber sobre qual delas?"
-  - text: "A violencia domestica tem sempre uma origem e tem como  antecipar os sinais da violência. \nQual vc deseja saber?"
-  
+  - text: "Consigo te dar orientações sobre algumas coisa como quem pode ser a vítima, ou te falar um pouco mais sobre \
+      \ violência conjugal, ou o porque de algumas mulheres se manterem em uma relação violenta e te contar das origens da \
+      \ violência doméstica e como você poderia antecipar os sinais. Também posso te ajudar a fazer uma medida de gravidade \
+      \ do risco em caso de violência doméstica, ou ajudar com um plano de proteção, te contar algumas curiosidades...\
+      \ se preferir, o que você gostaria de saber?"
   utter_origemViolencia:
   - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
       \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
@@ -421,12 +419,12 @@ templates:
       \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
       \ em todos esses planos e jamais apresente comportamento violento.\n"
   utter_greet0:
-  - text: "Olá, em que posso te ajudar?\n"
+  - text: "Olá, em que posso te ajudar?"
   - text: "Em que posso te auxiliar?"
-  - text: "Olá!\nO que você procura? Posso te Ajudar!" 
+  - text: "Oii, posso te ajudar com alguma coisa?" 
   utter_greet1:
   - text: "Posso te ajudar com informações como encontrar delegacias especializadas no atendimento\
-      \ à Mulher, ou te orientar sobre os direitos da mulher. Gostaria de saber sobre alguma dessas\
+      \ à Mulher, ou te dar alguma orientação. Gostaria de saber sobre alguma dessas\
       \ coisas?"
   - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas. Posso te auxiliar\
       \ em: \n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
