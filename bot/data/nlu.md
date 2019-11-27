@@ -20,8 +20,6 @@
 - isso soa bem
 - correto
 - já
-
-## intent:ok
 - ok
 - tudo bem
 - certo
@@ -88,9 +86,10 @@
 - informações que  possui
 ## intent:barreiras
 - barreiras
+- barreira
 
 ## intent:cicloViolencia
-- ciclo da violencia
+- ciclo
 - ciclo da violência
 
 ## intent:deixar
@@ -139,7 +138,7 @@
 
 ## intent:depoisAtaque
 - /depoisAtaque
-
+- depois
 ## intent:esperanca
 - /esperanca
 - esperanca
@@ -183,6 +182,8 @@
 
 ## intent:horaAtaque
 - /horaAtaque
+- na hora do ataque
+- hora
 
 ## intent: isolamento
 - isolamento
@@ -261,7 +262,7 @@
 - Orientar
 - direito da mulher
 - direitos da mulher
-- direitos das mulheres 
+- direitos das mulheres
 - Orientação
 - orientação
 - Orientações sobre os direitos da mulher
@@ -316,7 +317,7 @@
 ## intent:start
 - /start
 
-## intent:violenciaEmocinal
+## intent:violenciaEmocional
 - violencia emocional
 - violência emocional
 
