@@ -1,4 +1,5 @@
 intents:
+- agradecimento
 - ok
 - manifestacaoDaViolencia
 - greet
@@ -334,7 +335,8 @@ templates:
       de mudança são as melhores apostas. É necessário encarar o desafio de transformar
       comportamentos violentos para a construção de uma sociedade melhor.
   utter_manifestacaoDaViolencia:
-  - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual. \nEla também pode seguir um Ciclo da Violẽncia"
+  - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual.\
+      \ Ela também pode seguir um Ciclo da Violência, gostaria que eu te falasse sobre alguma dessas coisas?"
   utter_violenciaFisica:
   - text: "A violência física não é só bater!\n Empura, atirar objetos, sacudir\n\
       \ Estrangular, chutar violêntamente,\n torcer os braços, queimar, perfurar,\n\
@@ -350,10 +352,10 @@ templates:
       \ obrigar à ver imagens pornográgicas,\n obrigar a vitíma a fazer sexo com outras\
       \ pessoas."
   utter_cicloViolencia:
-  - text: "1ªFase: A construção da tensão no relacionamento\n Agressões verbais, crises\
+  - text: "1ªFase: A construção da tensão no relacionamento\nAgressões verbais, crises\
       \ de ciúmes, ameaças, destruição de objetos.\n2ªFase: A explosão da violência\
-      \ -Descontrole.\n Agressões agudas, a relação se torna inadministravel\n3ªFase:\
-      \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
+      \ -Descontrole.\nAgressões agudas, a relação se torna inadministravel\n3ªFase:\
+      \ Desculpas\nArrependimento do agressor, termino o período da violência física,implora\
       \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
   utter_agrideAgredidoINICIO:
   - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima? 
@@ -362,13 +364,12 @@ templates:
       \ de uma pessoa controlar e dominar a outra.\nQuer saber um pouquinho mais sobre isso?"
   utter_agrideAgredidoRespostaAfirm:
   - text: "A violência doméstica envolve atos repetitivos, que vão se agravando, em\
-      \ frequêcia e intensidade\n coerção, cerceamento, humilhação, ameaça\n agressão\
-      \ físicas e sexuais variadas\n Além do medo permanemte, esse tipo de violência\
+      \ frequêcia, intensidade, coerção, cerceamento, humilhação, ameaça, agressão,\
+      \ físicas e sexuais, variadas. Além do medo permanente, esse tipo de violência\
       \ pode resultar em danos físicos e psicológicos duradouros"
   utter_agrideAgredidoQuemPodeSofrer:
-  - text: "Ah deixa eu abrir um parênteses aqui\n 
-    Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
-      \ a violência contra a mulher é mais frequênte\n "
+  - text: "Ah deixa eu abrir um parênteses aqui, tanto o mulher quanto o homem podem sofrer violência doméstica. Contudo,\
+      \ a violência contra a mulher é mais frequênte, ok?"
   utter_agrideAgredidoQuemPodeSofrerAfirm:
   - text: " A Convenção Interamericana para Prevenir, Punir e Erradicar a Violência\
       \ Contra a Mulher (Convenção de Belém do Pará, 1994) define a violência contra\
@@ -388,8 +389,10 @@ templates:
   - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
   - text: "Você quer ter uma percepção clara de quem é a vítima ou quer saber sobre a violência conjugal?"
-  - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir a gravidade do risco de uma violência domestica?"
-  - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra a violência. \nQuer saber sobre qual delas?"
+  - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir\
+      \ a gravidade do risco de uma violência domestica?"
+  - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra\
+      \ a violência.\nQuer saber sobre qual delas?"
   - text: "A violencia domestica tem sempre uma origem e tem como  antecipar os sinais da violência. \nQual vc deseja saber?"
   
   utter_origemViolencia:
@@ -418,15 +421,16 @@ templates:
       \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
       \ em todos esses planos e jamais apresente comportamento violento.\n"
   utter_greet0:
-  - text: "Olá =) \n Em que posso te ajudar?\n"
+  - text: "Olá, em que posso te ajudar?\n"
   - text: "Em que posso te auxiliar?"
-  - text: "Olá!\n O que você procura? Posso te Ajudar!" 
+  - text: "Olá!\nO que você procura? Posso te Ajudar!" 
   utter_greet1:
-  - text: "Posso te auxiliar a\n-Encontrar Delegacias especializadas no atendimento\
-      \ à Mulher.\n- Te orientar sobre os direitos da mulher\n"
-  - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
-      \ em:\n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
-      \ sobre os direitos da mulher\n"
+  - text: "Posso te ajudar com informações como encontrar delegacias especializadas no atendimento\
+      \ à Mulher, ou te orientar sobre os direitos da mulher. Gostaria de saber sobre alguma dessas\
+      \ coisas?"
+  - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas. Posso te auxiliar\
+      \ em: \n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
+      \ sobre os direitos da mulher\nGostaria de saber sobre alguma dessas coisas?"
   utter_maisAlgumaCoisa:
   - text: "Quer que eu te ajude em outra coisa?"
   - text: "Posso te ajudar com mais alguma coisa?"
@@ -440,7 +444,12 @@ templates:
   - text: "Para tentar medir o risco que você corre, farei algumas perguntas e de acordo
       com as respostas tentarei medir o risco de violência que você sofre, certo?
       Lembrando que não é um teste infalível, por isso confie também no seu bom senso."
+  utter_deNada:
+  - text: "De nada, posso te ajudar com mais alguma coisa?"
+  - text: "Fico feliz em poder ter ajudado, posso te ajudar com mais alguma coisa?"
+
 actions:
+- utter_deNada
 - utter_agressorFaca
 - utter_medirGravidade
 - utter_greet0

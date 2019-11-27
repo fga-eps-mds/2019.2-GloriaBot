@@ -6,6 +6,13 @@
 - Risco de violência doméstica
 - risco
 
+## intent: agradecimento
+- obrigada
+- ajudou bastante
+- thanks
+- valeu
+- vlw
+
 ## intent:affirm
 - sim
 - de fato
@@ -81,15 +88,9 @@
 ## intent:barreiras
 - barreiras
 
-## intent:bot_challenge
-- Voce e um robô?
-- Voce e um humano?
-- estou falando com um bot?
-- estou falando com um humano?
-
 ## intent:cicloViolencia
-- /vCiclo
 - ciclo da violencia
+- ciclo da violência
 
 ## intent:deixar
 - /deixar
@@ -140,6 +141,8 @@
 
 ## intent:esperanca
 - /esperanca
+- esperanca de mudança
+- esperanca de mudanca
 - esperanca
 - esperança
 
@@ -211,15 +214,16 @@
 - /m9
 
 ## intent:manifestacaoDaViolencia
-- quais são as manifestações da violencia
-- quais são as manifestações da violencia conjugal?
+- manifestações da violencia
+- manifestacoes da violencia
+- manifestações da violência
 - tipos de violencia
-- quais são as violencias
-- quais são as manifestações da violencia conjugal?
+- tipos de violência
 - violencia conjugal
-- manifestações da violência conjugal
+- violência conjugal
 - manifestação da violencia
-- manifestação violência
+- manifestação da violência
+- manifestacao da violencia
 
 ## intent:mitosViolencia
 - 10 mitos
@@ -260,8 +264,11 @@
 - orientacoes
 - orientações
 - orintação
-- direito
-- direitos
+- orientar
+- Orientar
+- direito da mulher
+- direitos da mulher
+- direitos das mulheres 
 - Orientação
 - orientação
 - Orientações sobre os direitos da mulher
@@ -302,7 +309,6 @@
 - medo de sair da relação
 - medo de denunciar
 - isolada
-- me sinto isolada
 - medo pelos meus filhos
 - esperança que ele vai mudar
 
@@ -323,29 +329,20 @@
 
 ## intent:violenciaEmocinal
 - /vEmocional
-- violencia Emocional
 - violencia emocional
 - violência emocional
-- violência Emocional
 
 ## intent:violenciaFisica
-- Violencia Fisica
-- fisica
-- /vFisica
-- violencia fisicas
+- Violencia física
+- violencia fisica
+- violência física
+- violência fisica
 
 ## intent:violenciaSexual
-- /vSexual
-- violencia Sexual
 - violencia Sexual
 - violência sexual
-- violência sexual
-
 
 ## intent:duvida
-- me fale mais
-- diga-me mais
-- fale mais
 - não sei
 - talvez
 - não posso afirmar

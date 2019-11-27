@@ -266,24 +266,46 @@
 >check_agride_agredido_respostaAfirm
 * deny
     - utter_maisAlgumaCoisa
+>check_maisAlgumaCoisa
 ## Story agrideAgredidoQuemPodeSofrerAfirm
 >check_duvida
-* duvida
+* affirm
     - utter_agrideAgredidoQuemPodeSofrerAfirm
+## Story goodbye
+>check_maisAlgumaCoisa
+* deny
+    - utter_goodbye
+
 ## Story manifestacaoDaViolencia
 >check_orientacao
 * manifestacaoDaViolencia
     -utter_manifestacaoDaViolencia
-
+>check_manifestacao
 ## Story manifestacao_fisica
+>check_manifestacao
 * violenciaFisica
     - utter_violenciaFisica
+>check_manifestacaoResp
 ## Story manifestacao_emocional
+>check_manifestacao
 * violenciaEmocinal
     - utter_violenciaEmocional
+>check_manifestacaoResp
 ## Story manifestacao_sexual
+>check_manifestacao
 * violenciaSexual
     - utter_violenciaSexual
+>check_manifestacaoResp
 ## Story manifestacao_CicloViolencia
+>check_manifestacao
 * cicloViolencia
     - utter_cicloViolencia
+>check_manifestacaoResp
+## Story goodbye2
+>check_manifestacao
+* deny
+    - utter_goodbye
+## Story goodbye3
+>check_manifestacaoResp
+* deny
+    - utter_goodbye
