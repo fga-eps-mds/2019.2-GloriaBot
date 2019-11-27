@@ -375,28 +375,69 @@
    - utter_maisMitos
 * deny
    - utter_orientacao
-
+>check_mito2
 ## Story mitoTres
+>check_mito2
 * affirm
    - utter_m3
+   - utter_maisMitos
+* deny
+   - utter_orientacao
+>check_mito3
 ## Story mitoQuatro
+>check_mito3
 * affirm
    - utter_m4
+   - utter_maisSobre
+* deny
+   - utter_orientacao
+>check_mito4
 ## Story mitoCinco
+>check_mito7
 * affirm
    - utter_m5
+   - utter_maisMitos
+* deny
+   - utter_orientacao
+>check_mito5
 ## Story mitoSeis
+>check_mito9
 * affirm
    - utter_m6
+   - utter_maisMitos
+* deny
+   - utter_orientacao
+>check_mito6
 ## Story mitoSete
+>check_mito4
 * affirm
    - utter_m4_7_Afirm
+   - utter_maisMitos
+* deny
+   - utter_orientacao
+>check_mito7
 ## Story mitoOito
+>check_mito6
 * affirm
    - utter_m8
+   - utter_maisMitos
+* deny
+   - utter_orientacao
+>check_mito8
 ## Story mitoNove
+>check_mito5
 * affirm
    - utter_m5_9_Afirm
+   - utter_maisMitos
+* deny
+   - utter_orientacao
+>check_mito9
 ## Story mitoDez
+>check_mito8
 * affirm
    - utter_m10
+   - utter_orientacao
+
+## Story_despedida
+* goodbye
+   - utter_goodbye
