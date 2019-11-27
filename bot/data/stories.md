@@ -6,6 +6,9 @@
 >check_greet
 * greet2
     - utter_greet1
+## sroty greet1
+* greet2
+    - utter_greet1
 ## Story delegacia
 >check_greet
 * delegacia
@@ -221,7 +224,7 @@
     - utter_riscoRomp
 ## Story vergonhaMedo
 >check_relacaoViolenta
-* vergonhaMedo
+* relacaoViolenta
     - utter_vergonhaMedo
 ## Story esperanca
 >check_relacaoViolenta

@@ -1,17 +1,15 @@
 intents:
 - agradecimento
+- greet: {triggers: utter_greet0}
 - ok
 - manifestacaoDaViolencia
-- greet
 - goodbye
 - affirm
 - deny
 - mood_great
-- mood_unhappy
 - start
 - delegacia: {triggers: utter_delegacia}
 - orientacao
-- bot_challenge
 - quem_agride_quem_agredido_1
 - agrideAgredidoQuemPodeSofrer
 - violenciaFisica
@@ -36,7 +34,6 @@ intents:
 - origemViolencia
 - aguentamRelacaoViolenta
 - negacao
-- vergonhaMedo
 - isolamento
 - dependencia
 - deixar
@@ -190,8 +187,7 @@ templates:
   utter_esperanca:
   - text: "Homens que apresentam tal comportamento sempre pedem perdão e falam que\
       \ vão mudar e buscar ajuda. Ele pode demonstrar o amor, admitir seus erros e\
-      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\
-      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado."
+      \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado."
   utter_isolamento:
   - text: "As mulheres em situação de violência perdem seus laços familiares e sociais.\
       \ Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.\
