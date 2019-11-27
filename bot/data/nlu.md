@@ -32,16 +32,19 @@
 - tentou machucar meus filhos
 - tentou machucar
 - apenas ameaças
+
 ## intent:agressoControladorAffirm
 - É muito ciumento
 - Controla os meus horários
 - Não gosta dos meus amigos
 - Sempre nota se eu chego mais tarde
+
 ## intent:agressoControladorAffirmExt
 - Ele me controla
 - Ele me prende
 - Doente de ciúmes
 - Imagina coisas absurdas
+
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
 - quem pode sofrer
@@ -62,6 +65,7 @@
 - já bateu na minha filha
 - Ele me bateu
 - bateu
+
 ## intent:implorar
 - Ele implorou para eu voltar
 - implorou
@@ -71,13 +75,16 @@
 - pediu
 - me ligou várias vezes
 - ligou
+
 ## intent:trabalho
 - é relacionado ao trabalho dele
 - trabalho
 - emprego
+
 ## intent:informacao
 - informação que ele possui de mim
 - informações que ele possui
+
 ## intent:barreiras
 - barreiras
 
@@ -167,35 +174,15 @@
 ## intent: isolamento
 - isolamento
 
-## intent:m1
-- /m1
-
-## intent:m10
-- /m10
-
-## intent:m2
-- /m2
-
-## intent:m3
-- /m3
-
-## intent:m4
-- /m4
-
-## intent:m5
-- /m5
-
-## intent:m6
-- /m6
-
-## intent:m7
-- /m7
-
-## intent:m8
-- /m8
-
-## intent:m9
-- /m9
+## intent:mitosViolencia
+- mitos violencia
+- mitos sobre a violência Doméstica
+- quais são os mitos sobre a violência doméstica?
+- mitos
+- quais são as mentiras sobre a violência doméstica?
+- mentiras
+- quais mitos existem sobre a violência doméstica?
+- mais mitos
 
 ## intent:manifestacaoDaViolencia
 - quais são as manifestações da violencia
@@ -207,12 +194,6 @@
 - manifestações da violência conjugal
 - manifestação da violencia
 - manifestação violência
-
-## intent:mitosViolencia
-- 10 mitos
-- mitos
-- mitos violencia
-- mitos sobre a violência Doméstica
 
 ## intent:mood_great
 - perfeito
