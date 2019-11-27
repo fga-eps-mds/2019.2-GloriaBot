@@ -353,3 +353,50 @@
 >check_manifestacaoResp
 * deny
     - utter_goodbye
+
+## Story mitosViolencia
+>check_orientacao
+* mitosViolencia
+   - utter_mitosViolencia
+>check_mitos
+## Story_mitosViolenciaDeny
+*deny
+   - utter_maisAlgumaCoisa
+## Story mitoUm
+>check_mitos
+* affirm
+   - utter_m1
+   - utter_maisMitos
+>check_mitos1
+## Story mitoDois
+>check_mitos1
+* affirm
+   - utter_m2
+   - utter_maisMitos
+* deny
+   - utter_orientacao
+
+## Story mitoTres
+* affirm
+   - utter_m3
+## Story mitoQuatro
+* affirm
+   - utter_m4
+## Story mitoCinco
+* affirm
+   - utter_m5
+## Story mitoSeis
+* affirm
+   - utter_m6
+## Story mitoSete
+* affirm
+   - utter_m4_7_Afirm
+## Story mitoOito
+* affirm
+   - utter_m8
+## Story mitoNove
+* affirm
+   - utter_m5_9_Afirm
+## Story mitoDez
+* affirm
+   - utter_m10

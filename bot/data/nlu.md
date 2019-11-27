@@ -44,11 +44,13 @@
 - Controla os meus horários
 - Não gosta dos meus amigos
 - Sempre nota se eu chego mais tarde
+
 ## intent:agressoControladorAffirmExt
 - controla
 - prende
 - Doente de ciúmes
 - Imagina coisas absurdas
+
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
 - quem pode sofrer
@@ -68,6 +70,7 @@
 - bateu no meu filho
 - bateu na minha filha
 - bateu
+
 ## intent:implorar
 - implorou para eu voltar
 - implorou
@@ -77,10 +80,12 @@
 - pediu
 - ligou várias vezes
 - ligou
+
 ## intent:trabalho
 - é relacionado ao trabalho dele
 - trabalho
 - emprego
+
 ## intent:informacao
 - informação que  possui de mim
 - informações que  possui
@@ -189,35 +194,15 @@
 - isolamento
 - /isolamento
 
-## intent:m1
-- /m1
-
-## intent:m10
-- /m10
-
-## intent:m2
-- /m2
-
-## intent:m3
-- /m3
-
-## intent:m4
-- /m4
-
-## intent:m5
-- /m5
-
-## intent:m6
-- /m6
-
-## intent:m7
-- /m7
-
-## intent:m8
-- /m8
-
-## intent:m9
-- /m9
+## intent:mitosViolencia
+- mitos violencia
+- mitos sobre a violência Doméstica
+- quais são os mitos sobre a violência doméstica?
+- mitos
+- quais são as mentiras sobre a violência doméstica?
+- mentiras
+- quais mitos existem sobre a violência doméstica?
+- mais mitos
 
 ## intent:manifestacaoDaViolencia
 - manifestações da violencia
@@ -231,12 +216,6 @@
 - manifestação da violencia
 - manifestação da violência
 - manifestacao da violencia
-
-## intent:mitosViolencia
-- 10 mitos
-- mitos
-- mitos violencia
-- mitos sobre a violência Doméstica
 
 ## intent:mood_great
 - perfeito
