@@ -49,7 +49,7 @@
 - quem pode sofrer
 - homem também sofre violência
 - sofrer quem pode
-- quem pode sofre violência domestica?
+- quem pode sofre violência domestica?
 
 ## intent:anteciparSinais
 - antecipar sinal
@@ -82,18 +82,11 @@
 ## intent:barreiras
 - barreiras
 
-## intent:bot_challenge
-- Voce e um robô?
-- Voce e um humano?
-- estou falando com um bot?
-- estou falando com um humano?
-
 ## intent:cicloViolencia
 - /vCiclo
 - ciclo da violencia
 
 ## intent:deixar
-- /deixar
 - deixar
 
 ## intent:delegacia
@@ -153,6 +146,7 @@
 
 ## intent:greet
 - Oi
+- oi
 - Olá
 - Ola
 - Eae
@@ -216,7 +210,7 @@
 - quais são as manifestações da violencia conjugal?
 - tipos de violencia
 - quais são as violencias
-- quais são as manifestações da violencia conjugal?
+- quais são as manifestações da violencia conjugal?
 - violencia conjugal
 - manifestações da violência conjugal
 - manifestação da violencia
@@ -238,20 +232,7 @@
 - Estou estou otimo
 - Eu estou bem
 
-## intent:mood_unhappy
-- triste
-- muito triste
-- infeliz
-- ruim
-- muito mal
-- horrivel
-- terrivel
-- nao muito bom
-- extremamente triste
-- tao triste
-
 ## intent:negacao
-- /negacao
 - negação
 - negacao
 
@@ -279,7 +260,7 @@
 - plano proteção
 - plano
 - proteção plano
-- como construir um plano de proteção
+- como construir um plano de proteção
 
 ## intent:quem_agride_quem_agredido_1
 - vítima
@@ -305,7 +286,12 @@
 - isolada
 - sinto isolada
 - medo pelos meus filhos
-- esperança que  vai mudar
+- esperança que vai mudar
+- /vergonhaMedo
+- vergonha
+- medo
+- sinto vergonha
+- sinto medo
 
 ## intent:rompimento
 - /riscoRomp
@@ -314,13 +300,6 @@
 
 ## intent:start
 - /start
-
-## intent:vergonhaMedo
-- /vergonhaMedo
-- vergonha
-- medo
-- sinto vergonha
-- sinto medo
 
 ## intent:violenciaEmocinal
 - /vEmocional
