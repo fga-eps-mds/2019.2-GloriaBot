@@ -221,48 +221,72 @@
 >check_relacaoViolenta
 * rompimento
     - utter_riscoRomp
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story vergonhaMedo
 >check_relacaoViolenta
 * relacaoViolenta
     - utter_vergonhaMedo
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story esperanca
 >check_relacaoViolenta
 * esperanca
     - utter_esperanca
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story isolamento
 >check_relacaoViolenta
 * isolamento
     - utter_isolamento
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story negacao
 >check_relacaoViolenta
 * negacao
     - utter_negacao
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story barreiras
 >check_relacaoViolenta
 * barreiras
     - utter_barreiras
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story dependencia
 >check_relacaoViolenta
 * dependencia
     - utter_dependencia
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story deixarAgressor
 >check_relacaoViolenta
 * deixarAgressor
     - utter_deixarAgressor
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
+## Story relacaoRespAffirm
+>check_relacaoResp
+* affirm
+    - utter_greet1
+## Story relacaoRespDeny
+>check_relacaoResp
+* deny
+    - utter_goodbye
+
 ## Story planoProtecao
 >check_orientacao
 * planoProtecao
     - utter_planoProtecao
 >check_plano
-## Story planoProtecaoDeny
->check_plano
-* deny
-    - utter_maisAlgumaCoisa
 ## Story planoProtecaoDepois
 >check_plano
 * depoisAtaque
     - utter_depoisAtaque
-
+    - utter_depoisAtaque2
+    - utter_depoisAtaque3
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story planoProtecaoHora
 >check_plano
 * horaAtaque
@@ -304,52 +328,71 @@
     - utter_manifestacaoDaViolencia
 >check_manifestacao
 ## Story manifestacaoDaViolenciaDeny
+>check_manifestacao
 * deny
     - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_fisica
 >check_manifestacao
 * violenciaFisica
     - utter_violenciaFisica
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_emocional
 >check_manifestacao
 * violenciaEmocional
     - utter_violenciaEmocional
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_sexual
 >check_manifestacao
 * violenciaSexual
     - utter_violenciaSexual
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_CicloViolencia
+>check_manifestacao
 * cicloViolencia
     - utter_cicloViolencia
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
+
 ## Story origemViolencia
 >check_orientacao
 * origemViolencia
     - utter_origemViolencia
 >check_origemViolencia
+## Story origemViolenciaAffirm
+>check_origemViolencia
+* affirm
+    - utter_origemViolenciaSIM
+    - utter_origemViolencia2
+    - utter_origemViolencia3
+    - utter_maisAlgumaCoisa
+>check_loop
+## Story origemViolenciaDeny
+>check_origemViolencia
+* deny
+    - utter_maisAlgumaCoisa
+>check_loop
 
 ## Story_anteciparSinais
 >check_orientacao
 * anteciparSinais
     - utter_anteciparSinais
-
-## Story origemViolenciaAffirm
->check_origemViolencia
-* affirm
-    - utter_origemViolenciaSIM
-
-## Story origemViolenciaDeny
->check_origemViolencia
-* deny
     - utter_maisAlgumaCoisa
-## Story goodbye2
->check_manifestacao
+>check_loop
+
+## Story LoopDeny
+>check_loop
 * deny
     - utter_goodbye
-## Story goodbye3
->check_manifestacaoResp
+## Story LoopAffirm
+>check_loop
+* affirm
+    - utter_greet1
+>check_loopResp
+## Story Loopresp
+>check_loopResp
 * deny
     - utter_goodbye

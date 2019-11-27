@@ -183,7 +183,7 @@ templates:
   utter_vergonhaMedo:
   - text: "As mulheres normalmente têm medo de denunciar seus maridos devido a dependência\
       \ tanto emocional quanto dependência financeira, pois vem o medo de perder\
-      \ o que tem ou de acontecer algo pior"
+      \ o que tem ou de acontecer algo pior."
   utter_esperanca:
   - text: "Homens que apresentam tal comportamento sempre pedem perdão e falam que\
       \ vão mudar e buscar ajuda. Ele pode demonstrar o amor, admitir seus erros e\
@@ -222,9 +222,9 @@ templates:
   - text: "Na Hora do ataque deve se evitar Locais pequenos com objetos perigosos ou superfícies\
       \ cortantes, evitar locais onde haja armas, se a violência for inevitável:
       \ corra para um canto e se agache com o rosto protegido e os braços em volta\
-      \ de cada lado da cabeça, com os dedos entrelaçados, não corra para lugares\
+      \ de cada lado da cabeça, com os dedos entrelaçados, não corra para lugares,\
       \ onde outras pessoas indefesas estejam se escondendo pois elas podem acabar sendo também agredidas\
-      \ , evite fugir sem as crianças se possuir alguma, elas poderão ser usadas como objeto de chantagem.\
+      \ evite fugir sem as crianças se possuir alguma, elas poderão ser usadas como objeto de chantagem.\
       \ Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
       \ violência."
   utter_depoisAtaque:
@@ -235,22 +235,24 @@ templates:
       \ ficar até conseguir ajuda, se estiver ferida, procure um hospital ou um\
       \ posto de atendimento e revele o que aconteceu, se você esconder que foi\
       \ vítima de violência, ninguém vai poder ajudá-la, separe um pacode contendo\
-      \ objetos de primeira necessidade. Guarde com alguém próximo no caso de ter\
-      \ que abandonar a casa, guarde cópias de documentos importantes em local\
-      \ seguro, registrar todos os episódios de violência física, psicológica ou\
-      \ sexual que você esteja sofrendo se for possível mas de forma segura o suficiente para que não seja descoberto
-      \ , isso é útil na hora de pedir ajuda as autoridades, \
-      \ deixar pessoas de confiança a par da situação. Planeje com elas um esquema\
-      \ de proteção e combine algumas formas de sinalizar que você está em perigo\
+      \ objetos de primeira necessidade."
+  utter_depoisAtaque2:
+  - text: "Guarde com alguém próximo no caso de ter que abandonar a casa, guarde cópias\
+      \ de documentos importantes em local seguro, registrar todos os episódios de violência\
+      \ física, psicológica ou sexual que você esteja sofrendo se for possível mas de forma\
+      \ segura o suficiente para que não seja descoberto, isso é útil na hora de pedir ajuda\
+      \ as autoridades, deixar pessoas de confiança a par da situação."
+  utter_depoisAtaque3:
+  - text: "Planeje com elas um esquema de proteção e combine algumas formas de sinalizar que você está em perigo\
       \ , se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
       \ deixando-o abastecido e na posição de saída, de forma a evitar manobras difíceis caso tenha se ferido."
   utter_anteciparSinais:
-  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n- Sinais de comportamento\
+  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n - Sinais de comportamento\
       \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
       \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
       \ - Se mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
       \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
-      \ e grosseira\n - Negação de abusos cometidos no passado\n"
+      \ e grosseira\n - Negação de abusos cometidos no passado"
   utter_mitos:
   - text: "/m1 - A VIOLÊNCIA DOMÉSTICA OCORRE MUITO ESPORADICAMENTE\n /m2 - A VIOLÊNCIA\
       \ DOMÉSTICA É UM PROBLEMA EXCLUSIVAMENTE FAMILIAR\n /m3 - A VIOLÊNCIA SÓ ACONTECE\
@@ -260,7 +262,7 @@ templates:
       \ FOSSE REALMENTE TÃO GRAVE, AS VÍTIMAS ABANDONARIAM LOGO SEUS AGRESSORES\n\
       \ /m8 - É FÁCIL IDENTIFICAR O TIPO DE MULHER QUE APANHA\n /m9 - A VIOLÊNCIA\
       \ DOMÉSTICA VEM DE PROBLEMAS COM O ÁLCOOL, DROGAS OU DOENÇAS MENTAIS\n /m10\
-      \ - PARA ACABAR COM A VIOLÊNCIA BASTA PROTEGER AS VÍTIMAS E PUNIR OS AGRESSORES\n"
+      \ - PARA ACABAR COM A VIOLÊNCIA BASTA PROTEGER AS VÍTIMAS E PUNIR OS AGRESSORES"
   utter_m1:
   - text: A violência doméstica não é esporádica, segundo dados do DataSenado o número
       de mulheres reportando agressões vem apenas crescendo ao longo dos anos chegando
@@ -375,7 +377,7 @@ templates:
   - text: "Encontre a delegacia perto de vc ou ligue 180:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
-  - text: "Consigo te dar orientações sobre algumas coisa como quem pode ser a vítima, ou te falar um pouco mais sobre \
+  - text: "Consigo te dar orientações sobre algumas coisas como quem pode ser a vítima, ou te falar um pouco mais sobre \
       \ violência conjugal, ou o porque de algumas mulheres se manterem em uma relação violenta e te contar das origens da \
       \ violência doméstica e como você poderia antecipar os sinais. Também posso te ajudar a fazer uma medida de gravidade \
       \ do risco em caso de violência doméstica, ou ajudar com um plano de proteção, te contar algumas curiosidades...\
@@ -388,22 +390,24 @@ templates:
       \ um modelo psicológico foi criado para mapear as prováveis causas que levariam\
       \ um agressor a cometer a agressão. Quer saber como funciona?"
   utter_origemViolenciaSIM:
-  - text: "- Observe que, segundo esse modelo, a violência estaria relacionada à interação\
+  - text: "Observe que, segundo esse modelo, a violência estaria relacionada à interação\
       \ de quatro planos: o individual, o relacional, o comunitário e o social. Cada\
       \ um desses planos engloba o anterior, tanto para reforçar, quanto para prevenir\
       \ os elementos de risco. Por exemplo: fatores biológicos, pessoais, como a impulsividade,\
       \ abusos sofridos na infância ou o uso abusivo de substâncias químicas (plano\
       \ individual), podem ou não favorecer a violência, dependendo da qualidade das\
       \ relações familiares e de amizade,  o tipo de suporte dado pela família e pela\
-      \ rede de relações próximas faz toda a diferença (plano relacional).\n - Resumindo,a\
-      \ natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
+      \ rede de relações próximas faz toda a diferença (plano relacional)."
+  utter_origemViolencia2:
+  - text: "Resumindo,a natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
       \ vezes os fatores cruciais para a origem do seu comportamento violento,  a\
       \ natureza dos vínculos que ligam uma pessoa ao seu entorno (vizinhos, ambiente\
       \ de trabalho, amigos, grupo de igreja ou associações) pode abrir ou fechar\
-      \ as portas para a violência.\n - Só pra lembrar que esse é apenas um modelo\
-      \ para ajudar a entender melhor as raízes da violência. Não é uma regra ou uma\
-      \ profecia. É perfeitamente possível que alguém viva sob condições de risco\
-      \ em todos esses planos e jamais apresente comportamento violento.\n"
+      \ as portas para a violência."
+  utter_origemViolencia3:
+  - text: " Só pra lembrar que esse é apenas um modelo para ajudar a entender melhor as raízes da \
+      \ violência. Não é uma regra ou uma profecia. É perfeitamente possível que alguém viva sob \
+      \ condições de risco em todos esses planos e jamais apresente comportamento violento."
   utter_greet0:
   - text: "Olá, em que posso te ajudar?"
   - text: "Em que posso te auxiliar?"
@@ -412,9 +416,8 @@ templates:
   - text: "Posso te ajudar com informações como encontrar delegacias especializadas no atendimento\
       \ à Mulher, ou te dar alguma orientação. Gostaria de saber sobre alguma dessas\
       \ coisas?"
-  - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas. Posso te auxiliar\
-      \ em: \n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
-      \ sobre os direitos da mulher\nGostaria de saber sobre alguma dessas coisas?"
+  - text: "Posso te auxiliar em:\n-Encontrar Delegacias especializadas no atendimento à \
+      \ Mulher.\n-Orientações sobre os direitos da mulher\nGostaria de saber sobre alguma dessas coisas?"
   utter_maisAlgumaCoisa:
   - text: "Quer que eu te ajude em outra coisa?"
   - text: "Posso te ajudar com mais alguma coisa?"
@@ -519,3 +522,7 @@ actions:
 - utter_malucoAlto
 - utter_malucoExtremo
 - utter_maluco
+- utter_origemViolencia2
+- utter_origemViolencia3
+- utter_depoisAtaque2
+- utter_depoisAtaque3
