@@ -165,8 +165,6 @@ templates:
   - text: Evite locais como a cozinha quando o agressor estiver alterado. Tente colocar objetos cortantes em locais onde ele não possa encontrar.
   utter_facaRiscoExtremo:
   - text: "Quando o agressor estiver portando uma faca, tente manter a calma e procure ajuda o mais rápido possível. Não tente enfrentá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
-
-
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
       \ denuncia o seu companheiro é que, existe um risco de rompimento, ou seja, ela sente vergonha\
