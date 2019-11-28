@@ -247,6 +247,8 @@
 - Orientação sobre direitos
 - orientacao
 - orientacoes
+- Orientaçoes
+- orientacões
 - orientações
 - orintação
 - orientar
@@ -254,8 +256,6 @@
 - direito da mulher
 - direitos da mulher
 - direitos das mulheres
-- Orientação
-- orientação
 - Orientações sobre os direitos da mulher
 - Orientações sobre os direitos
 
