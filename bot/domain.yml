@@ -165,16 +165,13 @@ templates:
   - text: Evite locais como a cozinha quando o agressor estiver alterado. Tente colocar objetos cortantes em locais onde ele não possa encontrar.
   utter_facaRiscoExtremo:
   - text: "Quando o agressor estiver portando uma faca, tente manter a calma e procure ajuda o mais rápido possível. Não tente enfrentá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
-  
-  
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
       \ denuncia o seu companheiro é que, existe um risco de rompimento, ou seja, ela sente vergonha\
       \ ou medo do que pode acontecer caso o agressor descubra, ou uma esperança na mudança de atitude\
       \ de seu companheiro(a), ou a mulher se encontra em um ambiente tão hostil que perdeu seus\
       \ laços familiares e com amigos e se vêem isoladas. Esses tipos de relatos formam barreiras\
-      \ que impedem o rompimento do relacionamento por parte da vítima. Quer que eu te conte\
-      \ mais sobre algum deles?"
+      \ que impedem o rompimento do relacionamento por parte da vítima. Se quiser saber mais sobre um deles é só perguntar."
   utter_riscoRomp:
   - text: "A violência e as ameaças contra a vida da mulheres e dos filhos se tornam\
       \ mais intensas no época da separação, pois o homem violento percebe que perdeu\
@@ -356,13 +353,13 @@ templates:
       \ ou qualquer outro local; e \n\n c) perpetrada ou tolerada pelo Estado ou seus\
       \ agentes, onde quer que ocorra.'"
   utter_delegacia:
-  - text: "Encontre a delegacia perto de vc ou ligue 180:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
-  - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  - text: "Encontre a delegacia perto de vc ou ligue 180: \nhttp://bit.ly/2rANled\n"
+  - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttp://bit.ly/2rANled"
   utter_orientacao:
   - text: "Consigo te dar orientações sobre algumas coisas como quem pode ser a vítima, ou te falar um pouco mais sobre \
-      \ **violência conjugal**, ou o porque de algumas mulheres se manterem em uma **relação violenta** e te contar das **origens da \
-      \ violência doméstica** e como você poderia **antecipar os sinais**. Também posso te ajudar a fazer uma **medida de gravidade \
-      \ do risco** em caso de violência doméstica, ou ajudar com um **plano de proteção**, te contar algumas **curiosidades**...\
+      \ violência conjugal, ou o porque de algumas mulheres se manterem em uma relação violenta e te contar das origens da \
+      \ violência doméstica e como você poderia antecipar os sinais. Também posso te ajudar a fazer uma medida de gravidade \
+      \ do risco em caso de violência doméstica, ou ajudar com um plano de proteção, te contar algumas curiosidades...\
       \ se preferir, o que você gostaria de saber?"
   utter_origemViolencia:
   - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
@@ -395,11 +392,7 @@ templates:
   - text: "Em que posso te auxiliar?"
   - text: "Oi, posso te ajudar com alguma coisa?"
   utter_greet1:
-  - text: "Posso te ajudar com informações como encontrar delegacias especializadas no atendimento\
-      \ à Mulher, ou te dar alguma orientação. Gostaria de saber sobre alguma dessas\
-      \ coisas?"
-  - text: "Posso te auxiliar em:\n-Encontrar Delegacias especializadas no atendimento à \
-      \ Mulher.\n-Orientações sobre como agir contra a violência contra a mulher\nGostaria de saber sobre alguma dessas coisas?"
+  - text: "Gostaria de saber sobre a delegacia da mulher ou orientações gerais sobre a violência?"
   utter_maisAlgumaCoisa:
   - text: "Quer que eu te ajude em outra coisa?"
   - text: "Posso te ajudar com mais alguma coisa?"

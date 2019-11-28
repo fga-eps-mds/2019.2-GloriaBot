@@ -6,7 +6,7 @@
 - Risco de violência doméstica
 - risco
 
-## intent: agradecimento
+## intent:agradecimento
 - obrigada
 - ajudou bastante
 - thanks
@@ -23,7 +23,10 @@
 - ok
 - tudo bem
 - certo
-
+- sabia
+- sei
+- entendi
+- s
 ## intent:faca
 - possui uma faca
 - faca
@@ -140,7 +143,7 @@
 - de jeito nenhum
 - Na verdade não
 - não
-
+- n
 ## intent:dependencia
 - dependencia
 - dependo dele para viver
@@ -215,6 +218,9 @@
 - mentiras
 - quais mitos existem sobre a violência doméstica?
 - mais mitos
+- curiosidades
+- curiosidade
+- curio
 
 ## intent:manifestacaoDaViolencia
 - manifestações da violencia
@@ -247,6 +253,8 @@
 - Orientação sobre direitos
 - orientacao
 - orientacoes
+- Orientaçoes
+- orientacões
 - orientações
 - orintação
 - orientar
@@ -254,8 +262,6 @@
 - direito da mulher
 - direitos da mulher
 - direitos das mulheres
-- Orientação
-- orientação
 - Orientações sobre os direitos da mulher
 - Orientações sobre os direitos
 
@@ -268,6 +274,7 @@
 - como construir um plano de proteção
 - plano proteção
 - plano
+- plano de proteção
 - proteção plano
 - como construir um plano de proteção
 
