@@ -23,6 +23,8 @@
 - ok
 - tudo bem
 - certo
+- sabia
+- sei
 
 ## intent:faca
 - possui uma faca
@@ -215,6 +217,9 @@
 - mentiras
 - quais mitos existem sobre a violência doméstica?
 - mais mitos
+- curiosidades
+- curiosidade
+- curio
 
 ## intent:manifestacaoDaViolencia
 - manifestações da violencia
