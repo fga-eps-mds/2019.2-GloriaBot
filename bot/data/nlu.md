@@ -25,7 +25,8 @@
 - certo
 - sabia
 - sei
-
+- entendi
+- s
 ## intent:faca
 - possui uma faca
 - faca
@@ -142,7 +143,7 @@
 - de jeito nenhum
 - Na verdade não
 - não
-
+- n
 ## intent:dependencia
 - dependencia
 - dependo dele para viver
