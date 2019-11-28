@@ -39,8 +39,24 @@
 ## Agressor faca
 >check_agressorFaca
 * deny
+    - utter_agressorArma
+>check_agressorArma
+
+## Agressor arma
+>check_agressorArma
+* affirm OR arma
+    - utter_armaAltoRisco
+    - action_restart
+## Agressor arma
+>check_agressorArma
+* ameaca
+    - utter_armaRiscoExtremo
+## Agressor arma
+>check_agressorArma
+* deny
     - utter_agressorPreso
 >check_agressorPreso
+
 ## Story_medir_AgressorPresoAffirm
 >check_agressorPreso
 * affirm OR agressorPresoAffirm

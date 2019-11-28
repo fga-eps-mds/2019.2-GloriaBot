@@ -34,6 +34,7 @@ intents:
 - duvida
 - medirGravidade
 - faca
+- arma
 - ameaca
 - agressorPresoAffirm
 - agressorPresoAffirmExt: {triggers: utter_presoRiscoExtremo}
@@ -152,12 +153,20 @@ templates:
   - text: Evite falar pra ele que chamou a polícia. Chame-a e espere tentando manter a calma. Não o ameaçe falando que vai chamar a polícia, isso pode irritá-lo ainda mais.
   utter_agressorPreso:
   - text: O agressor já foi preso? Ele tem medo da polícia ou da justiça?
+  utter_agressorArma:
+  - text: O agressor tem arma? Ele já usou contra você ou contra outras pessoas?
+  utter_armaAltoRisco:
+  - text: Evite o agressor quando ele tiver portanto a arma. Mantenha-se afastada e tente não confrontá-lo.
+  utter_armaRiscoExtremo:
+  - text: "Quando o agressor estiver portando a arma, tente manter a calma e não reaja e tente não irritá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
   utter_agressorFaca:
-  - text:  O agressor tem faca ou arma? Ele já usou contra você ou contra outras pessoas?
+  - text:  O agressor tem faca? Ele já usou contra você ou contra outras pessoas?
   utter_facaAltoRisco:
   - text: Evite locais como a cozinha quando o agressor estiver alterado. Tente colocar objetos cortantes em locais onde ele não possa encontrar.
   utter_facaRiscoExtremo:
   - text: "Quando o agressor estiver portando uma faca, tente manter a calma e procure ajuda o mais rápido possível. Não tente enfrentá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
+  
+  
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
       \ denuncia o seu companheiro é que, existe um risco de rompimento, ou seja, ela sente vergonha\
@@ -488,7 +497,13 @@ actions:
 - utter_malucoAlto
 - utter_malucoExtremo
 - utter_maluco
+<<<<<<< HEAD
 - utter_origemViolencia2
 - utter_origemViolencia3
 - utter_depoisAtaque2
 - utter_depoisAtaque3
+=======
+- utter_agressorArma
+- utter_armaAltoRisco
+- utter_armaRiscoExtremo
+>>>>>>> Falas quando agressor possui ou nao arma
