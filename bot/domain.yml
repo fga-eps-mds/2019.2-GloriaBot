@@ -1,41 +1,29 @@
 intents:
+- agradecimento
+- greet: {triggers: utter_greet0}
+- ok
 - manifestacaoDaViolencia
-- greet
 - goodbye
 - affirm
 - deny
 - mood_great
-- mood_unhappy
 - start
-- delegacia
+- delegacia: {triggers: utter_delegacia}
 - orientacao
-- bot_challenge
 - quem_agride_quem_agredido_1
 - agrideAgredidoQuemPodeSofrer
 - violenciaFisica
-- violenciaEmocinal
+- violenciaEmocional
 - violenciaSexual
 - cicloViolencia
 - mitosViolencia
-- m1
-- m2
-- m3
-- m4
-- m4_7_Afirm
-- m5
-- m5_9_Afirm
-- m6
-- m8
-- m10
 - anteciparSinais
 - planoProtecao
 - horaAtaque
 - depoisAtaque
 - origemViolencia
 - aguentamRelacaoViolenta
-- riscoRomp
 - negacao
-- vergonhaMedo
 - isolamento
 - dependencia
 - deixar
@@ -44,272 +32,400 @@ intents:
 - barreiras
 - greet2
 - duvida
+- medirGravidade
+- faca
+- arma
+- ameaca
+- agressorPresoAffirm
+- agressorPresoAffirmExt: {triggers: utter_presoRiscoExtremo}
+- agressoControladorAffirm
+- agressoControladorAffirmExt
+- baterFilhos
+- implorar
+- rompimento
+- trabalho
+- deixarAgressor
+- informacao
+- mitos
+
 templates:
+  utter_default:
+  - text: Não consegui entender o que você disse, poderia repetir?
+  - text: Desculpa, não entendi o que você falou, você pode repetir pra mim?
+  - text: Não entendi o que você falou, Poderia escrever de uma maneira diferente?
+  utter_malucoAlto:
+  - text: "O risco que você corre é alto, contate alguém de confiança, e fique atenta aos sinais que o agressor passar\
+  \ , estes são indicativos de que ele pode estar indo para um tipo de posição mais violenta, neste caso contate as\
+  \ autoridades locais."
+  utter_malucoExtremo:
+  - text: "Você está em uma situação de extremo risco, contate as autoridades locais, eles saberão como te aconselhar\
+  \ de uma maneira mais pessoal."
+  utter_maluco:
+  - text: "O agressor, em algumas vezes, parece maluco ou fora de si? (pessoas doentes não têm mais\
+  \ probabilidade do que as ditas normais de serem violentas. Entretanto, pessoas violentas que\
+  \ perdem seu senso de conseqüência podem se tornar muito perigosas)"
+  utter_suicida:
+  - text: "O agressor parece ter tendências suicidas? (muitos suicidas não são violentos, mas agressores suicidas algumas vezes\
+  \ matam outros membros da família antes de se matarem)."
+  utter_suicidaAlto:
+  - text: "O risco que você corre é alto, contate alguém de confiança, e fique atenta aos sinais que o agressor passar\
+  \ , estes são indicativos de que ele pode estar indo para um tipo de posição mais violenta, neste caso contate as\
+  \ autoridades locais."
+  utter_suicidaExtremo:
+  - text: "Você está em uma situação de extremo risco, contate as autoridades locais, eles saberão como te aconselhar\
+  \ de uma maneira mais pessoal."
+  utter_bebidaDrogasAlto:
+  - text: "O risco que você corre é alto, contate alguém de confiança, e fique atenta aos sinais que o agressor passar\
+  \ , estes são indicativos de que ele pode estar indo para um tipo de posição mais violenta, neste caso contate as\
+  \ autoridades locais."
+  utter_bebidaDrogasExtremo:
+  - text: "Você está em uma situação de extremo risco, contate as autoridades locais, eles saberão como te aconselhar\
+  \ de uma maneira mais pessoal."
+  utter_bebidaDrogas:
+  - text: "O agressor costuma beber e/ou usar algum tipo de estimulante?"
+  utter_forcarAtosExtremo:
+  - text: "Sua situação é de risco extremo, contate as autoridades locais para mais informações\
+  \ e peça ajuda para alguém de confiança."
+  utter_forcarAtosAlto:
+  - text: "Fique atenta, sua situação é de alto risco, converse com seu parceiro, caso a situação\
+  \ não mude, peça ajuda para alguém de confiança e mude de ambiente."
+  utter_forcarAtosSexuais:
+  - text: "O agressor pediu para praticar atos sexuais de que você não gosta?"
+  utter_MedirAgressorRotinaExtremo:
+  - text: "Cuidado, sua situação é de risco extremo, contate as autoridades locais e pessoas\
+  \ próximas a você sobre a situação, tente mudar sua rotina, tente mudar seus horários, \
+  \ deixe de frequentar por um tempo locais que você visita com frequência."
+  utter_MedirAgressorRotinaAlto:
+  - text: "Você corre um risco alto, contate as autoridades locais e se mantenha atenta\
+  \ nos lugares que você visita com frequência, tente mudar sua rotina para evitar contato."
+  utter_MedirAgressorRotina:
+  - text: "O agressor conhece a sua rotina, seu local de trabalho, a escola dos seus filhos,\
+  \ ou algum lugar que você visita com frequencia?"
+  utter_ameacaExtremo:
+  - text: Você corre risco extremo por favor tente contatar as autoridades o mais rápido possível.
+  utter_ameacaAlto:
+  - text: Você corre um alto risco acho que você deveria procurar as autoridades após achar algum lugar para ficar.
+  utter_ameacaAffirm:
+  - text: Quando ele te ameaçou ele falou que te agrediria ou algo parecido?
+  utter_ameaca:
+  - text: Quando você tentou deixá-lo ele te ameaçou?
+  utter_RecursoExtremo:
+  - text: O risco é extremo e não acho que você devia tentar deixá-lo sem antes contatar as autoridades responsáveis,
+      mesmo se ele for policial há sempre uma forma de procurar ajuda.
+  utter_RecursoAlto:
+  - text: O risco é alto porém não tão provável mas nunca abaixe a guarda e esteja sempre atenta.
+  utter_RecursoAffirm:
+  - text: Essa forma de te encontrar é algo relacionado ao trabalho dele ou informação que ele possui de você?
+  utter_Recurso:
+  - text: Se você tentar deixá-lo, ele tem alguma forma de te encontrar facilmente?
+  utter_deixarAgressorAlto:
+  - text: O risco de ele tentar algo se você tentar deixá-lo novamente é alto pois ele pode ficar
+      instável emocionalmente.
+  utter_deixarAgressorExtremo:
+  - text: Há uma chance extremamente alta de ele tentar te machucar se você tentar novamente, por favor contate as autoridades
+      antes de tentar algo.
+  utter_deixarAgressorImportar:
+  - text: Ele foi agressivo?
+  utter_deixarAgressor:
+  - text: Você já tentou deixá-lo?
+  utter_deixarAgressorAffirm:
+  - text: Ele se importou quando você tentou?
+  utter_agressorFilhosExtremo:
+  - text: O risco é extremo recomendo procurar algum lugar para seus filhos ficarem enquanto procura ajuda das autoridades
+      competentes.
+  utter_agressorFilhosAlto:
+  - text: O risco de algo mais sério acontecer com seus filhos é alta eu recomendo que você tente procurar
+      ajuda de autoridades enquanto tenta proteger seus filhos. Digite ' delegacia ' para procurar ajuda.
+  utter_agressorFilhosAffirm:
+  - text: Ele já chegou a bater em seus filhos ou foram apenas ameaças?
+  utter_agressorFilhos:
+  - text: O agressor já ameaçou ou tentou machucar seus filhos?
+  utter_controladorRiscoExtremo:
+  - text: "Se o agressor chegou ao ponto de te controlar assim, está na hora de procurara ajuda. O comportamento controlador pode ser corrigido e substituído por uma atmosfera de respeito mútuo. No entanto, ainda é frequente que um indivíduo controlador não consiga mudar. Se você é abusada verbal, emocional ou sexualmente, a melhor opção é terminar o relacionamento. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
+  utter_controladorAltoRisco:
+  - text: Não discuta com o agressor, pois ele nunca cederá, e o resultado será apenas aumentar o problema em questão. Tente manter a calma e a compostura.
+  utter_agressorControlador:
+  - text: "O agressor tentou controlar a sua vida de outras formas como, por exemplo, isolando
+      você de sua família ou de seus amigos?"
+  utter_presoRiscoExtremo:
+  - text: "É altamente recomendável que você procure a ajuda das autoridades. Procure ajuda sem que ele tenha conhecimento. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
+  utter_presoAltoRisco:
+  - text: Evite falar pra ele que chamou a polícia. Chame-a e espere tentando manter a calma. Não o ameaçe falando que vai chamar a polícia, isso pode irritá-lo ainda mais.
+  utter_agressorPreso:
+  - text: O agressor já foi preso? Ele tem medo da polícia ou da justiça?
+  utter_agressorArma:
+  - text: O agressor tem arma? Ele já usou contra você ou contra outras pessoas?
+  utter_armaAltoRisco:
+  - text: Evite o agressor quando ele tiver portanto a arma. Mantenha-se afastada e tente não confrontá-lo.
+  utter_armaRiscoExtremo:
+  - text: "Quando o agressor estiver portando a arma, tente manter a calma e não reaja e tente não irritá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
+  utter_agressorFaca:
+  - text:  O agressor tem faca? Ele já usou contra você ou contra outras pessoas?
+  utter_facaAltoRisco:
+  - text: Evite locais como a cozinha quando o agressor estiver alterado. Tente colocar objetos cortantes em locais onde ele não possa encontrar.
+  utter_facaRiscoExtremo:
+  - text: "Quando o agressor estiver portando uma faca, tente manter a calma e procure ajuda o mais rápido possível. Não tente enfrentá-lo. Quando necessário, ligue para a DDM( Delegacia da Mulher - Telefone: 180)."
+  
+  
   utter_aguentamRelacaoViolenta:
   - text: "O que se é relatado quando uma mulher está em situação de violência doméstica e não\
       \ denuncia o seu companheiro é que, existe um risco de rompimento, ou seja, ela sente vergonha\
-      \ ou medo do que pode acontecer caso ele(a) descubra, ou uma esperança na mudança de atitude\
+      \ ou medo do que pode acontecer caso o agressor descubra, ou uma esperança na mudança de atitude\
       \ de seu companheiro(a), ou a mulher se encontra em um ambiente tão hostil que perdeu seus\
-      \ laços familiares e com amigos e se vêem isoladas.\n /Esses tipos de relatos formam barreiras\
+      \ laços familiares e com amigos e se vêem isoladas. Esses tipos de relatos formam barreiras\
       \ que impedem o rompimento do relacionamento por parte da vítima. Quer que eu te conte\
-      \ mais sobre algum deles?\n"
+      \ mais sobre algum deles?"
   utter_riscoRomp:
-  - text: "A violência e as ameaças contra a vida da mulheres dos filhos se tornam\
-      \ mais intensas no período da separação, pois o homem violento percebe que perdeu\
-      \ o controle sobre sua parceira. Por isso assim que fizer isso deve buscar ajuda.\n"
+  - text: "A violência e as ameaças contra a vida da mulheres e dos filhos se tornam\
+      \ mais intensas no época da separação, pois o homem violento percebe que perdeu\
+      \ o controle sobre sua parceira. Por isso assim que seu parceiro der esses sinais\
+      \ deve-se buscar ajuda."
   utter_vergonhaMedo:
-  - text: As mulheres normalmente têm medo de denunciar seus maridos devia a dependência
-      tanto emocional quanto dependência financeira, pois ai vem o medo de perder
-      o que tem ou de acontecer algo pior
+  - text: "As mulheres normalmente têm medo de denunciar seus maridos devido a dependência\
+      \ tanto emocional quanto dependência financeira, pois vem o medo de perder\
+      \ o que tem ou de acontecer algo pior."
   utter_esperanca:
   - text: "Homens que apresentam tal comportamento sempre pedem perdão e falam que\
       \ vão mudar e buscar ajuda. Ele pode demonstrar o amor, admitir seus erros e\
       \ jurar que vai fazer o que estiver ao seu alcance para mudar. Até pode acontecer\
-      \ a mudança mas casos ocorra o mesmo comportamento não deve ser relevado.\n"
+      \ a mudança, mas caso ocorra o mesmo comportamento não deve ser relevado."
   utter_isolamento:
-  - text: "As mulheres em situação de violência perdem seus laços familiares e sociais.
-      Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.
-      Querem saber onde ela foi, com quem falou ao telefone, o que disse, porque usou
-      tal roupa, para quem olhou na rua etc.\n"
+  - text: "As mulheres em situação de violência perdem seus laços familiares e sociais.\
+      \ Os maridos violentos são muito ciumentos e controlam os movimentos da parceira.\
+      \ Querem saber onde ela foi, com quem falou ao telefone, o que disse, porque usou\
+      \ tal roupa, para quem olhou na rua e outros sinais de ciúmes extremo."
   utter_negacao:
-  - text: "Quando pedem ajuda, às vítimas de violência se defrontam com pessoas despreparadas
-      e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico,um
-      psicólogo, um líder religioso, um policial ou um advogado as trata com indiferença,
-      desconfiança e desprezo, contribuem para aumentar a violência."
+  - text: "Quando pedem ajuda, às vítimas de violência se defrontam com pessoas despreparadas\
+      \ e desinformadas sobre o problema que elas estão vivendo. Cada vez que um médico, um\
+      \ psicólogo, um líder religioso, um policial ou um advogado as trata com indiferença,\
+      \ desconfiança e desprezo, contribuem para aumentar a violência"
   utter_barreiras:
   - text: "Ao ver que a mulher está disposta a sair da relação violenta, o agressor
       recorre a todo tipo de chantagem e ameaça: requisita a custódia dos filhos,
-      nega pensão alimentícia, interfere no trabalho da esposa, difama-a, mata a mulher
-      e os filhos, se mataetc. São muitas as dificuldades e são poucos os recursos
-      disponíveis em nossa sociedade. Essa Mulher precisa de apoio e de pessoas dispostas
-      a ajudá-la a ser capaz de vencer as barreiras. "
+      nega pensão alimentícia, interfere no trabalho da esposa, difama-a, e pode chegar a casos extremos
+      como recorrer a homícidio ou suícidio. São muitas as dificuldades e são poucos os recursos
+      disponíveis em nossa sociedade. Essa mulher precisa de apoio e de pessoas dispostas
+      a ajudá-la a ser capaz de vencer as barreiras."
   utter_dependencia:
-  - text: "Muitas mulheres em situação de abuso não têm capacitação profissional para
+  - text: Algumas mulheres em situação de abuso não têm capacitação profissional para
       iniciar uma vida no mercado de trabalho ou para estabelecer novas relações de
       trabalho em outra cidade ou estado, onde poderiam encontrar as condições ideais
-      de segurança."
+      de segurança o que leva a uma dependência do parceiro violento.
   utter_deixar:
   - text: "Ao perceber a necessidade de escapar da relação violenta, a mulher tem
-      um longo caminho a seguir: preparar-se afetivamente para o desenlace;preparar-se
+      um longo caminho a seguir: preparar-se afetivamente para a separação, preparar-se
       com segurança para a fuga, preparar-se economicamente. Essas iniciativas podem
       levar anos, principalmente se a mulher não contar com nenhum apoio."
-
   utter_planoProtecao:
-  - text: "Caso se encontre em uma situação de violência física eminente, podemos traçar um plano\
-          \ de proteção para te ajudar o máximo possível. Você está se sentindo em perigo agora?\n"
-  utter_horaAtaqueAffirm:
-  - text: "Na Hora do ATAQUE\n - Evitar Locais pequenos com objetos perigosos ou superfícies\
-      \ cortantes\n - Evitar locais onde haja armas\n - Se a violência for inevitável:\
-      \ corra para um canto e agache-se com o rosto protegido e os braços em volta\
-      \ de cada lado da cabeça, com os dedos entrelaçados\n - Não corra para lugares\
-      \ onde pessoas indefesas estejam. Elas podem acabar sendo também agredidas\n\
-      \ - Evite fugir sem as crianças. Elas poderão ser usadas como objeto de chantagem.\n\
-      \ - Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
-      \ violência.\n"
-  utter_planoProtecaoDeny:
-    - text: "Seu parceiro já te agrediu (Física ou psicológicamente)?\n"
-  utter_depoisAtaqueAffirm:
-  - text: "É recomendado depois do Ataque\n - Sempre ter os números de emergência guardados em lugar\
-      \ de fácil acesso. Procure o telefone mais próximo.\n - Procure uma delegacia\
+  - text: "Gostaria de saber como agir durante uma situação de risco ou após a situação?"
+  utter_horaAtaque:
+  - text: "Na Hora do ataque deve se evitar Locais pequenos com objetos perigosos ou superfícies\
+      \ cortantes, evitar locais onde haja armas, se a violência for inevitável:
+      \ corra para um canto e se agache com o rosto protegido e os braços em volta\
+      \ de cada lado da cabeça, com os dedos entrelaçados, não corra para lugares,\
+      \ onde outras pessoas indefesas estejam se escondendo pois elas podem acabar sendo também agredidas\
+      \ evite fugir sem as crianças se possuir alguma, elas poderão ser usadas como objeto de chantagem.\
+      \ Ensine às crianças a pedir ajuda e a se afastar do local, quando houver\
+      \ violência."
+  utter_depoisAtaque:
+  - text: "Depois do Ataque, sempre ter os números de emergência guardados em lugar\
+      \ de fácil acesso. Procure o telefone mais próximo. Procure uma delegacia\
       \ da mulher, um centro de atendimento ou alguma pessoa ou instituição em que\
-      \ você confie.\n - Verifique se há locais seguros por perto, onde você pode\
-      \ ficar até conseguir ajuda.\n - Se estiver ferida, procure um hospital ou um\
-      \ posto de atendimento e revele o que aconteceu.\n - Se você esconder que foi\
-      \ vítima de violência, ninguém vai poder ajudá-la\n - Separe um pacode contendo\
-      \ objetos de primeira necessidade. Guarde com alguém próximo no caso de ter\
-      \ que abandonar a casa.\n - Guarde cópias de documentos importantes em local\
-      \ seguro\n - Registrar todos os episódios de violência física, psicológica ou\
-      \ sexual que você esteja sofrendo. Isso é útil na hora de pedir ajuda as autoridades\n\
-      \ - Deixar pessoas de confiança a par da situação. Planeje com elas um esquema\
-      \ de proteção e combine algumas formas de sinalizar que você está em perigo\n\
-      \ - Se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
-      \ deixando-o abastecido e na posição de saída, de forma a evitar manobras\n"
-  utter_depoisAtaqueDeny:
-  - text: "Se precisar estou aqui para te ajudar.\n"
+      \ você confie, verifique se há locais seguros por perto, onde você pode\
+      \ ficar até conseguir ajuda, se estiver ferida, procure um hospital ou um\
+      \ posto de atendimento e revele o que aconteceu, se você esconder que foi\
+      \ vítima de violência, ninguém vai poder ajudá-la, separe um pacode contendo\
+      \ objetos de primeira necessidade."
+  utter_depoisAtaque2:
+  - text: "Guarde com alguém próximo no caso de ter que abandonar a casa, guarde cópias\
+      \ de documentos importantes em local seguro, registrar todos os episódios de violência\
+      \ física, psicológica ou sexual que você esteja sofrendo se for possível mas de forma\
+      \ segura o suficiente para que não seja descoberto, isso é útil na hora de pedir ajuda\
+      \ as autoridades, deixar pessoas de confiança a par da situação."
+  utter_depoisAtaque3:
+  - text: "Planeje com elas um esquema de proteção e combine algumas formas de sinalizar que você está em perigo\
+      \ , se você tiver carro, ter cópias das chaves em local de fácil acesso. Sempre\
+      \ deixando-o abastecido e na posição de saída, de forma a evitar manobras difíceis caso tenha se ferido."
   utter_anteciparSinais:
-  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n\n- Sinais de comportamento\
+  - text: "Alguns sinais que podem ser de uma pessoa violenta:\n - Sinais de comportamento\
       \ controlador\n - Sentimentos de extrema dependencia\n - Desenvolver expectativas\
       \ irrealistas com realação a parceira\n - Se sente insultado com facilidade\n\
-      \ - Mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
+      \ - Se mostra enfurecido com o que considera injustiças contra si\n - Tendencias\
       \ violentas contra animais e crianças\n - Abuso verbal de forma cruel, depreciativa\
       \ e grosseira\n - Negação de abusos cometidos no passado\n"
   utter_mitosViolencia:
-  - text: Um dos mitos é de que a violência ocorre muito esporadicamente ou que a 
-      violência doméstica é um problema exclusivamente familia.
-  - text: Dizer que violência só acontece entre famílias carentes ou problemáticas é um mito.
-  - text: É falso dizer que as mulheres provocam ou gostam de violência. Assim como não há um perfil
-      das mulheres que sofrem agressão.
-  - text: É mito que os agressores não controlam suas emoções. Também é mito de que a única causa das
-      agressão são entorpecentes ou doenças mentais.
-  - text: Só proteger as vítimas não elimina o problema.
-  - text: É mito dizer que as vítimas só não abandonam os agressores por não ver a gravidade da situação
-  utter_m1:
-  - text: A violência doméstica não é esporádica, segundo dados do DataSenado o número
-      de mulheres reportando agressões vem apenas crescendo ao longo dos anos chegando
-      até a 29% das mulheres entrevistadas em 2017.
-  utter_m2:
-  - text: A violência doméstica não é apenas um problema familiar, ela afeta todos
-      em seu ambiente desde mudanças comportamentais da mulher que foi agredida até
-      afetar permanentemente seus filhos podendo causar graves sequelas, por isso
-      é sempre necessário buscar ajuda.
-  utter_m3:
-  - text: Violência doméstica não é exclusiva a famílias de baixa renda, ela pode
-      acontecer em ambientes de alta renda e instrução.
-  utter_m4:
-  - text: Não é verdade que mulheres que continuam com seus parceiros mesmo depois
-      de serem alvos de violência doméstica porque provocam ou gostam da sua situação
-      que se encontram, quem vive em situação de violência passa a maior parte do
-      tempo tentando evitar possíveis ocorrências de agressão e protegendo-se e também
-      protegendo seus filhos. Geralmente as mulheres continuam com seus agressores
-      para preservar a relação e por medo, por isso é sempre necessário tentar ajudar
-      caso encontre uma mulher sob uma situação diferente, gostaria de saber mais
-      sobre?
-  utter_m4_7_Afirm:
-  - text: Um dos fatores que levam a permanência com o agressor é o medo, uma grande
-      parcela de mulheres assassinadas nos estados unidos são resultantes da tentativa
-      de separação, outro fator são as sequelas psicológicas decorrentes da violência
-      doméstica e algumas mulheres acabam desenvolvendo PTSD(Síndrome do estresse
-      pós-traumático em português) e se tornam incapazes de reagir a situação, por
-      isso ajuda externa se torna muito importante.
-  utter_m5:
-  - text: A violência não é exclusiva a famílias aparentemente problématicas, não
-      há um padrão ou perfil que aponte um agressor, muitas vezes o agressor pode
-      ser bem articulado e bem sucedido publicamente, não usam ou abusam de álcool
-      e drogas e não tem problemas psicológicos, apenas não são denunciados e conseguem
-      passar despercebidos, gostaria de saber mais?.
-  utter_m5_9_Afirm:
-  - text: Mesmo tendo casos em que a violência doméstica é decorrente do abuso de
-      álcool, drogas ou problemas psicológicos esse nem sempre é o caso, há agressores
-      que não apresentam quaisquer desses fatores, a violência doméstica é um fenômeno
-      tão generalizado que não basta procurar porque o agressor a causa e sim porque
-      há um terreno tão favorável para acontecer e porque a resistência para se reproduzir
-      é tão baixa.
-  utter_m6:
-  - text: A violência doméstica não é somente uma questão de administração da raiva.
-      Os agressores sabem como se controlar, tanto que não batem no patrão e sim na
-      mulher ou nos filhos. Eles fazem isso porque não há nenhum custo a pagar. A
-      sociedade é indiferente. Faltam recursos para uma ação efetiva das polícias,
-      a justiça é conivente e as tradições religiosas e culturais não impõem nenhum
-      freio eficaz a esse comportamento.
-  utter_m8:
-  - text: Não há um padrão para a mulher que sofre as agressões, qualquer mulher pode
-      se encontrar em uma situação de violência doméstica independente de situação
-      financeira, social e cultural, esteriótipos sobre a vítima é apenas uma das
-      formas de sorrateiramente de jogar a culpa sobre a mulher e não ajuda a entender
-      ou prevenir a violência, a culpa é sempre do ambiente que gera tal ato e do
-      agressor.
-  utter_m10:
-  - text: O principal foco é proteger as vítimas, sobre os agressores é necessário
-      transformar o comportamento, somente punir irá causar recorrência na maioria
-      dos casos, no longo prazo investir em seu potencial de transformação e na capacidade
-      de mudança são as melhores apostas. É necessário encarar o desafio de transformar
-      comportamentos violentos para a construção de uma sociedade melhor.
+  - text: Quer saber alguns mitos envolvendo a violência doméstica?
+  utter_mitos:
+  - text: MITO - A VIOLÊNCIA DOMÉSTICA É ESPORÁDICA A violência doméstica não é esporádica, segundo dados do DataSenado o número
+     de mulheres reportando agressões vem apenas crescendo ao longo dos anos chegando
+     até a 29% das mulheres entrevistadas em 2017.
+  - text: MITO - A VIOLÊNCIA DOMÉSTICA SÓ AFETA QUEM ESTÁ PRESENTE NO AMBIENTE FAMILIAR A violência doméstica não é apenas um problema familiar, ela afeta todos
+     em seu ambiente desde mudanças comportamentais da mulher que foi agredida até
+     afetar permanentemente seus filhos podendo causar graves sequelas, por isso
+     é sempre necessário buscar ajuda.
+  - text: MITO - A VIOLÊNCIA DOMÉSTICA SÓ AFETA FAMÍLIAS CARENTES A Violência  doméstica não é exclusiva a famílias de baixa renda, ela pode acontecer em ambientes de alta renda e instrução.
+  - text: MITO - MULHER GOSTA DE SOFRE VIOLÊNCIA DOMÉSTICA Não é verdade que mulheres que continuam com seus parceiros mesmo depois
+     de serem alvos de violência doméstica porque provocam ou gostam da sua situação
+     que se encontram, quem vive em situação de violência passa a maior parte do
+     tempo tentando evitar possíveis ocorrências de agressão e protegendo-se e também
+     protegendo seus filhos. Geralmente as mulheres continuam com seus agressores
+     para preservar a relação e por medo, por isso é sempre necessário tentar ajudar
+     caso encontre uma mulher sob uma situação diferente, gostaria de saber mais
+     sobre?
+  - text: MITO - MULHERES CONTINUAM NO RELACIONAMENTO ABUSIVO POR QUEREM Um dos fatores que levam a permanência com o agressor é o medo, uma grande
+     parcela de mulheres assassinadas nos estados unidos são resultantes da tentativa
+     de separação, outro fator são as sequelas psicológicas decorrentes da violência
+     doméstica e algumas mulheres acabam desenvolvendo PTSD(Síndrome do estresse
+     pós-traumático em português) e se tornam incapazes de reagir a situação, por
+     isso ajuda externa se torna muito importante.
+  - text: MITO - A VIOLÊNCIA DOMÉSTICA SÓ ACONTECE EM FAMÍLIAS COM PROBLEMAS A violência não é exclusiva a famílias aparentemente problemáticas, não
+     há um padrão ou perfil que aponte um agressor, muitas vezes o agressor pode
+     ser bem articulado e bem sucedido publicamente, não usam ou abusam de álcool
+     e drogas e não tem problemas psicológicos, apenas não são denunciados e conseguem
+     passar despercebidos.
+  - text: MITO - A VIOLÊNCIA DOMÉSTICA É CAUSADA POR ENTORPECENTES Mesmo tendo casos em que a violência doméstica é decorrente do abuso de
+     álcool, drogas ou problemas psicológicos esse nem sempre é o caso, há agressores
+     que não apresentam quaisquer desses fatores, a violência doméstica é um fenômeno
+     tão generalizado que não basta procurar porque o agressor a causa e sim porque
+     há um terreno tão favorável para acontecer e porque a resistência para se reproduzir
+     é tão baixa.
+  - text: MITO - SÓ É VIOLÊNTO QUE NÃO SABE ADMINISTRAR A SUA RAIVA A violência doméstica não é somente uma questão de administração da raiva.
+     Os agressores sabem como se controlar, tanto que não batem no patrão e sim na
+     mulher ou nos filhos. Eles fazem isso porque não há nenhum custo a pagar. A
+     sociedade é indiferente. Faltam recursos para uma ação efetiva das polícias,
+     a justiça é conivente e as tradições religiosas e culturais não impõem nenhum
+     freio eficaz a esse comportamento.
+  - text: MITO - MULHER QUE SOFRE AGRESSÃO É TUDO IGUAL Não há um padrão para a mulher que sofre as agressões, qualquer mulher pode
+     se encontrar em uma situação de violência doméstica independente de situação
+     financeira, social e cultural, estereótipos sobre a vítima é apenas uma das
+     formas de sorrateiramente de jogar a culpa sobre a mulher e não ajuda a entender
+     ou prevenir a violência, a culpa é sempre do ambiente que gera tal ato e do
+     agressor.
+  - text: MITO - BASTA PUNIR O AGRESSOR PARA QUE ELE MELHORE O principal foco é proteger as vítimas, sobre os agressores é necessário
+     transformar o comportamento, somente punir irá causar recorrência na maioria
+     dos casos, no longo prazo investir em seu potencial de transformação e na capacidade
+     de mudança são as melhores apostas. É necessário encarar o desafio de transformar
+     comportamentos violentos para a construção de uma sociedade melhor.
   utter_manifestacaoDaViolencia:
-  - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual. \nEla também pode seguir um Ciclo da Violẽncia"
+  - text: "Então, a violência pode se manifestar de várias forma: Física, Emocional e Sexual.\
+      \ Ela também pode seguir um Ciclo da Violência, gostaria que eu te falasse sobre alguma dessas coisas?"
   utter_violenciaFisica:
-  - text: "A violência física não é só bater!\n Empura, atirar objetos, sacudir\n\
-      \ Estrangular, chutar violêntamente,\n torcer os braços, queimar, perfurar,\n\
-      \ mutilar e torturar\n também são violências físicas"
+  - text: "A violência física não é só bater! Empurrar, atirar objetos, sacudir\
+      \ e apertar também são formas de violência física."
   utter_violenciaEmocional:
-  - text: "A violência emocial vai muito além da ameaça!\n Intimidar, Diminuir a pessoa,\
-      \ xingar,\n fazer a pessoa pensar que está louca,\n provocar confusão mental,\n\
-      \ humilhar, usar os filhos para fazer chantagem\n isolar a vítima dos amigos\
-      \ e parentes\n e muitos outros."
+  - text: "A violência emocional vai muito além da ameaça! Intimidar, diminuir a pessoa,\
+      \ xingar, fazer a pessoa pensar que está louca, provocar confusão mental,\
+      \ humilhar, usar os filhos para fazer chantagem, isolar a vítima dos amigos\
+      \ e parentes e muitos outros."
   utter_violenciaSexual:
-  - text: "A violência sexual não é só o estupro cometido por um desconhecido.\n Força\
-      \ relações sexuais,\n força a prática de atos que causam desconforto ou repulsa,\n\
-      \ obrigar à ver imagens pornográgicas,\n obrigar a vitíma a fazer sexo com outras\
-      \ pessoas."
+  - text: "A violência sexual não é só algo cometido por um desconhecido sem intimidade com a vítima. Forçar\
+      \ relações sexuais quando não tem consentimento do parceiro, força a prática de atos que causam desconforto ou repulsa,\
+      \ obrigar à ver imagens pornográgicas, obrigar a vitíma a fazer sexo com outras\
+      \ pessoas são formas de violência sexual também."
   utter_cicloViolencia:
-  - text: "1ªFase: A construção da tensão no relacionamento\n Agressões verbais, crises\
-      \ de ciúmes, ameaças, destruição de objetos.\n2ªFase: A explosão da violência\
-      \ -Descontrole.\n Agressões agudas, a relação se torna inadministravel\n3ªFase:\
-      \ Desculpas\n Arrependimento do agressor, termino o período da violência física,implora\
-      \ por perdão a vítima, o agressor promete qualquer coisa, demostra remorso"
+  - text: "1ªFase: A construção da tensão no relacionamento, agressões verbais, crises\
+      \ de ciúmes, ameaças, destruição de objetos.2ªFase: A explosão da violência\
+      \ -Descontrole. Agressões agudas, a relação se torna inadministravel\n3ªFase:\
+      \ Desculpas, arrependimento do agressor, termino o período da violência física, implora\
+      \ por perdão, o agressor promete qualquer coisa, demonstra remorso."
   utter_agrideAgredidoINICIO:
-  - text: Você sabia que na grande maiorida dos casos, a mulher é a principal vítima?
+  - text: Você sabia que na grande maioria dos casos, a mulher é a principal vítima?
   utter_agrideAgredidoInicioResposta:
   - text: "Na sua forma mais típica, a violência conjugal é uma expressão de desejo\
-      \ de uma pessoa controlar e dominar a outra.\nQuer saber um pouquinho mais sobre isso?"
+      \ de uma pessoa controlar e dominar a outra. Quer saber um pouquinho mais sobre isso?"
   utter_agrideAgredidoRespostaAfirm:
   - text: "A violência doméstica envolve atos repetitivos, que vão se agravando, em\
-      \ frequêcia e intensidade\n coerção, cerceamento, humilhação, ameaça\n agressão\
-      \ físicas e sexuais variadas\n Além do medo permanemte, esse tipo de violência\
+      \ frequêcia, intensidade, coerção, cerceamento, humilhação, ameaça, agressão,\
+      \ físicas e sexuais, variadas. Além do medo permanente, esse tipo de violência\
       \ pode resultar em danos físicos e psicológicos duradouros"
   utter_agrideAgredidoQuemPodeSofrer:
-  - text: "Ah deixa eu abrir um parênteses aqui\n
-    Tanto o mulher quanto o homem podem sofrer violência doméstica.Contudo,\
-      \ a violência contra a mulher é mais frequênte\n "
+  - text: "Ah deixa eu abrir um parênteses aqui, tanto o mulher quanto o homem podem sofrer violência doméstica. Contudo,\
+      \ a violência contra a mulher é mais frequênte, ok?"
   utter_agrideAgredidoQuemPodeSofrerAfirm:
   - text: " A Convenção Interamericana para Prevenir, Punir e Erradicar a Violência\
       \ Contra a Mulher (Convenção de Belém do Pará, 1994) define a violência contra\
       \ a mulher como 'qualquer ato ou conduta baseada no gênero, que cause morte,\
       \ dano ou sofrimento físico, sexual ou psicológico à mulher, tanto na esfera\
-      \ pública como na esfera privada: \na) ocorrida no âmbito da família ou unidade\
+      \ pública como na esfera privada: \n\n a) ocorrida no âmbito da família ou unidade\
       \ doméstica ou em qualquer relação interpessoal, quer o agressor compartilhe,\
       \ tenha compartilhado ou não a sua residência, incluindo-se, entre outras formas,\
-      \ o estupro, maus-tratos e abuso sexual; \nb) ocorrida na comunidade e cometida\
+      \ o estupro, maus-tratos e abuso sexual; \n\n b) ocorrida na comunidade e cometida\
       \ por qualquer pessoa, incluindo, entre outras formas, o estupro, abuso sexual,\
       \ tortura, tráfico de mulheres, prostituição forçada, seqüestro e assédio sexual\
       \ no local de trabalho, bem como em instituições educacionais, serviços de saúde\
-      \ ou qualquer outro local; e \nc) perpetrada ou tolerada pelo Estado ou seus\
+      \ ou qualquer outro local; e \n\n c) perpetrada ou tolerada pelo Estado ou seus\
       \ agentes, onde quer que ocorra.'"
   utter_delegacia:
-  - text: "Encontre a delegacia perto de vc ou ligue 180: \nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  - text: "Encontre a delegacia perto de vc ou ligue 180:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
   utter_orientacao:
-  - text: "Você quer ter uma percepção clara de quem é a vítima ou quer saber sobre a violência conjugal?"
-  - text: "Você quer sabe pq as mulheres aguentam tanto tempo uma relação violênta \nou quer saber medir a gravidade do risco de uma violência domestica?"
-  - text: "Existem 10 mitos sober a violência domestica e formas de CONSTRUIR um PLANO DE PROTEÇÃO contra a violência. \nQuer saber sobre qual delas?"
-  - text: "A violencia domestica tem sempre uma origem e tem como  antecipar os sinais da violência. \nQual vc deseja saber?"
-
+  - text: "Consigo te dar orientações sobre algumas coisas como quem pode ser a vítima, ou te falar um pouco mais sobre \
+      \ **violência conjugal**, ou o porque de algumas mulheres se manterem em uma **relação violenta** e te contar das **origens da \
+      \ violência doméstica** e como você poderia **antecipar os sinais**. Também posso te ajudar a fazer uma **medida de gravidade \
+      \ do risco** em caso de violência doméstica, ou ajudar com um **plano de proteção**, te contar algumas **curiosidades**...\
+      \ se preferir, o que você gostaria de saber?"
   utter_origemViolencia:
-  - text: "Não tem uma razão única para o porque as pessoas começam a serem violentas\
-      \ na maioria das vezes é porque quem agride tem muitas camadas de vivência sabia?\
-      \ Gostaria de saber mais sobre?"
-    image: https://i.imgur.com/LIHnEaX.png
+  - text: "Segundo a Organização Mundial de Saúde, “não há um fator único que explique\
+      \ porque algumas pessoas se comportam de forma violenta em relação a outras,\
+      \ ou porque a violência ocorre mais em algumas comunidades do que em outras.”. \
+      \ Na maioria dos casos a violência está associada a camadas da vivência do agressor,\
+      \ um modelo psicológico foi criado para mapear as prováveis causas que levariam\
+      \ um agressor a cometer a agressão. Quer saber como funciona?"
   utter_origemViolenciaSIM:
-  - text: "Existe um modelo que mostra que a violência é relacionada á quatro pontos, individual\
-      \ , o relacional, o comunitário e o social, sendo que cada ponto engloba o outro. Muitas desses\
-      \ pontos são da infância como abusos físicos ou de drogas, mas nem todos se tornam pessoas violentas,\
-      \ a família e amigos são muito importantes para ajudar alguém com dificuldades fazem total diferença para\
-      \ prevenir uma pessoa de perder seu caminho, os vínculos de alguém são extremamente importantes para que a\
-      \ pessoa possa ser funcional em sociedade. Lembrando que isso não é algo a ser levado como regra mas que influenciam\
-      \ , é completamente possível que alguém sofra isso e não se torne violento no futuro. =)"
-
+  - text: "Observe que, segundo esse modelo, a violência estaria relacionada à interação\
+      \ de quatro planos: o individual, o relacional, o comunitário e o social. Cada\
+      \ um desses planos engloba o anterior, tanto para reforçar, quanto para prevenir\
+      \ os elementos de risco. Por exemplo: fatores biológicos, pessoais, como a impulsividade,\
+      \ abusos sofridos na infância ou o uso abusivo de substâncias químicas (plano\
+      \ individual), podem ou não favorecer a violência, dependendo da qualidade das\
+      \ relações familiares e de amizade,  o tipo de suporte dado pela família e pela\
+      \ rede de relações próximas faz toda a diferença (plano relacional)."
+  utter_origemViolencia2:
+  - text: "Resumindo,a natureza das relações entre o agressor e as pessoas que rodeiam são, muitas\
+      \ vezes os fatores cruciais para a origem do seu comportamento violento,  a\
+      \ natureza dos vínculos que ligam uma pessoa ao seu entorno (vizinhos, ambiente\
+      \ de trabalho, amigos, grupo de igreja ou associações) pode abrir ou fechar\
+      \ as portas para a violência."
+  utter_origemViolencia3:
+  - text: " Só pra lembrar que esse é apenas um modelo para ajudar a entender melhor as raízes da \
+      \ violência. Não é uma regra ou uma profecia. É perfeitamente possível que alguém viva sob \
+      \ condições de risco em todos esses planos e jamais apresente comportamento violento."
   utter_greet0:
-  - text: "Olá =) \n Em que posso te ajudar?\n"
+  - text: "Olá, em que posso te ajudar?"
   - text: "Em que posso te auxiliar?"
-  - text: "Olá!\n O que você procura? Posso te Ajudar!"
+  - text: "Oi, posso te ajudar com alguma coisa?"
   utter_greet1:
-  - text: "Posso te auxiliar a\n-Encontrar Delegacias especializadas no atendimento\
-      \ à Mulher.\n- Te orientar sobre os direitos da mulher\n"
-    buttons:
-    - title: Delegacia
-      payload: Encontrar Delegacia Especializada
-    - title: Orientação
-      payload: Orientação sobre direitos
-  - text: "Então, posso te falar um pouco mais sobre os direitos da mulher.\nQuer saber um pouco?"
-  utter_greet:
-  - text: "Olá sou a Glória, tenho o propósito de ajudar as pessoas.\nPosso te auxiliar\
-      \ em:\n-Encontrar Delegacias especializadas no atendimento à Mulher.\n-Orientações\
-      \ sobre os direitos da mulher\n"
-    buttons:
-    - title: Delegacia
-      payload: Encontrar Delegacia Especializada
-    - title: Orientação
-      payload: Orientação sobre direitos
-  utter_did_that_help:
-  - text: "Ok\nQuer que eu te ajude em outra coisa?"
-  - text: "Ok\nQual quer coisa é so me chamar estou aqui para te ajudar =)"
+  - text: "Posso te ajudar com informações como encontrar delegacias especializadas no atendimento\
+      \ à Mulher, ou te dar alguma orientação. Gostaria de saber sobre alguma dessas\
+      \ coisas?"
+  - text: "Posso te auxiliar em:\n-Encontrar Delegacias especializadas no atendimento à \
+      \ Mulher.\n-Orientações sobre como agir contra a violência contra a mulher\nGostaria de saber sobre alguma dessas coisas?"
+  utter_maisAlgumaCoisa:
+  - text: "Quer que eu te ajude em outra coisa?"
+  - text: "Posso te ajudar com mais alguma coisa?"
+  - text: "Algo mais que eu posso fazer pra te ajudar?"
   utter_happy:
   - text: Que legal!
   utter_goodbye:
   - text: Tchau:)
+  - text: Estou aqui caso precise novamente =)!
+  - text: Foi um prazer conversar com você.\nAté logo!
+  - text: Já vai? Qualquer coisa estarei aqui se precisar
+  utter_medirGravidade:
+  - text: "Para tentar medir o risco que você corre, farei algumas perguntas e de acordo
+      com as respostas tentarei medir o risco de violência que você sofre, certo?
+      Lembrando que não é um teste infalível, por isso confie também no seu bom senso."
+  utter_deNada:
+  - text: "De nada, posso te ajudar com mais alguma coisa?"
+  - text: "Fico feliz em poder ter ajudado, posso te ajudar com mais alguma coisa?"
+
 actions:
+- utter_deNada
+- utter_agressorFaca
+- utter_medirGravidade
 - utter_greet0
 - utter_greet1
-- utter_did_that_help
+- utter_maisAlgumaCoisa
 - utter_happy
 - utter_goodbye
 - utter_delegacia
@@ -325,22 +441,11 @@ actions:
 - utter_violenciaSexual
 - utter_cicloViolencia
 - utter_mitosViolencia
-- utter_m1
-- utter_m2
-- utter_m3
-- utter_m4
-- utter_m4_7_Afirm
-- utter_m5
-- utter_m5_9_Afirm
-- utter_m6
-- utter_m8
-- utter_m10
+- utter_mitos
 - utter_anteciparSinais
 - utter_planoProtecao
-- utter_horaAtaqueAffirm
-- utter_planoProtecaoDeny
-- utter_depoisAtaqueAffirm
-- utter_depoisAtaqueDeny
+- utter_horaAtaque
+- utter_depoisAtaque
 - utter_origemViolencia
 - utter_origemViolenciaSIM
 - utter_aguentamRelacaoViolenta
@@ -352,3 +457,50 @@ actions:
 - utter_barreiras
 - utter_dependencia
 - utter_deixar
+- utter_facaAltoRisco
+- utter_facaRiscoExtremo
+- utter_agressorPreso
+- utter_presoAltoRisco
+- utter_presoRiscoExtremo
+- utter_agressorControlador
+- utter_controladorAltoRisco
+- utter_controladorRiscoExtremo
+- utter_agressorFilhos
+- utter_agressorFilhosAffirm
+- utter_agressorFilhosAlto
+- utter_agressorFilhosExtremo
+- utter_deixarAgressorAlto
+- utter_deixarAgressorExtremo
+- utter_deixarAgressorImportar
+- utter_deixarAgressor
+- utter_deixarAgressorAffirm
+- utter_RecursoExtremo
+- utter_RecursoAlto
+- utter_RecursoAffirm
+- utter_Recurso
+- utter_ameacaExtremo
+- utter_ameacaAlto
+- utter_ameacaAffirm
+- utter_ameaca
+- utter_MedirAgressorRotinaExtremo
+- utter_MedirAgressorRotinaAlto
+- utter_MedirAgressorRotina
+- utter_forcarAtosExtremo
+- utter_forcarAtosAlto
+- utter_forcarAtosSexuais
+- utter_bebidaDrogasAlto
+- utter_bebidaDrogasExtremo
+- utter_bebidaDrogas
+- utter_suicida
+- utter_suicidaAlto
+- utter_suicidaExtremo
+- utter_malucoAlto
+- utter_malucoExtremo
+- utter_maluco
+- utter_origemViolencia2
+- utter_origemViolencia3
+- utter_depoisAtaque2
+- utter_depoisAtaque3
+- utter_agressorArma
+- utter_armaAltoRisco
+- utter_armaRiscoExtremo

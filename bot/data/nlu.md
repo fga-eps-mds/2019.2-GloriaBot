@@ -1,10 +1,65 @@
+## intent:medirGravidade
+- Quero medir a gravidade do risco de uma violência doméstica
+- Quero medir a gravidade do risco de uma violência domestica
+- medir a gravidade
+- Risco de violência
+- Risco de violência doméstica
+- risco
+
+## intent: agradecimento
+- obrigada
+- ajudou bastante
+- thanks
+- valeu
+- vlw
+
 ## intent:affirm
 - sim
 - de fato
-- quero
 - claro
 - isso soa bem
 - correto
+- já
+- ok
+- tudo bem
+- certo
+
+## intent:faca
+- possui uma faca
+- faca
+- tem uma faca
+- possui um canivete
+
+## intent:arma
+- possui uma arma
+- arma
+- armado
+- tem uma arma
+- pistola
+- revolver
+- possui uma pistola
+- possui um revolver
+
+## intent:ameaca
+- ameaçou
+- ameaça
+- foi preso
+- ameaçou meus filhos
+- tentou machucar meus filhos
+- tentou machucar
+- apenas ameaças
+
+## intent:agressoControladorAffirm
+- É muito ciumento
+- Controla os meus horários
+- Não gosta dos meus amigos
+- Sempre nota se eu chego mais tarde
+
+## intent:agressoControladorAffirmExt
+- controla
+- prende
+- Doente de ciúmes
+- Imagina coisas absurdas
 
 ## intent:agrideAgredidoQuemPodeSofrer
 - quem pode sofre violência domestica
@@ -19,34 +74,64 @@
 - antecipar
 - sinais
 - sinal
-- como saber se alguem é violento
-- prevenir
-- prevenção
 
+## intent:baterFilhos
+- bateu nos meus filhos
+- bateu no meu filho
+- bateu na minha filha
+- bateu
+
+## intent:implorar
+- implorou para eu voltar
+- implorou
+- ficou implorando
+- implorando
+- pediu para eu voltar
+- pediu
+- ligou várias vezes
+- ligou
+
+## intent:trabalho
+- é relacionado ao trabalho dele
+- trabalho
+- emprego
+
+## intent:informacao
+- informação que  possui de mim
+- informações que  possui
 ## intent:barreiras
-- /barreiras
-
-## intent:bot_challenge
-- Voce e um robô?
-- Voce e um humano?
-- estou falando com um bot?
-- estou falando com um humano?
+- barreiras
+- barreira
 
 ## intent:cicloViolencia
-- /vCiclo
-- ciclo da violencia
+- ciclo
+- ciclo da violência
 
 ## intent:deixar
 - /deixar
+- deixar
 
 ## intent:delegacia
 - Encontrar Delegacia Especializada
 - delegacias
+- delgacia
 - delegacia
+- encontrar uma delegacia
 - encontrar delegacias
 - delegacia da mulher
 - atendimento a mulher
 - Delegacia
+
+## intent:agressorPresoAffirm
+- A polícia  veio aqui
+- prestei queixa, mas retirei
+- Tenho medo de dar queixa
+- fiz denúncia
+## intent:agressorPresoAffirmExt
+- foi preso
+- A polícia o deixa mais nervoso
+- atacou na frente do juiz
+- A polícia o deixa mais agressivo
 
 ## intent:deny
 - nao
@@ -57,13 +142,24 @@
 - não
 
 ## intent:dependencia
-- /dependencia
+- dependencia
+- dependo dele para viver
+- sustenta a casa
+
+## intent: deixarAgressor
+- deixar agressor
+- deixar
+- deixa-lo
 
 ## intent:depoisAtaque
-- /depoisAtaque
+- depois
+- após
+- apos
 
 ## intent:esperanca
 - /esperanca
+- esperanca
+- esperança
 
 ## intent:goodbye
 - tchau
@@ -74,6 +170,7 @@
 
 ## intent:greet
 - Oi
+- oi
 - Olá
 - Ola
 - Eae
@@ -81,92 +178,33 @@
 - boa noite
 - como vai
 - oi
-- o que você pode me ajudar
 
 ## intent:greet2
-- o que voce faz?
+- o que você faz
+- o que voce faz
+- o que vc faz
+- oq vc pode fazer
+- oque voce pode fazer
+- fazer
+- oque você pode fazer
+- oq você pode fazer
 - em que vc pode me ajudar
+- em que vc pode ajudar
 - faz o que
-- em que pode me ajudar
-- me ajuda
-- pode me auxiliar
+- em que pode ajudar
+- ajuda
+- pode auxiliar
 - auxiliar
 - o que vc faz
 
 ## intent:horaAtaque
-- /horaAtaque
+- na hora do ataque
+- hora
+- durante
 
-## intent:isolamento
+## intent: isolamento
+- isolamento
 - /isolamento
-
-## intent:m1
-- esporádica
-- esporadica
-- isoladamente
-- aleatória
-- aleatoria
-- imprevista
-
-## intent:m10
-- somento punir melhora
-- punir melhora
-- mudar comportamentos violentos
-
-## intent:m2
-- violência doméstica é um problema familiar?
-- violencia domestica e um problema familiar
-- somente os envolvidos são afetados?
-- afetados
-
-## intent:m3
-- familia de baixa renda
-- violencia ocorre com os pobres
-- só ocorre com os pobres
-
-## intent:m4
-- mulher pede
-- mulher provoca
-- mulher merece ser agredida
-- mulher gosta de apanhar
-- merece apanhar
-
-## intent:m5
-- só acontece em familias problemáticas
-- familias problematicas
-- agressor não é bem sucedido
-- problemas psicológicos
-
-## intent:m6
-- agressores não se controlam
-- fazem por raiva
-- controle da raiva
-
-## intent:m4_7_Afirm
-- Não abandonam por que não é grave
-- medo de abandonar o agressor
-- abandonar agressor
-
-## intent:m8
-- perfil da mulher que apanha
-- padrão de mulher que apanha
-- esteriótipo
-- como é a mulher que apanha
-
-## intent:m5_9_Afirm
-- problemas com bebida
-- bebida gera violência
-- álcool é o único problema
-
-## intent:manifestacaoDaViolencia
-- quais são as manifestações da violencia
-- quais são as manifestações da violencia conjugal?
-- tipos de violencia
-- quais são as violencias
-- quais são as manifestações da violencia conjugal?
-- violencia conjugal
-- manifestações da violência conjugal
-- manifestação da violencia
-- manifestação violência
 
 ## intent:mitosViolencia
 - mitos violencia
@@ -176,6 +214,20 @@
 - quais são as mentiras sobre a violência doméstica?
 - mentiras
 - quais mitos existem sobre a violência doméstica?
+- mais mitos
+
+## intent:manifestacaoDaViolencia
+- manifestações da violencia
+- manifestacoes da violencia
+- manifestações da violência
+- tipos de violencia
+- tipos de violência
+- quais são as violencias
+- violencia conjugal
+- violência conjugal
+- manifestação da violencia
+- manifestação da violência
+- manifestacao da violencia
 
 ## intent:mood_great
 - perfeito
@@ -183,24 +235,13 @@
 - otimo
 - surpreendente
 - Maravilhoso
-- estou me sentindo muito bem
+- estou sentindo muito bem
 - Estou estou otimo
 - Eu estou bem
 
-## intent:mood_unhappy
-- triste
-- muito triste
-- infeliz
-- ruim
-- muito mal
-- horrivel
-- terrivel
-- nao muito bom
-- extremamente triste
-- tao triste
-
 ## intent:negacao
-- /negacao
+- negação
+- negacao
 
 ## intent:orientacao
 - Orientação sobre direitos
@@ -208,24 +249,23 @@
 - orientacoes
 - orientações
 - orintação
-- direito
-- direitos
+- orientar
+- Orientar
+- direito da mulher
+- direitos da mulher
+- direitos das mulheres
 - Orientação
 - orientação
 - Orientações sobre os direitos da mulher
 - Orientações sobre os direitos
 
 ## intent:origemViolencia
-- /origemViolencia
 - origem da violencia
 - origem
 - inicio da violência
-- como a violência começa
 
 ## intent:planoProtecao
 - como construir um plano de proteção
-- me proteger
-- proteção
 - plano proteção
 - plano
 - proteção plano
@@ -244,38 +284,46 @@
 - Quem agride e quem é agredido?
 
 ## intent:relacaoViolenta
-- /relacaoViolenta
 - Por que as mulheres aguentam por tanto tempo uma relação violenta?
+- aguentam relação violenta
+- relação violenta
+- relacao violenta
+- aguentam relacao violenta
 - medo de sair da relação
 - medo de denunciar
 - isolada
-- me sinto isolada
 - medo pelos meus filhos
-- esperança que ele vai mudar
+- esperança que vai mudar
+- /vergonhaMedo
+- vergonha
+- medo
+- sinto vergonha
+- sinto medo
 
-## intent:riscoRomp
+## intent:rompimento
 - /riscoRomp
+- risco rompimento
+- rompimento
 
 ## intent:start
 - /start
 
-## intent:vergonhaMedo
-- /vergonhaMedo
-
-## intent:violenciaEmocinal
-- /vEmocional
-- violencia Emocional
+## intent:violenciaEmocional
+- violencia emocional
+- violência emocional
 
 ## intent:violenciaFisica
-- Violencia Fisica
-- fisica
-- /vFisica
-- violencia fisicas
+- Violencia física
+- violencia fisica
+- violência física
+- violência fisica
 
 ## intent:violenciaSexual
-- /vSexual
-- violencia Sexual
+- violencia sexual
+- violência sexual
+
 ## intent:duvida
-- me fale mais
-- diga-me mais
-- fale mais
+- não sei
+- talvez
+- não posso afirmar
+- não consigo dar a certeza
