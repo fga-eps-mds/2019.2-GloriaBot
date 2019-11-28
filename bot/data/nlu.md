@@ -142,8 +142,10 @@
 - deixa-lo
 
 ## intent:depoisAtaque
-- /depoisAtaque
 - depois
+- após
+- apos
+
 ## intent:esperanca
 - /esperanca
 - esperanca
@@ -186,9 +188,9 @@
 - o que vc faz
 
 ## intent:horaAtaque
-- /horaAtaque
 - na hora do ataque
 - hora
+- durante
 
 ## intent: isolamento
 - isolamento
