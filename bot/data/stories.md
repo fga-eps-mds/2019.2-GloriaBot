@@ -339,7 +339,7 @@
 >check_loop
 ## Story planoProtecaoHora
 >check_plano
-* horaAtaque
+* horaAtaque OR affirm
     - utter_horaAtaque
 ## Story planoProtecaoDeny
 >check_plano
