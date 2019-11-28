@@ -11,6 +11,7 @@
 * delegacia
     - utter_delegacia
 ## Story orientacao
+>check_greet
 * orientacao OR affirm
     - utter_orientacao
 >check_orientacao
@@ -28,11 +29,13 @@
 >check_agressorFaca
 * affirm OR faca
     - utter_facaAltoRisco
-    - action_restart
+    - utter_planoProtecao
+>check_plano
 ## Agressor faca
 >check_agressorFaca
 * ameaca
     - utter_facaRiscoExtremo
+    - utter_delegacia
 ## Agressor faca
 >check_agressorFaca
 * deny
@@ -42,6 +45,8 @@
 >check_agressorPreso
 * affirm OR agressorPresoAffirm
     - utter_presoAltoRisco
+    - utter_planoProtecao
+>check_plano
 ## Story medir_AgressorControlador
 >check_agressorPreso
 * deny
@@ -52,11 +57,13 @@
 >check_agressorControlador
 * affirm OR agressoControladorAffirm
     - utter_controladorAltoRisco
-
+    - utter_planoProtecao
+>check_plano
 ## Story medir_AgressoControladorExt
 >check_agressorControlador
 * agressoControladorAffirmExt
     - utter_controladorRiscoExtremo
+    - utter_delegacia
 
 ## Story medir_AgressoControladorExt
 >check_agressorControlador
@@ -74,6 +81,8 @@
 >check_AgressorFilhosAffirm
 * ameaca
     - utter_agressorFilhosAlto
+    - utter_planoProtecao
+>check_plano
 ## Story AgressorFilhosExtremo
 >check_AgressorFilhosAffirm
 * baterFilhos
@@ -100,10 +109,13 @@
 >check_deixarAgressorImportar
 * affirm OR baterFilhos
   - utter_deixarAgressorExtremo
+  - utter_delegacia
 ## Story Deixar_AgressorAlto
 >check_deixarAgressorImportar
 * deny OR implorar
   - utter_deixarAgressorAlto
+  - utter_planoProtecao
+>check_plano
 ## Story Deixar_AgressorDeny
 >check_deixarAgressor
 * deny
@@ -118,11 +130,13 @@
 >check_recursoAffirm
 * trabalho
   - utter_RecursoAlto
+  - utter_planoProtecao
+>check_plano
 ## Story RecursoExtremo
 >check_recursoAffirm
 * informacao
   - utter_RecursoExtremo
-
+  - utter_delegacia
 ## Story RecursoAffirm
 >check_recurso
 * deny
@@ -142,10 +156,13 @@
 >check_MedirAgressorRotina
 * duvida
     - utter_MedirAgressorRotinaAlto
+    - utter_planoProtecao
+>check_plano
 ## Story MedirAgressorRotinaExtremo
 >check_MedirAgressorRotina
 * affirm
     - utter_MedirAgressorRotinaExtremo
+    - utter_delegacia
 ## Story forcarAtosSexuais
 >check_MedirAgressorRotina
 * deny
@@ -155,10 +172,13 @@
 >check_forcarAtosSexuais
 * duvida
     - utter_forcarAtosAlto
+    - utter_planoProtecao
+>check_plano
 ## Story forcarAtosExtremo
 >check_forcarAtosSexuais
 * affirm
     - utter_forcarAtosExtremo
+    - utter_delegacia
 ## Story bebidaDrogasMedio
 >check_bebidaDrogas
 * deny  
@@ -168,10 +188,13 @@
 >check_suicida
 * duvida
     - utter_suicidaAlto
+    - utter_planoProtecao
+>check_plano
 ## Story suicidaExtremo
 >check_suicida
 * affirm
     - utter_suicidaExtremo
+    - utter_delegacia
 ## Story suicidaMedio
 >check_suicida
 * deny
@@ -181,11 +204,13 @@
 >check_maluco
 * duvida
     - utter_malucoAlto
+    - utter_planoProtecao
+>check_plano
 ## Story malucoExtremo
 >check_maluco
 * affirm
     - utter_malucoExtremo
-
+    - utter_delegacia
 ## Story forcarAtosMedio
 >check_forcarAtosSexuais
 * deny
@@ -195,20 +220,24 @@
 >check_bebidaDrogas
 * duvida
     - utter_bebidaDrogasAlto
+    - utter_planoProtecao
+>check_plano
 ## Story bebidaDrogasExtremo
 >check_bebidaDrogas
 * affirm
     - utter_bebidaDrogasExtremo
-
+    - utter_delegacia
 ## Story Medir_ameaçaAlto
 >check_Medir_ameacaAffirm
 * deny
-  - utter_ameacaAlto
+  - utter_ameaca
+  - utter_planoProtecao
+>check_plano
 ## Story Medir_ameaçaExtremo
 >check_Medir_ameacaAffirm
 * affirm
   - utter_ameacaExtremo
-
+  - utter_delegacia
 ## Story Aguentam_Relacao_Violenta
 * relacaoViolenta
     - utter_aguentamRelacaoViolenta
@@ -217,57 +246,86 @@
 >check_relacaoViolenta
 * deny
     - utter_maisAlgumaCoisa
+>check_loop
 ## Story riscoRomp
 >check_relacaoViolenta
 * rompimento
     - utter_riscoRomp
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story vergonhaMedo
 >check_relacaoViolenta
 * relacaoViolenta
     - utter_vergonhaMedo
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story esperanca
 >check_relacaoViolenta
 * esperanca
     - utter_esperanca
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story isolamento
 >check_relacaoViolenta
 * isolamento
     - utter_isolamento
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story negacao
 >check_relacaoViolenta
 * negacao
     - utter_negacao
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story barreiras
 >check_relacaoViolenta
 * barreiras
     - utter_barreiras
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story dependencia
 >check_relacaoViolenta
 * dependencia
     - utter_dependencia
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
 ## Story deixarAgressor
 >check_relacaoViolenta
 * deixarAgressor
     - utter_deixarAgressor
+    - utter_maisAlgumaCoisa
+>check_relacaoResp
+## Story relacaoRespAffirm
+>check_relacaoResp
+* affirm
+    - utter_greet1
+## Story relacaoRespDeny
+>check_relacaoResp
+* deny
+    - utter_goodbye
+
 ## Story planoProtecao
 >check_orientacao
 * planoProtecao
     - utter_planoProtecao
 >check_plano
-## Story planoProtecaoDeny
->check_plano
-* deny
-    - utter_maisAlgumaCoisa
 ## Story planoProtecaoDepois
 >check_plano
 * depoisAtaque
     - utter_depoisAtaque
-
+    - utter_depoisAtaque2
+    - utter_depoisAtaque3
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story planoProtecaoHora
 >check_plano
 * horaAtaque
     - utter_horaAtaque
-
+## Story planoProtecaoDeny
+>check_plano
+* deny
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story agride_agredido
 * quem_agride_quem_agredido_1
     - utter_agrideAgredidoINICIO
@@ -288,11 +346,13 @@
 >check_agride_agredido_respostaAfirm
 * deny
     - utter_maisAlgumaCoisa
->check_maisAlgumaCoisa
+>check_loop
 ## Story agrideAgredidoQuemPodeSofrerAfirm
 >check_duvida
 * affirm
     - utter_agrideAgredidoQuemPodeSofrerAfirm
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story goodbye
 >check_maisAlgumaCoisa
 * deny
@@ -304,52 +364,85 @@
     - utter_manifestacaoDaViolencia
 >check_manifestacao
 ## Story manifestacaoDaViolenciaDeny
+>check_manifestacao
 * deny
     - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_fisica
 >check_manifestacao
 * violenciaFisica
     - utter_violenciaFisica
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_emocional
 >check_manifestacao
 * violenciaEmocional
     - utter_violenciaEmocional
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_sexual
 >check_manifestacao
 * violenciaSexual
     - utter_violenciaSexual
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
 ## Story manifestacao_CicloViolencia
+>check_manifestacao
 * cicloViolencia
     - utter_cicloViolencia
->check_manifestacaoResp
+    - utter_maisAlgumaCoisa
+>check_loop
+
 ## Story origemViolencia
 >check_orientacao
 * origemViolencia
     - utter_origemViolencia
 >check_origemViolencia
+## Story origemViolenciaAffirm
+>check_origemViolencia
+* affirm
+    - utter_origemViolenciaSIM
+    - utter_origemViolencia2
+    - utter_origemViolencia3
+    - utter_maisAlgumaCoisa
+>check_loop
+## Story origemViolenciaDeny
+>check_origemViolencia
+* deny
+    - utter_maisAlgumaCoisa
+>check_loop
 
 ## Story_anteciparSinais
 >check_orientacao
 * anteciparSinais
     - utter_anteciparSinais
-
-## Story origemViolenciaAffirm
->check_origemViolencia
-* affirm
-    - utter_origemViolenciaSIM
-
-## Story origemViolenciaDeny
->check_origemViolencia
-* deny
     - utter_maisAlgumaCoisa
-## Story goodbye2
->check_manifestacao
+>check_loop
+
+## Story LoopDeny
+>check_loop
 * deny
     - utter_goodbye
-## Story goodbye3
->check_manifestacaoResp
+## Story LoopAffirm
+>check_loop
+* affirm
+    - utter_greet1
+>check_loopResp
+## Story Loopresp
+>check_loopResp
 * deny
     - utter_goodbye
+
+## Story mitosViolencia
+>check_orientacao
+* mitosViolencia
+   - utter_mitosViolencia
+>check_mitos
+## Story_mitosViolenciaDeny
+* deny
+   - utter_maisAlgumaCoisa
+## Story mito
+>check_mitos
+* affirm
+   - utter_mitos
+   - utter_maisAlgumaCoisa
