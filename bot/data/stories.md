@@ -466,3 +466,6 @@
 * affirm
    - utter_mitos
    - utter_maisAlgumaCoisa
+## Story agradecer
+* agradecimento
+   - utter_deNada
