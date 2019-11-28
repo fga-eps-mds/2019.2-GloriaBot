@@ -26,9 +26,19 @@
 
 ## intent:faca
 - possui uma faca
-- possui uma faca
 - faca
 - tem uma faca
+- possui um canivete
+
+## intent:arma
+- possui uma arma
+- arma
+- armado
+- tem uma arma
+- pistola
+- revolver
+- possui uma pistola
+- possui um revolver
 
 ## intent:ameaca
 - ameaçou
