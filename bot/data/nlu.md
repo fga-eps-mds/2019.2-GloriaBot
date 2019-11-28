@@ -6,7 +6,7 @@
 - Risco de violência doméstica
 - risco
 
-## intent: agradecimento
+## intent:agradecimento
 - obrigada
 - ajudou bastante
 - thanks
@@ -273,6 +273,7 @@
 - como construir um plano de proteção
 - plano proteção
 - plano
+- plano de proteção
 - proteção plano
 - como construir um plano de proteção
 

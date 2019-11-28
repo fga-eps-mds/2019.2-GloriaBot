@@ -173,8 +173,7 @@ templates:
       \ ou medo do que pode acontecer caso o agressor descubra, ou uma esperança na mudança de atitude\
       \ de seu companheiro(a), ou a mulher se encontra em um ambiente tão hostil que perdeu seus\
       \ laços familiares e com amigos e se vêem isoladas. Esses tipos de relatos formam barreiras\
-      \ que impedem o rompimento do relacionamento por parte da vítima. Quer que eu te conte\
-      \ mais sobre algum deles?"
+      \ que impedem o rompimento do relacionamento por parte da vítima. Se quiser saber mais sobre um deles é só perguntar."
   utter_riscoRomp:
   - text: "A violência e as ameaças contra a vida da mulheres e dos filhos se tornam\
       \ mais intensas no época da separação, pois o homem violento percebe que perdeu\
