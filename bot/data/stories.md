@@ -403,7 +403,7 @@
    - utter_mitosViolencia
 >check_mitos
 ## Story_mitosViolenciaDeny
-*deny
+* deny
    - utter_maisAlgumaCoisa
 ## Story mito
 >check_mitos
