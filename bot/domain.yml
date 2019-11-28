@@ -347,8 +347,8 @@ templates:
       \ ou qualquer outro local; e \n\n c) perpetrada ou tolerada pelo Estado ou seus\
       \ agentes, onde quer que ocorra.'"
   utter_delegacia:
-  - text: "Encontre a delegacia perto de vc ou ligue 180:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
-  - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttps://www.google.com/maps/d/u/0/viewer?mid=14Zj2rVa0xNOHLF-bzDcaueedaFaQyiSU&ll=-15.873195734334509%2C-47.77783144670923&z=10"
+  - text: "Encontre a delegacia perto de vc ou ligue 180: \nhttp://bit.ly/2rANled\n"
+  - text: "Aqui vc pode encontrar algumas delegacias especializadas no atendimento a mulher:\nhttp://bit.ly/2rANled"
   utter_orientacao:
   - text: "Consigo te dar orientações sobre algumas coisas como quem pode ser a vítima, ou te falar um pouco mais sobre \
       \ **violência conjugal**, ou o porque de algumas mulheres se manterem em uma **relação violenta** e te contar das **origens da \
