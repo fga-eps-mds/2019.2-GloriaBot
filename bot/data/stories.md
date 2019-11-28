@@ -2,6 +2,10 @@
 * greet OR start
     - utter_greet0
 >check_greet
+## Story greetDuvida
+>check_greet
+* duvida
+    - utter_greet1
 ## Story greet
 >check_greet
 * greet2
@@ -345,7 +349,7 @@
 ## Story agride_agredido
 * quem_agride_quem_agredido_1
     - utter_agrideAgredidoINICIO
-* affirm OR deny
+* affirm OR deny OR duvida
     - utter_agrideAgredidoInicioResposta
 >check_agride_agredido_respostaAfirm
 ## Story agride_agredidoDeny
