@@ -396,3 +396,17 @@
 >check_loopResp
 * deny
     - utter_goodbye
+
+## Story mitosViolencia
+>check_orientacao
+* mitosViolencia
+   - utter_mitosViolencia
+>check_mitos
+## Story_mitosViolenciaDeny
+*deny
+   - utter_maisAlgumaCoisa
+## Story mito
+>check_mitos
+* affirm
+   - utter_mitos
+   - utter_maisAlgumaCoisa
